@@ -39,7 +39,7 @@ const count = ref(0);
           <li><a href="#">Home</a></li>
           <!-- <li><a class="#services" href="#">Home</a></li> -->
           <li><a href="#about">About Us</a></li>
-          <li><a href="#about">Skills/Expertise</a></li>
+          <li><a href="#skills">Skills/Expertise</a></li>
           <!-- <li><a href="#portfolio">Products</a></li> -->
           <li class="dropdown">
             <a
@@ -92,7 +92,7 @@ const count = ref(0);
               software designed for seamless revenue <br />
               collection and real-time reporting.
             </p>
-            <a href="#">View Solution</a>
+            <a href="#revenue-management">View Solution</a>
             <a href="#">Learn More</a>
           </div>
         </div>
@@ -106,33 +106,13 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Mtetezi Mobile App</span></strong>
+            <strong><span>WILD Mobile App</span></strong>
             <p>
-              Meticulously designed to support NGOs<br />
-              in capturing voting feedback and facilitating<br />
-              incident reporting during electioneering periods.
+              A comprehensive, ready-to-use data collection<br />
+              and reporting tool tailored for organizations<br />
+              engaged in conservation efforts across protected and community areas.
             </p>
-            <a href="#">View Solution</a>
-            <a href="#">Learn More</a>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img
-            src="/images/img3.jpg"
-            style="maxwidth: 100%; height: 600px; objectfit: cover"
-            class="d-block w-100"
-            alt="..."
-          />
-
-          <div class="ban_text">
-            <strong><span>Edtech Platform</span></strong>
-            <p>
-              The EdTech platform is an interactive platform<br />
-              that provides the state of the EdTech ecosystem<br />
-              in Africa.
-            </p>
-            <a href="#">View Solution</a>
+            <a href="#wild_app">View Solution</a>
             <a href="#">Learn More</a>
           </div>
         </div>
@@ -152,7 +132,7 @@ const count = ref(0);
               various payment channels, secure client data,<br />
               in Africa.
             </p>
-            <a href="#">View Solution</a>
+            <a href="#ilab-pay">View Solution</a>
             <a href="#">Learn More</a>
           </div>
         </div>
@@ -188,7 +168,7 @@ const count = ref(0);
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="skills">
           <h1 class="heading">Consulting Skills</h1>
         </div>
         <div class="row consulting-skills">
@@ -286,7 +266,7 @@ const count = ref(0);
       </section>
     </section>
 
-    <div class="pt-5" style="background-color: #f2f2f2">
+    <div class="pt-5" id="products" style="background-color: #f2f2f2">
       <div class="container">
         <div class="row">
           <div class="section-head col-sm-12" id="service">
@@ -402,7 +382,7 @@ const count = ref(0);
       </div>
     </div>
 
-    <div class="pt-5 pb-5">
+    <div class="pt-5" id="service">
       <div class="container">
         <div class="row">
           <div class="section-head-1 col-sm-12" style="text-align: center">
@@ -419,7 +399,7 @@ const count = ref(0);
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <div class="item">
+            <div class="item" id="revenue-management">
               <!-- Video content -->
               <video
                 oncontextmenu="return false;"
@@ -450,7 +430,7 @@ const count = ref(0);
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="item">
+            <div class="item" id="wild_app">
               <!-- Video content -->
               <video
                 oncontextmenu="return false;"
@@ -464,7 +444,7 @@ const count = ref(0);
               <p>Wild Management System.<br /><br /><br /></p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" id="ilab-pay">
             <div class="item">
               <!-- Video content -->
               <video
@@ -537,8 +517,8 @@ const count = ref(0);
   <div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
     <!-- Contact Details -->
-    <div class="contact-details" style="flex: 1; min-width: 200px;">
-      <h3 class="heading">Our Contact Details</h3>
+    <div class="contact-details" style="border:2px solid black;flex: 1; width:50%;">
+      <h3 class="heading-edited">Our Contact Details</h3>
       <h2 style="margin-top: 0;"><i class="fas fa-map-marker-alt"></i> Location</h2>
       <p>Strathmore University Student Centre, Keri Road<br />Nairobi, Kenya</p>
 
@@ -553,7 +533,7 @@ const count = ref(0);
     </div>
 
     <!-- Contact Form -->
-    <div class="contact-form" style="flex: 1; min-width: 300px;">
+    <div class="contact-form" style="border:2px solid black;flex: 1; width:50%;">
       <form action="./contactme.php" method="POST">
         <input
           type="text"
