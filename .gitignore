@@ -8,6 +8,11 @@
 .env
 .env.backup
 .env.production
+
+*.mp4
+*.m4v
+
+
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
