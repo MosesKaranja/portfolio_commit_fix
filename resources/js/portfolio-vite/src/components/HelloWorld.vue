@@ -92,7 +92,7 @@ const count = ref(0);
               software designed for seamless revenue <br />
               collection and real-time reporting.
             </p>
-            <a href="#revenue-management">View Solution</a>
+            <a href="#revenue-management">View Demo</a>
             <a href="#">Learn More</a>
           </div>
         </div>
@@ -112,7 +112,7 @@ const count = ref(0);
               and reporting tool tailored for organizations<br />
               engaged in conservation efforts across protected and community areas.
             </p>
-            <a href="#wild_app">View Solution</a>
+            <a href="#wild_app">View Demo</a>
             <a href="#">Learn More</a>
           </div>
         </div>
@@ -132,7 +132,7 @@ const count = ref(0);
               various payment channels, secure client data,<br />
               in Africa.
             </p>
-            <a href="#ilab-pay">View Solution</a>
+            <a href="#ilab-pay">View Demo</a>
             <a href="#">Learn More</a>
           </div>
         </div>
