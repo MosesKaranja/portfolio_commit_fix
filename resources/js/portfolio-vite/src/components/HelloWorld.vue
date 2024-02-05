@@ -30,7 +30,7 @@ const count = ref(0);
       <a href="#" class="logo"
         ><img
           style="width: 130px; height: 50px; object-fit: contain"
-          src="/images/ilabafricalogo2.png"
+          src="/images/strath.png"
           alt=""
       /></a>
       <div class="fas fa-bars"></div>
@@ -40,8 +40,11 @@ const count = ref(0);
           <!-- <li><a class="#services" href="#">Home</a></li> -->
           <li><a href="#about">About Us</a></li>
           <li><a href="#skills">Skills/Expertise</a></li>
+
+          <li><a href="#products">Products</a></li>
+          <li><a href="#service">Our Work</a></li>
           <!-- <li><a href="#portfolio">Products</a></li> -->
-          <li class="dropdown">
+          <!-- <li class="dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#products"
@@ -56,7 +59,7 @@ const count = ref(0);
             <div class="dropdown-content">
               <li><a href="#service">Our Work</a></li>
             </div>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
@@ -266,10 +269,12 @@ const count = ref(0);
       </section>
     </section>
 
-    <div class="pt-5" id="products" style="background-color: #f2f2f2">
+    <div id="products" class="pt-5 mt-8"> 
+
+    <div class="pt-5" style="background-color: #f2f2f2">
       <div class="container">
         <div class="row">
-          <div class="section-head col-sm-12" id="service">
+          <div class="section-head col-sm-12">
             <h1>Products</h1>
             <p>
               We help you to build high-quality digital solutions and products
@@ -281,8 +286,12 @@ const count = ref(0);
           <div class="col-lg-4 col-sm-6">
             <div class="container">
               <div class="row">
-              <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-              <h6>Web App Development</h6>
+
+              <div class="item" style="border:2px solid black;"> 
+                
+                <span style="margin:auto;" class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+              
+                <h6>Web App Development</h6>
               <p>
                 Our Custom Web Development Services Include Both Front-End And
                 Back-End Development. Whether It Is Enhancing An Existing App Or
@@ -295,9 +304,9 @@ const count = ref(0);
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <div class="container">
-              <div class="row">
-              <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+            <div class="container" >
+              <div class="row" >
+              <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
               <h6>Revenue Management System</h6>
               <p>
                 We Have Expertise In Creating Multi-Platform Revenue Management
@@ -310,7 +319,7 @@ const count = ref(0);
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
               <h6>Web Portals</h6>
               <p>
                 We Have Expertise In Creating Multi-Platform Web Apps Solutions
@@ -321,7 +330,7 @@ const count = ref(0);
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
               <h6>Wildlife Conservancy Systems</h6>
               <p>
                 The Wildlife Conservancy Systems that we provide have their own
@@ -331,7 +340,7 @@ const count = ref(0);
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-magic"></i></span>
+            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-magic"></i></span>
               <h6>Business Process Management Systems(BPM)</h6>
               <p>
                 The Business Process Management Systems(BPM) that we provide
@@ -340,7 +349,7 @@ const count = ref(0);
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
               <h6>Monitoring & Evaluation Systems(M&E)</h6>
               <p>
                 The Monitoring & Evaluation Systems(M&E) that we provide have
@@ -350,7 +359,7 @@ const count = ref(0);
           </div>
 
           <div class="col-lg-4 col-sm-6">
-    <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+    <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
               <h6>Payment Gateway Solutions</h6>
               <p>
                 The Payment Gateway Solutions that we provide have their own set
@@ -360,7 +369,7 @@ const count = ref(0);
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
               <h6>Enterprise Resource Planning Systems(ERPs)</h6>
               <p>
                 The Enterprise Resource Planning Systems(ERPs) that we provide
@@ -370,7 +379,7 @@ const count = ref(0);
           </div>
 
           <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-magic"></i></span>
+            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-magic"></i></span>
               <h6>Electronic Document and Records ManagementSystems(EDRMS)</h6>
               <p>
                 The Payment Gateway Solutions that we provide have their own set
@@ -382,7 +391,15 @@ const count = ref(0);
       </div>
     </div>
 
-    <div class="pt-5" id="service">
+  </div>
+
+  <div class="pt-5 mt-8" id="service">
+
+
+
+
+
+    <div class="pt-5 mt-8" >
       <div class="container">
         <div class="row">
           <div class="section-head-1 col-sm-12" style="text-align: center">
@@ -517,7 +534,7 @@ const count = ref(0);
   <div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
     <!-- Contact Details -->
-    <div class="contact-details" style="border:2px solid black;flex: 1; width:50%;">
+    <div class="contact-details" style="flex: 1; width:50%;">
       <h3 class="heading-edited">Our Contact Details</h3>
       <h2 style="margin-top: 0;"><i class="fas fa-map-marker-alt"></i> Location</h2>
       <p>Strathmore University Student Centre, Keri Road<br />Nairobi, Kenya</p>
@@ -533,7 +550,7 @@ const count = ref(0);
     </div>
 
     <!-- Contact Form -->
-    <div class="contact-form" style="border:2px solid black;flex: 1; width:50%;">
+    <div class="contact-form" style="flex: 1; width:50%;">
       <form action="./contactme.php" method="POST">
         <input
           type="text"
@@ -703,6 +720,11 @@ const count = ref(0);
         <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
       </div>
     </div>
+
+    
+  </div>
+
+
   </div>
 
   <!-- </div> -->
