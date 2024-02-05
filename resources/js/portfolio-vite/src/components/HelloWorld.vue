@@ -113,7 +113,8 @@ const count = ref(0);
             <p>
               A comprehensive, ready-to-use data collection<br />
               and reporting tool tailored for organizations<br />
-              engaged in conservation efforts across protected and community areas.
+              engaged in conservation efforts across protected and community
+              areas.
             </p>
             <a href="#wild_app">View Demo</a>
             <a href="#">Learn More</a>
@@ -166,7 +167,15 @@ const count = ref(0);
         <div class="row">
           <div class="content">
             <p>
-              IT Outsourcing, @iLabAfrica, is a research and innovation centre located at Strathmore University in Nairobi, Kenya.The centre focuses on customizing and developing solutions for clients by providing consulting services and end-to-end support for the entire product-development life-cycle in organizations, through developing,deploying and managing IT systems solutions.We pride ourselves on being a dynamic team of skilled developers and project management professionals dedicated to delivering innovative IT solutions for both government and corporate sectors.
+              IT Outsourcing, @iLabAfrica, is a research and innovation centre
+              located at Strathmore University in Nairobi, Kenya.The centre
+              focuses on customizing and developing solutions for clients by
+              providing consulting services and end-to-end support for the
+              entire product-development life-cycle in organizations, through
+              developing,deploying and managing IT systems solutions.We pride
+              ourselves on being a dynamic team of skilled developers and
+              project management professionals dedicated to delivering
+              innovative IT solutions for both government and corporate sectors.
             </p>
           </div>
         </div>
@@ -269,218 +278,282 @@ const count = ref(0);
       </section>
     </section>
 
-    <div id="products" class="pt-5 mt-8"> 
+    <div id="products" class="pt-5 mt-8">
+      <div class="pt-5" style="background-color: #f2f2f2">
+        <div class="container">
+          <div class="row">
+            <div class="section-head col-sm-12">
+              <h1>Products</h1>
+              <p>
+                We help you to build high-quality digital solutions and products
+                as well as deliver a wide range of related professional
+                services. We are providing world-class service to our clients.
+              </p>
+            </div>
 
-    <div class="pt-5" style="background-color: #f2f2f2">
-      <div class="container">
-        <div class="row">
-          <div class="section-head col-sm-12">
-            <h1>Products</h1>
-            <p>
-              We help you to build high-quality digital solutions and products
-              as well as deliver a wide range of related professional services.
-              We are providing world-class service to our clients.
-            </p>
-          </div>
-        
-          <div class="col-lg-4 col-sm-6">
-            <div class="container">
-              <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <div class="container">
+                <div class="row">
+                  <div class="item" style="border: 2px solid black">
+                    <span style="margin: auto" class="icon feature_box_col_one"
+                      ><i class="fa fa-laptop"></i
+                    ></span>
 
-              <div class="item" style="border:2px solid black;"> 
-                
-                <span style="margin:auto;" class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-              
-                <h6>Web App Development</h6>
-              <p>
-                Our Custom Web Development Services Include Both Front-End And
-                Back-End Development. Whether It Is Enhancing An Existing App Or
-                Architecting An Enterprise App, Our Developers Are Up For The
-                Challenge.
-              </p>
+                    <h6>Web App Development</h6>
+                    <p>
+                      Our Custom Web Development Services Include Both Front-End
+                      And Back-End Development. Whether It Is Enhancing An
+                      Existing App Or Architecting An Enterprise App, Our
+                      Developers Are Up For The Challenge.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-sm-6">
-            <div class="container" >
-              <div class="row" >
-              <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-              <h6>Revenue Management System</h6>
-              <p>
-                We Have Expertise In Creating Multi-Platform Revenue Management
-                Systems, Solutions For Both Android And IOS Devices. Using
-                Laravel, Vue js, We Offer Custom Web Apps That Runs Smoothly On
-                Multiple Platforms.
-              </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="container">
+                <div class="row">
+                  <div class="item" style="border: 2px solid black">
+                    <span style="margin: auto" class="icon feature_box_col_one"
+                      ><i class="fa fa-laptop"></i
+                    ></span>
+                    <h6>Revenue Management System</h6>
+                    <p>
+                      We Have Expertise In Creating Multi-Platform Revenue
+                      Management Systems, Solutions For Both Android And IOS
+                      Devices. Using Laravel, Vue js, We Offer Custom Web Apps
+                      That Runs Smoothly On Multiple Platforms.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="item" style="border: 2px solid black">
+                <span style="margin: auto" class="icon feature_box_col_two"
+                  ><i class="fa fa-android"></i
+                ></span>
+                <h6>Web Portals</h6>
+                <p>
+                  We Have Expertise In Creating Multi-Platform Web Apps
+                  Solutions For Both Android And IOS Devices. Using Laravel, Vue
+                  Js, And React Native, We Offer Custom Mobile App That Runs
+                  Smoothly On Multiple Platforms.
+                </p>
+              </div>
             </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="item" style="border: 2px solid black">
+                <span style="margin: auto" class="icon feature_box_col_two"
+                  ><i class="fa fa-android"></i
+                ></span>
+                <h6>Wildlife Conservancy Systems</h6>
+                <p>
+                  The Wildlife Conservancy Systems that we provide have their
+                  own set of charms.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-              <h6>Web Portals</h6>
-              <p>
-                We Have Expertise In Creating Multi-Platform Web Apps Solutions
-                For Both Android And IOS Devices. Using Laravel, Vue Js, And
-                React Native, We Offer Custom Mobile App That Runs Smoothly On
-                Multiple Platforms.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-              <h6>Wildlife Conservancy Systems</h6>
-              <p>
-                The Wildlife Conservancy Systems that we provide have their own
-                set of charms.
-              </p>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-magic"></i></span>
-              <h6>Business Process Management Systems(BPM)</h6>
-              <p>
-                The Business Process Management Systems(BPM) that we provide
-                have their own set of charms.
-              </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="item" style="border: 2px solid black">
+                <span style="margin: auto" class="icon feature_box_col_two"
+                  ><i class="fa fa-magic"></i
+                ></span>
+                <h6>Business Process Management Systems(BPM)</h6>
+                <p>
+                  The Business Process Management Systems(BPM) that we provide
+                  have their own set of charms.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-              <h6>Monitoring & Evaluation Systems(M&E)</h6>
-              <p>
-                The Monitoring & Evaluation Systems(M&E) that we provide have
-                their own set of charms.
-              </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="item" style="border: 2px solid black">
+                <span style="margin: auto" class="icon feature_box_col_two"
+                  ><i class="fa fa-android"></i
+                ></span>
+                <h6>Monitoring & Evaluation Systems(M&E)</h6>
+                <p>
+                  The Monitoring & Evaluation Systems(M&E) that we provide have
+                  their own set of charms.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-sm-6">
-    <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-              <h6>Payment Gateway Solutions</h6>
-              <p>
-                The Payment Gateway Solutions that we provide have their own set
-                of charms.
-              </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="item" style="border: 2px solid black">
+                <span style="margin: auto" class="icon feature_box_col_two"
+                  ><i class="fa fa-android"></i
+                ></span>
+                <h6>Payment Gateway Solutions</h6>
+                <p>
+                  The Payment Gateway Solutions that we provide have their own
+                  set of charms.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
-              <h6>Enterprise Resource Planning Systems(ERPs)</h6>
-              <p>
-                The Enterprise Resource Planning Systems(ERPs) that we provide
-                have their own set of charms.
-              </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="item" style="border: 2px solid black">
+                <span style="margin: auto" class="icon feature_box_col_two"
+                  ><i class="fa fa-android"></i
+                ></span>
+                <h6>Enterprise Resource Planning Systems(ERPs)</h6>
+                <p>
+                  The Enterprise Resource Planning Systems(ERPs) that we provide
+                  have their own set of charms.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" style="border:2px solid black;"> <span style="margin:auto;"  class="icon feature_box_col_two"><i class="fa fa-magic"></i></span>
-              <h6>Electronic Document and Records ManagementSystems(EDRMS)</h6>
-              <p>
-                The Payment Gateway Solutions that we provide have their own set
-                of charms.
-              </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="item" style="border: 2px solid black">
+                <span style="margin: auto" class="icon feature_box_col_two"
+                  ><i class="fa fa-magic"></i
+                ></span>
+                <h6>
+                  Electronic Document and Records ManagementSystems(EDRMS)
+                </h6>
+                <p>
+                  The Payment Gateway Solutions that we provide have their own
+                  set of charms.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-  </div>
+    <div class="pt-5 mt-8" id="service">
+      <div class="pt-5 mt-8">
+        <div class="container">
+          <div class="row">
+            <div class="section-head-1 col-sm-12" style="text-align: center">
+              <h4 style="margin-top: -5rem" id="portfolio">
+                <span>Our</span> Work
+              </h4>
 
-  <div class="pt-5 mt-8" id="service">
-
-
-
-
-
-    <div class="pt-5 mt-8" >
-      <div class="container">
-        <div class="row">
-          <div class="section-head-1 col-sm-12" style="text-align: center">
-            <h4 style="margin-top: -5rem" id="portfolio">
-              <span>Our</span> Work
-            </h4>
-
-            <p>
-              The objective of IT Company is to enable a large number of youth
-              to take up <br />industry-relevant skill training that will help
-              them<br />
-              in securing a better livelihood.
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" id="revenue-management">
-              <!-- Video content -->
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source src="/images/LoginTakeRec.mp4" type="video/mp4" />
-              </video>
-
-              <p>Revenue Management System.<br /><br /><br /></p>
+              <p>
+                The objective of IT Company is to enable a large number of youth
+                to take up <br />industry-relevant skill training that will help
+                them<br />
+                in securing a better livelihood.
+              </p>
             </div>
+
+   
+              <div class="col-sm-6">
+                <div class="card border-primary mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Revenue Collection System</h5>
+                    <video
+                      oncontextmenu="return false;"
+                      width="320"
+                      height="240"
+                      controls
+                    >
+                      <source src="/images/LoginTakeRec.mp4" type="video/mp4" />
+                    </video>
+                    <br>
+                    <a href="#" style="" class="btn btn-primary">View Product</a>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="card border-primary mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Electronic Document Management System
+                    </h5>
+                    <video
+                      oncontextmenu="return false;"
+                      width="320"
+                      height="240"
+                      controls
+                    >
+                      <source
+                        src="/images/My Businesses Done.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                    <br>
+                    <a href="#" class="btn btn-primary">View Product</a>
+                  </div>
+                </div>
+              </div>
+        
+
+   
+              <div class="col-sm-6">
+                <div class="card border-primary mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Wild Management System</h5>
+                    <video
+                      oncontextmenu="return false;"
+                      width="320"
+                      height="240"
+                      controls
+                    >
+                      <source src="/images/WILD_FINAL.mp4" type="video/mp4" />
+                    </video>
+                    <br>
+                    <a href="#" class="btn btn-primary">View Product</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="card border-primary mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Payment Gateway System</h5>
+                    <video
+                      oncontextmenu="return false;"
+                      width="320"
+                      height="240"
+                      controls
+                    >
+                      <source
+                        src="/images/payment_gateway.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
+                    <br>
+                    <a href="#" class="btn btn-primary">View Product</a>
+                  </div>
+                </div>
+              </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+            
+            
           </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <!-- Video content -->
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source src="/images/My Businesses Done.mp4" type="video/mp4" />
-              </video>
-
-              <p>Electronic Document Management System .<br /><br /><br /></p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item" id="wild_app">
-              <!-- Video content -->
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source src="/images/WILD_FINAL.mp4" type="video/mp4" />
-              </video>
-
-              <p>Wild Management System.<br /><br /><br /></p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6" id="ilab-pay">
-            <div class="item">
-              <!-- Video content -->
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source src="/images/payment_gateway.mp4" type="video/mp4" />
-              </video>
-
-              <p>Payment Gateway System.<br /><br /><br /></p>
-            </div>
-          </div>
-
         </div>
-      </div>
 
-      <!-- <section>
+        <!-- <section>
         <div class="pt-5 pb-5">
           <div class="row">
             <div class="section-head col-sm-12" id="service">
@@ -506,225 +579,233 @@ const count = ref(0);
         </div>
       </section> -->
 
-      <div class="clients">
-        <div class="container">
-          <div class="section-header">
-            <h2>Our Partners</h2>
-            <p>We don't just build softwares, we build your business.</p>
-          </div>
-          <div class="owl-carousel clients-carousel">
-            <img src="/images/img3.png" alt="Partner1 Logo" />
-            <img src="/images/img4.png" alt="Partner2 Logo" />
-            <img src="/images/img5.png" alt="Partner3 Logo" />
-            <img src="/images/img6.png" alt="Partner4 Logo" />
-            <img src="/images/img7.png" alt="Partner5 Logo" />
-            <img src="/images/img8.png" alt="Partner6 Logo" />
-            <img src="/images/img9.png" alt="Partner7 Logo" />
-            <img src="/images/img10.png" alt="Partner6 Logo" />
-            <img src="/images/img11.png" alt="Partner8 Logo" />
-            <img src="/images/img12.png" alt="Partner9 Logo" />
+        <div class="clients">
+          <div class="container">
+            <div class="section-header">
+              <h2>Our Partners</h2>
+              <p>We don't just build softwares, we build your business.</p>
+            </div>
+            <div class="owl-carousel clients-carousel">
+              <img src="/images/img3.png" alt="Partner1 Logo" />
+              <img src="/images/img4.png" alt="Partner2 Logo" />
+              <img src="/images/img5.png" alt="Partner3 Logo" />
+              <img src="/images/img6.png" alt="Partner4 Logo" />
+              <img src="/images/img7.png" alt="Partner5 Logo" />
+              <img src="/images/img8.png" alt="Partner6 Logo" />
+              <img src="/images/img9.png" alt="Partner7 Logo" />
+              <img src="/images/img10.png" alt="Partner6 Logo" />
+              <img src="/images/img11.png" alt="Partner8 Logo" />
+              <img src="/images/img12.png" alt="Partner9 Logo" />
+            </div>
           </div>
         </div>
-      </div>
 
+        <section id="contact" class="contact">
+          <h1 class="heading">Contact Us</h1>
+          <div
+            class="contact-container"
+            style="
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+            "
+          >
+            <!-- Contact Details -->
+            <div class="contact-details" style="flex: 1; width: 50%">
+              <h3 class="heading-edited">Our Contact Details</h3>
+              <h2 style="margin-top: 0">
+                <i class="fas fa-map-marker-alt"></i> Location
+              </h2>
+              <p>
+                Strathmore University Student Centre, Keri Road<br />Nairobi,
+                Kenya
+              </p>
 
+              <h2><i class="fas fa-envelope"></i> Email</h2>
+              <p>
+                <a href="mailto:ilabafrica@strathmore.edu"
+                  >itoutsourcing@strathmore.edu</a
+                >
+              </p>
 
-      <section id="contact" class="contact">
-  <h1 class="heading">Contact Us</h1>
-  <div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+              <h2><i class="fas fa-phone"></i> Phone</h2>
+              <p>
+                <a href="tel:+254703034616"
+                  >+254 703 034 616 / 0717 306 466 / 0700 138 739</a
+                >
+              </p>
 
-    <!-- Contact Details -->
-    <div class="contact-details" style="flex: 1; width:50%;">
-      <h3 class="heading-edited">Our Contact Details</h3>
-      <h2 style="margin-top: 0;"><i class="fas fa-map-marker-alt"></i> Location</h2>
-      <p>Strathmore University Student Centre, Keri Road<br />Nairobi, Kenya</p>
+              <h2><i class="fas fa-clock"></i> Working Hours</h2>
+              <p>Mon - Fri<br />8:00 AM - 5:00 PM</p>
+            </div>
 
-      <h2><i class="fas fa-envelope"></i> Email</h2>
-      <p><a href="mailto:ilabafrica@strathmore.edu">itoutsourcing@strathmore.edu</a></p>
+            <!-- Contact Form -->
+            <div class="contact-form" style="flex: 1; width: 50%">
+              <form action="./contactme.php" method="POST">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  class="contact-form-txt"
+                  required
+                />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{10}"
+                  required
+                  placeholder="Contact number"
+                  maxlength="10"
+                  class="contact-form-phone"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  class="contact-form-email"
+                  required
+                />
+                <textarea
+                  placeholder="Your Message"
+                  name="message"
+                  class="contact-form-txtarea"
+                  required
+                ></textarea>
+                <input
+                  type="submit"
+                  value="Submit"
+                  name="submit"
+                  class="contact-form-btn"
+                />
+              </form>
+            </div>
+          </div>
+        </section>
 
-      <h2><i class="fas fa-phone"></i> Phone</h2>
-      <p><a href="tel:+254703034616">+254 703 034 616 / 0717 306 466 / 0700 138 739</a></p>
+        <!-- Map Section -->
+        <section id="map" class="map">
+          <div class="contact-map">
+            <!-- Google Maps iframe -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.008028693293!2d36.81471141744388!3d-1.3103990000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a52993c8b7%3A0x98d5e6ecb1b4989a!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1644684739958!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </section>
 
-      <h2><i class="fas fa-clock"></i> Working Hours</h2>
-      <p>Mon - Fri<br />8:00 AM - 5:00 PM</p>
-    </div>
+        <div class="footer">
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li>
+                      <i class="ion-ios-arrow-forward"></i> <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <i class="ion-ios-arrow-forward"></i>
+                      <a href="#about">About us</a>
+                    </li>
+                    <li>
+                      <i class="ion-ios-arrow-forward"></i>
+                      <a href="#service">Our services</a>
+                    </li>
+                    <li>
+                      <i class="ion-ios-arrow-forward"></i>
+                      <a href="#contact">Consultancy Services</a>
+                    </li>
+                    <li>
+                      <i class="ion-ios-arrow-forward"></i>
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
 
-    <!-- Contact Form -->
-    <div class="contact-form" style="flex: 1; width:50%;">
-      <form action="./contactme.php" method="POST">
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          class="contact-form-txt"
-          required
-          style="border-radius: 0; margin-bottom: 10px; width: 100%;"
-        />
-        <input
-          type="tel"
-          id="phone"
-          name="phone"
-          pattern="[0-9]{10}"
-          required
-          placeholder="Contact number"
-          maxlength="10"
-          class="contact-form-phone"
-          style="border-radius: 0; margin-bottom: 10px; width: 100%;"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          class="contact-form-email"
-          required
-          style="border-radius: 0; margin-bottom: 10px; width: 100%;"
-        />
-        <textarea
-          placeholder="Your Message"
-          name="message"
-          class="contact-form-txtarea"
-          required
-          style="border-radius: 0; margin-bottom: 10px; width: 100%;"
-        ></textarea>
-        <input
-          type="submit"
-          value="Submit"
-          name="submit"
-          class="contact-form-btn"
-          style="background-color: blue; color: white;"
-        />
-      </form>
-    </div>
-  </div>
-</section>
+                <div
+                  class="col-lg-3 col-md-6 footer-contact"
+                  style="font-size: 1.5rem"
+                >
+                  <h4>Contact Us</h4>
+                  <p>
+                    Strathmore University<br />
+                    Olesankale Link Road<br />
+                    Nairobi, Kenya <br />
+                    <strong>Phone:</strong> +254 /0703 034
+                    616/0717306466/0700138739<br />
+                    <strong>Email:</strong> itoutsourcing@strathmore.edu<br />
+                  </p>
 
-<!-- Map Section -->
-<section id="map" class="map">
-  <div class="contact-map">
-    <!-- Google Maps iframe -->
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.008028693293!2d36.81471141744388!3d-1.3103990000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a52993c8b7%3A0x98d5e6ecb1b4989a!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1644684739958!5m2!1sen!2sin"
-      width="100%"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-    ></iframe>
-  </div>
-</section>
+                  <div class="social-links">
+                    <a
+                      href="https://www.facebook.com/StrathmoreUniversity"
+                      target="_blank"
+                    >
+                      <i class="ion-logo-facebook"></i>
+                    </a>
 
+                    <a href="https://twitter.com/login?lang=en"
+                      ><i class="ion-logo-twitter"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/school/strathmore-university/"
+                      target="_blank"
+                    >
+                      <i class="ion-logo-linkedin"></i>
+                    </a>
 
-      <div class="footer">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                  <li>
-                    <i class="ion-ios-arrow-forward"></i> <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <i class="ion-ios-arrow-forward"></i>
-                    <a href="#about">About us</a>
-                  </li>
-                  <li>
-                    <i class="ion-ios-arrow-forward"></i>
-                    <a href="#service">Our services</a>
-                  </li>
-                  <li>
-                    <i class="ion-ios-arrow-forward"></i>
-                    <a href="#contact">Consultancy Services</a>
-                  </li>
-                  <li>
-                    <i class="ion-ios-arrow-forward"></i>
-                    <a href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                    <a
+                      href="https://www.instagram.com/strathmore.university/"
+                      target="_blank"
+                    >
+                      <i class="ion-logo-instagram"></i>
+                    </a>
 
-              <div
-                class="col-lg-3 col-md-6 footer-contact"
-                style="font-size: 1.5rem"
-              >
-                <h4>Contact Us</h4>
-                <p>
-                  Strathmore University<br />
-                  Olesankale Link Road<br />
-                  Nairobi, Kenya <br />
-                  <strong>Phone:</strong> +254 /0703 034 616/0717306466/0700138739<br />
-                  <strong>Email:</strong> itoutsourcing@strathmore.edu<br />
-                </p>
+                    <a href="https://accounts.google.com/" target="_blank">
+                      <i class="ion-logo-googleplus"></i>
+                    </a>
+                  </div>
+                </div>
 
-                <div class="social-links">
-                  <a
-                    href="https://www.facebook.com/StrathmoreUniversity"
-                    target="_blank"
-                  >
-                    <i class="ion-logo-facebook"></i>
-                  </a>
-
-                  <a href="https://twitter.com/login?lang=en"
-                    ><i class="ion-logo-twitter"></i
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/school/strathmore-university/"
-                    target="_blank"
-                  >
-                    <i class="ion-logo-linkedin"></i>
-                  </a>
-
-                  <a
-                    href="https://www.instagram.com/strathmore.university/"
-                    target="_blank"
-                  >
-                    <i class="ion-logo-instagram"></i>
-                  </a>
-
-                  <a href="https://accounts.google.com/" target="_blank">
-                    <i class="ion-logo-googleplus"></i>
-                  </a>
+                <div class="col-lg-3 col-md-6 footer-newsletter">
+                  <h4>Subscription</h4>
+                  <p>
+                    With Our Skills Put Together, You Get An Ensemble Capable Of
+                    Doing Anything And Everything Your Brand Needs. Subscribe
+                    Here To Get Our Latest Updates.
+                  </p>
+                  <form action="" method="post">
+                    <input type="email" name="email" /><input
+                      type="submit"
+                      value="Subscribe"
+                    />
+                  </form>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div class="col-lg-3 col-md-6 footer-newsletter">
-                <h4>Subscription</h4>
-                <p>
-                  With Our Skills Put Together, You Get An Ensemble Capable Of
-                  Doing Anything And Everything Your Brand Needs. Subscribe Here
-                  To Get Our Latest Updates.
-                </p>
-                <form action="" method="post">
-                  <input type="email" name="email" /><input
-                    type="submit"
-                    value="Subscribe"
-                  />
-                </form>
+          <div class="container">
+            <div class="row align-items-center">
+              <div
+                class="col-md-6 copyright"
+                style="color: #fff; font-size: 1.3rem"
+              >
+                Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
+                Reserved.
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="container">
-          <div class="row align-items-center">
-            <div
-              class="col-md-6 copyright"
-              style="color: #fff; font-size: 1.3rem"
-            >
-              Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
-              Reserved.
-            </div>
-          </div>
+          <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
         </div>
-
-        <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
       </div>
     </div>
-
-    
-  </div>
-
-
   </div>
 
   <!-- </div> -->

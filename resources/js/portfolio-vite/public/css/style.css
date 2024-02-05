@@ -130,6 +130,7 @@ body{
     background: white;
     border-style: groove;
     border-color: #002e5f;
+    color: #000;
     font-size: 1.5rem;
     cursor: pointer;
     height: 3.5rem;
@@ -606,6 +607,25 @@ body{
     text-decoration:none;
   }
   .ban_text a:hover {
+    background: #EC7D30;
+    color: #ffffff;
+  }
+
+    .video-btn {
+    display: inline-block;
+    font: 300 19.39px/24px "Montserrat", sans-serif;
+    background: #BF6426;
+    border-radius: 26px;
+    color: #fff;
+    padding: 12px 28px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration:none;
+  }
+   .video-btn:hover {
     background: #EC7D30;
     color: #ffffff;
   }
@@ -1186,9 +1206,12 @@ body{
 			flex: 50%;
 			text-align: left;
 		}
+
+        
 		.contact-form-txt
 		{
             /* margin-left: 2rem; */
+            margin-left: 2rem;
 			width: 95%;
 			height: 40px;
 			color: #000;
@@ -1196,6 +1219,7 @@ body{
 			border-radius: 50px;
 			outline: none;
 			margin-bottom: 20px;
+			padding: 15px;
 			/* padding: 15px; */
 		}
         .contact-form-email
@@ -1258,7 +1282,7 @@ body{
             letter-spacing: .1rem;
             opacity: .9;
             color: white;
-            background: #002e5f;
+            background: #EC7D30;
         }
 		.contact-form-phone
 		{
@@ -1780,7 +1804,7 @@ body{
             letter-spacing: .1rem;
             opacity: .9;
             color: white;
-            background: #002e5f;
+            background: #EC7D30;
         }
 		.contact-form-phone
 		{
