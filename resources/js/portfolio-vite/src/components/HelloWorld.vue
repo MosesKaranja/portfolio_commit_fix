@@ -192,7 +192,7 @@ const count = ref(0);
                 Website development solutions such as dynamic E-commerce
                 websites,Content Management Systems (CMS),bespoke web
                 applications,insightful reporting dashboards and comprehensive
-                website maintenance and support services.<br /><br />SKILLS<br />HTML,
+                website maintenance and support services.<br /><br />SKills<br />HTML,
                 CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
                 Django, Ruby on Rails, Express.js MySQL, PostgreSQL,MongoDB
               </p>
@@ -205,7 +205,7 @@ const count = ref(0);
                 We have Extensive experience in creating dynamic software
                 applications that run on mobile devices. We pride in development
                 of native, cross platform native and hybrid mobile applications
-                as well as progress web applications.<br /><br />SKILLS<br />
+                as well as progress web applications.<br /><br />Skills<br />
                 JavaScript, Android/IOs, Kotlin,JavaScript,Kotlin/RESTful
                 APIs,Mobile libraries for networking, Profilling and deubbing
                 mobile applications
@@ -220,7 +220,7 @@ const count = ref(0);
                 underscoring our commitment to delivering successful outcomes
                 for our clients through seamless planning, execution, and
                 completion of projects, utilizing industry-best practices and
-                methodologies.<br /><br />SKILLS<br />
+                methodologies.<br /><br />Skills<br />
 
                 Leadership Skills, Stakeholder Management, Client Management,
                 Agile,Scrum,Kanban,Waterfall,ITIL,PRINCE2, Google
@@ -235,7 +235,7 @@ const count = ref(0);
               <p>
                 We have extensive Knowledge and experience in manual and
                 automated testing of software applications to evaluate their
-                compliance to system requirements and end user needs.<br /><br />SKILLS<br />
+                compliance to system requirements and end user needs.<br /><br />Skills<br />
                 Understanding pr software applications testing process,
                 Experience in Development of Test plans, Hands-on experience
                 with automated testing tools like Master selenium and Manual
@@ -255,7 +255,7 @@ const count = ref(0);
                 We work with clients to understand their data and formats they
                 would want such data presented. This include converting manual
                 to digital data, cleaning existing digital data as well as
-                analysis the data to achieve client’s needs.<br /><br />SKILLS<br />
+                analysis the data to achieve client’s needs.<br /><br />Skills<br />
                 SSL implementation, User Experience (UX) and User Interface (UI)
                 Design, Theme Development and Customization
               </p>
@@ -268,7 +268,7 @@ const count = ref(0);
                 We work with clients to understand their data and formats they
                 would want such data presented. This include converting manual
                 to digital data, cleaning existing digital data as well as
-                analysis the data to achieve client’s needs.<br /><br />SKILLS<br />
+                analysis the data to achieve client’s needs.<br /><br />Skills<br />
                 Typing, Data Conversion/ Formatting/Cleanup, Transcription, Data
                 Analysis.
               </p>
@@ -436,10 +436,7 @@ const count = ref(0);
               </h4>
 
               <p>
-                The objective of IT Company is to enable a large number of youth
-                to take up <br />industry-relevant skill training that will help
-                them<br />
-                in securing a better livelihood.
+                Explore the dynamic range of our innovative solutions through a collection of videos that highlights the expertise and creativity embedded in our solutions.
               </p>
             </div>
 
