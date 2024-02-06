@@ -192,7 +192,7 @@ const count = ref(0);
                 Website development solutions such as dynamic E-commerce
                 websites,Content Management Systems (CMS),bespoke web
                 applications,insightful reporting dashboards and comprehensive
-                website maintenance and support services.<br /><br />Skills<br />HTML,
+                website maintenance and support services.<br /><br />SKills<br />HTML,
                 CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
                 Django, Ruby on Rails, Express.js MySQL, PostgreSQL,MongoDB
               </p>
