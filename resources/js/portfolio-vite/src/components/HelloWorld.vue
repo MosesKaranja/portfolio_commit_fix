@@ -681,14 +681,15 @@ const count = ref(0);
         </section>
 
         <!-- Map Section -->
-        <section id="map" class="map">
+        <section id="map" class="container mb-2">
           <div class="contact-map">
             <!-- Google Maps iframe -->
+            <h1 class="heading" style="display:block;text-align:center;">Find Us</h1>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.008028693293!2d36.81471141744388!3d-1.3103990000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a52993c8b7%3A0x98d5e6ecb1b4989a!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1644684739958!5m2!1sen!2sin"
               width="100%"
-              height="450"
-              style="border: 0"
+              height="400px"
+              style="display:block;border: 0"
               allowfullscreen=""
               loading="lazy"
             ></iframe>
