@@ -523,29 +523,6 @@ const count = ref(0);
                   </div>
                 </div>
               </div>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-            
             
           </div>
         </div>
@@ -583,16 +560,24 @@ const count = ref(0);
               <p>We don't just build softwares, we build your business.</p>
             </div>
             <div class="owl-carousel clients-carousel">
-              <img src="/images/img3.png" alt="Partner1 Logo" />
-              <img src="/images/img4.png" alt="Partner2 Logo" />
-              <img src="/images/img5.png" alt="Partner3 Logo" />
-              <img src="/images/img6.png" alt="Partner4 Logo" />
-              <img src="/images/img7.png" alt="Partner5 Logo" />
-              <img src="/images/img8.png" alt="Partner6 Logo" />
-              <img src="/images/img9.png" alt="Partner7 Logo" />
-              <img src="/images/img10.png" alt="Partner6 Logo" />
-              <img src="/images/img11.png" alt="Partner8 Logo" />
-              <img src="/images/img12.png" alt="Partner9 Logo" />
+              <img src="/images/AAEA.png" alt="Partner1 Logo" />
+              <img src="/images/amedo-centres.png" alt="Partner2 Logo" />
+              <img src="/images/icpak.png" alt="Partner3 Logo" />
+              <img src="/images/imlu.png" alt="Partner4 Logo" />
+              <img src="/images/laikipia-wildlife-forum-logo-white-retina.png" alt="Partner5 Logo" />
+              <img src="/images/paulines.png" alt="Partner6 Logo" />
+              <img src="/images/task.png" alt="Partner7 Logo" />
+
+              <img src="/images/img3.png" alt="Partner8 Logo" />
+              <img src="/images/img4.png" alt="Partner9 Logo" />
+              <img src="/images/img5.png" alt="Partner10 Logo" />
+              <img src="/images/img6.png" alt="Partner11 Logo" />
+              <img src="/images/img7.png" alt="Partner12 Logo" />
+              <img src="/images/img8.png" alt="Partner13 Logo" />
+              <img src="/images/img9.png" alt="Partner14 Logo" />
+              <img src="/images/img10.png" alt="Partner15 Logo" />
+              <img src="/images/img11.png" alt="Partner16 Logo" />
+              <img src="/images/img12.png" alt="Partner17 Logo" />
             </div>
           </div>
         </div>
