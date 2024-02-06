@@ -444,8 +444,8 @@ const count = ref(0);
             </div>
 
    
-              <div class="col-sm-6">
-                <div class="card border-primary mb-3">
+              <div class="col-sm-4">
+                <div class="card mb-3">
                   <div class="card-body">
                     <h5 class="card-title">Revenue Collection System</h5>
                     <video
@@ -463,8 +463,8 @@ const count = ref(0);
                 </div>
               </div>
 
-              <div class="col-sm-6">
-                <div class="card border-primary mb-3">
+              <div class="col-sm-4">
+                <div class="card mb-3">
                   <div class="card-body">
                     <h5 class="card-title">
                       Electronic Document Management System
@@ -488,7 +488,7 @@ const count = ref(0);
         
 
    
-              <div class="col-sm-6">
+              <div class="col-sm-4">
                 <div class="card border-primary mb-3">
                   <div class="card-body">
                     <h5 class="card-title">Wild Management System</h5>
@@ -506,7 +506,7 @@ const count = ref(0);
                 </div>
               </div>
 
-              <div class="col-sm-6">
+              <div class="col-sm-4">
                 <div class="card border-primary mb-3">
                   <div class="card-body">
                     <h5 class="card-title">Payment Gateway System</h5>
