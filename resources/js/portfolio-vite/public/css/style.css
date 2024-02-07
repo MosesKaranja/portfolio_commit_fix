@@ -455,6 +455,60 @@ body{
     margin-bottom: 20px; /* Adds space between the rows */
   }
   
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .skills, .projects {
+    background: #f7f7f7;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .skills h2, .projects h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .skills ul, .projects-grid {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    display: inline;
+    margin-right: 10px;
+    background: #eee;
+    padding: 5px 10px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .projects-grid div {
+    width: 30%;
+  }
+  
+  .projects-grid img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+
   .item h6 {
     margin-top: 0; /* Removes the top margin from the heading */
   }

@@ -180,6 +180,57 @@ const count = ref(0);
           </div>
         </div>
 
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="skills">
+      <h2>Web Development</h2>
+      <p>
+        Website development solutions such as dynamic E-commerce websites, Content Management Systems (CMS), bespoke web applications, insightful reporting dashboards and comprehensive website maintenance and support services.
+      </p>
+      <ul class="skills-list">
+        <li>React</li>
+        <li>Angular</li>
+        <li>Vue JS</li>
+        <li>Node JS</li>
+        <li>PHP</li>
+        <li>Python</li>
+      </ul>
+    </div>
+
+    <div class="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div>
+          <img src="/images/img3.jpg" alt="e-Governance Revenue Management System (eRMS)" />
+          <p>e-Governance Revenue Management System (eRMS).</p>
+          <a href="ilab-pay" class="button" target="_blank">View More</a>
+        </div>
+        <div>
+          <img src="/images/img3.jpg" alt="Web App Development" />
+          <p>Web App Developmen.</p>
+          <a href="ilab-pay" class="button" target="_blank">View More</a>
+        </div>
+        <div>
+          <img src="/images/img3.jpg" alt="Mobile Development" />
+          <p>Mobile Development.</p>
+          <a href="ilab-pay" class="button" target="ilab-pay">View More</a>
+        </div>
+        <!-- Repeat the div block for each project -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
         <div class="row" id="skills">
           <h1 class="heading">Consulting Skills</h1>
         </div>
@@ -436,94 +487,91 @@ const count = ref(0);
               </h4>
 
               <p>
-                Explore the dynamic range of our innovative solutions through a collection of videos that highlights the expertise and creativity embedded in our solutions.
+                Explore the dynamic range of our innovative solutions through a
+                collection of videos that highlights the expertise and
+                creativity embedded in our solutions.
               </p>
             </div>
 
-   
-              <div class="col-sm-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">Revenue Collection System</h5>
-                    <video
-                      oncontextmenu="return false;"
-                      width="320"
-                      height="240"
-                      controls
-                    >
-                      <source src="/images/LoginTakeRec.mp4" type="video/mp4" />
-                    </video>
-                    <br>
-                    <a href="#" style="" class="btn btn-primary">View Product</a>
-                    
-                  </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Revenue Collection System</h5>
+                  <video
+                    oncontextmenu="return false;"
+                    width="320"
+                    height="240"
+                    controls
+                  >
+                    <source src="/images/LoginTakeRec.mp4" type="video/mp4" />
+                  </video>
+                  <br />
+                  <a href="#" style="" class="btn btn-primary">View Product</a>
                 </div>
               </div>
+            </div>
 
-              <div class="col-sm-4">
-                <div class="card mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Electronic Document Management System
-                    </h5>
-                    <video
-                      oncontextmenu="return false;"
-                      width="320"
-                      height="240"
-                      controls
-                    >
-                      <source
-                        src="/images/My Businesses Done.mp4"
-                        type="video/mp4"
-                      />
-                    </video>
-                    <br>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                  </div>
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Electronic Document Management System
+                  </h5>
+                  <video
+                    oncontextmenu="return false;"
+                    width="320"
+                    height="240"
+                    controls
+                  >
+                    <source
+                      src="/images/My Businesses Done.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                  <br />
+                  <a href="#" class="btn btn-primary">View Product</a>
                 </div>
               </div>
-        
+            </div>
 
-   
-              <div class="col-sm-4">
-                <div class="card border-primary mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">Wild Management System</h5>
-                    <video
-                      oncontextmenu="return false;"
-                      width="320"
-                      height="240"
-                      controls
-                    >
-                      <source src="/images/WILD_FINAL.mp4" type="video/mp4" />
-                    </video>
-                    <br>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                  </div>
+            <div class="col-sm-4">
+              <div class="card border-primary mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Wild Management System</h5>
+                  <video
+                    oncontextmenu="return false;"
+                    width="320"
+                    height="240"
+                    controls
+                  >
+                    <source src="/images/WILD_FINAL.mp4" type="video/mp4" />
+                  </video>
+                  <br />
+                  <a href="#" class="btn btn-primary">View Product</a>
                 </div>
               </div>
+            </div>
 
-              <div class="col-sm-4">
-                <div class="card border-primary mb-3">
-                  <div class="card-body">
-                    <h5 class="card-title">Payment Gateway System</h5>
-                    <video
-                      oncontextmenu="return false;"
-                      width="320"
-                      height="240"
-                      controls
-                    >
-                      <source
-                        src="/images/payment_gateway.mp4"
-                        type="video/mp4"
-                      />
-                    </video>
-                    <br>
-                    <a href="#" class="btn btn-primary">View Product</a>
-                  </div>
+            <div class="col-sm-4">
+              <div class="card border-primary mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Payment Gateway System</h5>
+                  <video
+                    oncontextmenu="return false;"
+                    width="320"
+                    height="240"
+                    controls
+                  >
+                    <source
+                      src="/images/payment_gateway.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                  <br />
+                  <a href="#" class="btn btn-primary">View Product</a>
                 </div>
               </div>
-            
+            </div>
           </div>
         </div>
 
@@ -560,8 +608,6 @@ const count = ref(0);
               <p>We don't just build softwares, we build your business.</p>
             </div>
             <div class="owl-carousel clients-carousel">
-              
-
               <img src="/images/img3.png" alt="Partner1 Logo" />
               <img src="/images/img4.png" alt="Partner2 Logo" />
               <img src="/images/img5.png" alt="Partner3 Logo" />
@@ -577,7 +623,10 @@ const count = ref(0);
               <img src="/images/amedo-centres.png" alt="Partner12 Logo" />
               <img src="/images/icpak.png" alt="Partner13 Logo" />
               <img src="/images/imlu.png" alt="Partner14 Logo" />
-              <img src="/images/laikipia-wildlife-forum-logo-white-retina.png" alt="Partner15 Logo" />
+              <img
+                src="/images/laikipia-wildlife-forum-logo-white-retina.png"
+                alt="Partner15 Logo"
+              />
               <img src="/images/paulines.png" alt="Partner16 Logo" />
               <img src="/images/task.png" alt="Partner17 Logo" />
             </div>
@@ -671,12 +720,14 @@ const count = ref(0);
         <section id="map" class="container mb-2">
           <div class="contact-map">
             <!-- Google Maps iframe -->
-            <h1 class="heading" style="display:block;text-align:center;">Find Us</h1>
+            <h1 class="heading" style="display: block; text-align: center">
+              Find Us
+            </h1>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.008028693293!2d36.81471141744388!3d-1.3103990000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a52993c8b7%3A0x98d5e6ecb1b4989a!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1644684739958!5m2!1sen!2sin"
               width="100%"
               height="400px"
-              style="display:block;border: 0"
+              style="display: block; border: 0"
               allowfullscreen=""
               loading="lazy"
             ></iframe>
