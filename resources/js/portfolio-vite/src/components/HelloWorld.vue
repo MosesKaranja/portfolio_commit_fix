@@ -42,24 +42,7 @@ const count = ref(0);
           <li><a href="#skills">Skills/Expertise</a></li>
 
           <li><a href="#products">Products</a></li>
-          <li><a href="#service">Our Work</a></li>
-          <!-- <li><a href="#portfolio">Products</a></li> -->
-          <!-- <li class="dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#products"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Products
-            </a>
-            <div class="dropdown-content">
-              <li><a href="#service">Our Work</a></li>
-            </div>
-          </li> -->
+          <li><a href="#service">Our Work</a></li> 
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
@@ -180,14 +163,10 @@ const count = ref(0);
           </div>
         </div>
 
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Development</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+ 
+
+  <div class="Web Development">
+
 <body>
   <div class="container">
     <div class="skills">
@@ -226,9 +205,10 @@ const count = ref(0);
         <!-- Repeat the div block for each project -->
       </div>
     </div>
+    </div>
+    </body>
   </div>
-</body>
-</html>
+
 
 
         <div class="row" id="skills">
