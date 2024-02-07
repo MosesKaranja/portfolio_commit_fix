@@ -161,7 +161,7 @@ const count = ref(0);
       </a>
     </div>
 
-    <section id="about" class="about">
+    <section id="about" class="about" style="border:3px solid black;max-width:1140px;margin:0 auto;">
       <section id="home" class="">
         <h1 class="heading">About Us</h1>
         <div class="row">
@@ -180,58 +180,87 @@ const count = ref(0);
           </div>
         </div>
 
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Development</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="container">
-    <div class="skills">
-      <h2>Web Development</h2>
-      <p>
-        Website development solutions such as dynamic E-commerce websites, Content Management Systems (CMS), bespoke web applications, insightful reporting dashboards and comprehensive website maintenance and support services.
-      </p>
-      <ul class="skills-list">
-        <li>React</li>
-        <li>Angular</li>
-        <li>Vue JS</li>
-        <li>Node JS</li>
-        <li>PHP</li>
-        <li>Python</li>
-      </ul>
-    </div>
+      </section>
+    </section>
 
-    <div class="projects">
-      <h2>Projects</h2>
-      <div class="projects-grid">
-        <div>
-          <img src="/images/img3.jpg" alt="e-Governance Revenue Management System (eRMS)" />
-          <p>e-Governance Revenue Management System (eRMS).</p>
-          <a href="ilab-pay" class="button" target="_blank">View More</a>
-        </div>
-        <div>
-          <img src="/images/img3.jpg" alt="Web App Development" />
-          <p>Web App Developmen.</p>
-          <a href="ilab-pay" class="button" target="_blank">View More</a>
-        </div>
-        <div>
-          <img src="/images/img3.jpg" alt="Mobile Development" />
-          <p>Mobile Development.</p>
-          <a href="ilab-pay" class="button" target="ilab-pay">View More</a>
-        </div>
-        <!-- Repeat the div block for each project -->
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+            <section class="row container" style="margin: 0 auto;padding:0;">
+          <div class="card">
+            <div class="card-header pl-3 pr-3">
+              <h1 class="heading-edited-center">Web Development</h1>
+              <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
+              
+              <div class="skills">
+                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
+                <ul class="skills-list">
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Vue JS</li>
+                  <li>Node JS</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5>
+
+              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
 
 
-        <div class="row" id="skills">
+        </section>
+
+
+
+
+    
+    <section class="about">
+
+              <div class="row" id="skills">
           <h1 class="heading">Consulting Skills</h1>
         </div>
         <div class="row consulting-skills">
@@ -326,7 +355,8 @@ const count = ref(0);
             </div>
           </div>
         </div>
-      </section>
+
+
     </section>
 
     <div id="products" class="pt-5 mt-8">

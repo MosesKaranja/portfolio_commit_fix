@@ -14,6 +14,14 @@ html{
     font-size: 62.5%;
 }
 
+.paragraph-moses{
+    font-size:1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height:1.6;
+    letter-spacing:1px;
+
+}
+
 
 body{
     overflow-x: hidden;
@@ -25,6 +33,28 @@ body{
     color: #EC7D30;
     letter-spacing: .2rem;
     padding-bottom: 1rem;
+
+}
+
+.heading-edited-center{
+    display: block;
+    margin: 2rem;
+    padding-top: 6rem;
+    font-size: 3.5rem;
+    color: #EC7D30;
+    letter-spacing: .2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+
+}
+
+.heading-edited-left{
+    display: block;
+    font-size: 1.5rem;
+    color: #EC7D30;
+    letter-spacing: .2rem;
+    padding-bottom: 1rem;
+    text-align: justify;
 
 }
 
@@ -92,6 +122,21 @@ body{
     flex: 1; /* Allows each column to grow and fill the available space */
     min-width: 250px; /* Sets a minimum width for each column to maintain readability */
 }
+
+
+
+@media (max-width: 768px){
+    #experiment{
+        flex-direction: column !important;
+    }
+
+}
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     .footer .container {
@@ -462,7 +507,7 @@ body{
   
   .skills, .projects {
     background: #f7f7f7;
-    padding: 20px;
+    /* padding: 20px; */
     margin-top: 20px;
   }
   
