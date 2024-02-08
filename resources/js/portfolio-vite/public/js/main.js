@@ -1,3 +1,10 @@
+const home = document.getElementById("home-link")
+const about_us = document.getElementById("about-link")
+const skills = document.getElementById("skills-link")
+const products  = document.getElementById("product-link")
+const our_work = document.getElementById("service-link")
+const contact_us = document.getElementById("contact-link")
+
 $(document).ready(function(){
 
      $('.fa-bars').click(function(){
@@ -11,11 +18,11 @@ $(document).ready(function(){
 
         if($(window).scrollTop()>35)
         {
-            $('.header').css({'background':'#002e5f','box-shadow':'0 .2rem .5rem rgba(0,0,0,.4)'});
+            $('.header').css({'background':'#ffffff','box-shadow':'0 .2rem .5rem rgba(0,0,0,.4)'});
         }
         else
         {
-            $('.header').css({'background':'none','box-shadow':'none'});
+            // $('.header').css({'background':'none','box-shadow':'none'});
         }
     });
 
@@ -75,3 +82,95 @@ $('.accordion-header').click(function(){
 });
 
 });
+console.log("Show Something")
+
+document.getElementById("home-link").classList.add("link-hover")
+
+function linkClicked(item_clicked){
+
+    const home = document.getElementById("home-link")
+    const about_us = document.getElementById("about-link")
+    const skills = document.getElementById("skills-link")
+    const products  = document.getElementById("product-link")
+    const our_work = document.getElementById("service-link")
+    const contact_us = document.getElementById("contact-link")
+
+
+    if(item_clicked == 'home'){
+        home.classList.add("link-hover")
+
+        //home.classList.remove("link-hover")
+        about_us.classList.remove("link-hover")
+        skills.classList.remove("link-hover")
+        products.classList.remove("link-hover")
+        our_work.classList.remove("link-hover")
+        contact_us.classList.remove("link-hover")
+
+    }
+    else if(item_clicked == 'about_us'){
+        about_us.classList.add("link-hover")
+
+        home.classList.remove("link-hover")
+        //about_us.classList.remove("link-hover")
+        skills.classList.remove("link-hover")
+        products.classList.remove("link-hover")
+        our_work.classList.remove("link-hover")
+        contact_us.classList.remove("link-hover")
+
+    }
+    else if(item_clicked == 'skills'){
+        skills.classList.add("link-hover")
+
+        home.classList.remove("link-hover")
+        about_us.classList.remove("link-hover")
+        //skills.classList.remove("link-hover")
+        products.classList.remove("link-hover")
+        our_work.classList.remove("link-hover")
+        contact_us.classList.remove("link-hover")
+
+    }
+    else if(item_clicked == 'products'){
+        products.classList.add("link-hover")
+
+        home.classList.remove("link-hover")
+        about_us.classList.remove("link-hover")
+        skills.classList.remove("link-hover")
+        //products.classList.remove("link-hover")
+        our_work.classList.remove("link-hover")
+        contact_us.classList.remove("link-hover")
+
+    }
+    else if(item_clicked == 'our_work'){
+        our_work.classList.add("link-hover")
+
+        home.classList.remove("link-hover")
+        about_us.classList.remove("link-hover")
+        skills.classList.remove("link-hover")
+        products.classList.remove("link-hover")
+        //our_work.classList.remove("link-hover")
+        contact_us.classList.remove("link-hover")
+
+    }
+    else if(item_clicked == 'contact_us'){
+        contact_us.classList.add("link-hover")
+
+        home.classList.remove("link-hover")
+        about_us.classList.remove("link-hover")
+        skills.classList.remove("link-hover")
+        products.classList.remove("link-hover")
+        our_work.classList.remove("link-hover")
+        //contact_us.classList.remove("link-hover")
+
+    }
+
+
+
+//     const home = document.getElementById("home-link")
+// const about_us = document.getElementById("about-link")
+// const skills = document.getElementById("skills-link")
+// const products  = document.getElementById("product-link")
+// const our_work = document.getElementById("service-link")
+// const contact_us = document.getElementById("contact-link")
+
+
+}

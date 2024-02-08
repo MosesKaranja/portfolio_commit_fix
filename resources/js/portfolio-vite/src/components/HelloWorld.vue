@@ -29,21 +29,32 @@ const count = ref(0);
     <header class="header">
       <a href="#" class="logo"
         ><img
-          style="width: 130px; height: 50px; object-fit: contain"
-          src="/images/strath.png"
+          style="width: 197px; height: 50px; object-fit: contain"
+          src="/images/ilab_africa_stolen.png"
           alt=""
       /></a>
       <div class="fas fa-bars"></div>
       <nav class="navbar">
         <ul>
-          <li><a href="#">Home</a></li>
-          <!-- <li><a class="#services" href="#">Home</a></li> -->
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#skills">Skills/Expertise</a></li>
+          <li onclick="linkClicked('home')">
+            <a href="#" class="link-hover" id="home-link">Home</a>
+          </li>
+          <li onclick="linkClicked('about_us')">
+            <a href="#about" id="about-link">About Us</a>
+          </li>
+          <li onclick="linkClicked('skills')">
+            <a href="#skills" id="skills-link">Skills/Expertise</a>
+          </li>
 
-          <li><a href="#products">Products</a></li>
-          <li><a href="#service">Our Work</a></li> 
-          <li><a href="#contact">Contact Us</a></li>
+          <li onclick="linkClicked('products')">
+            <a href="#products" id="product-link">Products</a>
+          </li>
+          <li onclick="linkClicked('our_work')">
+            <a href="#service" id="service-link">Our Work</a>
+          </li>
+          <li onclick="linkClicked('contact_us')">
+            <a href="#contact" id="contact-link">Contact Us</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -52,6 +63,7 @@ const count = ref(0);
       id="carouselExampleIndicators"
       class="carousel slide ban_img"
       data-ride="carousel"
+      style="margin-top: 81px"
     >
       <ol class="carousel-indicators">
         <li
@@ -61,6 +73,8 @@ const count = ref(0);
         ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -72,14 +86,20 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Revenue Management System (RMS)</span></strong>
+            <strong
+              ><span
+                >Cutting-edge Tech Solutions for your Every Need</span
+              ></strong
+            >
             <p>
-              A robust, ready-to-use revenue automation <br />
-              software designed for seamless revenue <br />
-              collection and real-time reporting.
+              Step into the future with us, where we redefine innovations in
+              Web, <br />
+              Mobile, Enterprise and Low/No Code technologies.<br />
+              We empower our clients with the tools<br />
+              they need to thrive in the digital age.
             </p>
-            <a href="#revenue-management">View Demo</a>
-            <a href="#">Learn More</a>
+            <!-- <a href="#revenue-management">View Demo</a>
+            <a href="#">Learn More</a> -->
           </div>
         </div>
 
@@ -92,15 +112,13 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>WILD Mobile App</span></strong>
+            <strong><span>Web Development</span></strong>
             <p>
-              A comprehensive, ready-to-use data collection<br />
-              and reporting tool tailored for organizations<br />
-              engaged in conservation efforts across protected and community
-              areas.
+              With expertise honed through over 10 years<br />
+              of experience we leverage on the latest technologies<br />
+              to build responsive designs and seamless functionalities <br />
+              across devices
             </p>
-            <a href="#wild_app">View Demo</a>
-            <a href="#">Learn More</a>
           </div>
         </div>
 
@@ -113,14 +131,60 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>iLabPay - Payment Gateway</span></strong>
+            <strong><span>Mobile Development</span></strong>
             <p>
-              A payment gateway that; Support various<br />
-              various payment channels, secure client data,<br />
-              in Africa.
+              With our team of UX, UI Designers, developers and<br />
+              and project management experts encompassing a blend<br />
+              of technical and problem solving skills, we revolutionize<br />
+              mobile user experience with our intuitive, secure<br />
+              and scalable mobile applications
             </p>
-            <a href="#ilab-pay">View Demo</a>
-            <a href="#">Learn More</a>
+            <!-- <a href="#ilab-pay">View Demo</a>
+            <a href="#">Learn More</a> -->
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="/images/img3.jpg"
+            style="maxwidth: 100%; height: 600px; objectfit: cover"
+            class="d-block w-100"
+            alt="..."
+          />
+
+          <div class="ban_text">
+            <strong><span>Enterprise Application Development</span></strong>
+            <p>
+              In the evolving business world, our team has<br />
+              extensive experience across a wide range of<br />
+              industries including Human Resource, Procurement,<br />
+              Document Management and accounting, bringing our<br />
+              immeasurable knowledge, skills and passion<br />
+              in every project we deliver.
+            </p>
+            <!-- <a href="#ilab-pay">View Demo</a>
+            <a href="#">Learn More</a> -->
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="/images/img3.jpg"
+            style="maxwidth: 100%; height: 600px; objectfit: cover"
+            class="d-block w-100"
+            alt="..."
+          />
+
+          <div class="ban_text">
+            <strong><span>Low/No Code Development</span></strong>
+            <p>
+              We leverage new tools and technologies in the<br />
+              dynamic field of low/no code to craft creative<br />
+              solutions by designing user-friendly interfaces<br />
+              and unique workflows for our clients.
+            </p>
+            <!-- <a href="#ilab-pay">View Demo</a>
+            <a href="#">Learn More</a> -->
           </div>
         </div>
       </div>
@@ -144,7 +208,11 @@ const count = ref(0);
       </a>
     </div>
 
-    <section id="about" class="about" style="border:3px solid black;max-width:1140px;margin:0 auto;">
+    <section
+      id="about"
+      class="about"
+      style="border: 3px solid black; max-width: 1140px; margin: 0 auto"
+    >
       <section id="home" class="">
         <h1 class="heading">About Us</h1>
         <div class="row">
@@ -162,188 +230,211 @@ const count = ref(0);
             </p>
           </div>
         </div>
-
       </section>
     </section>
 
-            <section class="row container" style="margin: 0 auto;padding:0;">
-          <div class="card">
-            <div class="card-header pl-3 pr-3">
-              <h1 class="heading-edited-center">Web Development</h1>
-              <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
-              
-              <div class="skills">
-                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
-                <ul class="skills-list">
-                  <li>React</li>
-                  <li>Angular</li>
-                  <li>Vue JS</li>
-                  <li>Node JS</li>
-                  <li>PHP</li>
-                  <li>Python</li>
-                </ul>
+    <section class="row container" style="margin: 0 auto; padding: 0">
+      <div class="card">
+        <div class="card-header pl-3 pr-3">
+          <h1 class="heading-edited-center">Web Development</h1>
+          <p class="paragraph-moses">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore
+            voluptatibus quas laboriosam delectus? Autem, esse? Veritatis
+            cupiditate ut architecto quibusdam praesentium incidunt, expedita
+            maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Esse labore voluptatibus quas
+            laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto
+            quibusdam praesentium incidunt, expedita maxime tenetur,
+            voluptatibus quasi non minima.
+          </p>
 
-              </div>
-
-            </div>
-
-            <div class="card-body">
-              <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5>
-
-              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
-
-                  <div class="card mr-4" style="border-radius:1rem;">
-                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
-
-                    <div class="card-body">
-                      <h2 class="card-title">E-Governance Solution</h2>
-                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
-                      <div class="d-flex justify-content-end">
-                        <a href="#" class="btn btn-primary">View More</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card mr-4" style="border-radius:1rem;">
-                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
-
-                    <div class="card-body">
-                      <h2 class="card-title">E-Governance Solution</h2>
-                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
-                      <div class="d-flex justify-content-end">
-                        <a href="#" class="btn btn-primary">View More</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card" style="border-radius:1rem;">
-                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
-
-                    <div class="card-body">
-                      <h2 class="card-title">E-Governance Solution</h2>
-                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
-                      <div class="d-flex justify-content-end">
-                        <a href="#" class="btn btn-primary">View More</a>
-                      </div>
-                    </div>
-                  </div>
-
-              </div>
-
-            </div>
-
+          <div class="skills">
+            <h5
+              class="heading-edited-left mb-2 pl-3"
+              style="font-size: 2.5rem; color: #a0a4a8"
+            >
+              Skills
+            </h5>
+            <ul class="skills-list">
+              <li>React</li>
+              <li>Angular</li>
+              <li>Vue JS</li>
+              <li>Node JS</li>
+              <li>PHP</li>
+              <li>Python</li>
+            </ul>
           </div>
- 
+        </div>
 
+        <div class="card-body">
+          <h5
+            class="heading-edited-left mb-2 pl-3"
+            style="font-size: 2.5rem; color: #a0a4a8"
+          >
+            Card title
+          </h5>
 
+          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+            <div class="card mr-4" style="border-radius: 1rem">
+              <img
+                src="/images/img3.jpg"
+                style="border-radius: 1rem"
+                alt="e-Governance Revenue Management System (eRMS)"
+              />
 
+              <div class="card-body">
+                <h2 class="card-title">E-Governance Solution</h2>
+                <p class="paragraph-moses">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                  dolorem inventore sunt quod assumenda hic praesentium
+                  similique facere quasi. Vel, dicta pariatur. Dolorem neque
+                  minus esse ea. Deleniti, doloremque mollitia.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
 
+            <div class="card mr-4" style="border-radius: 1rem">
+              <img
+                src="/images/img3.jpg"
+                style="border-radius: 1rem"
+                alt="e-Governance Revenue Management System (eRMS)"
+              />
 
-        </section>
+              <div class="card-body">
+                <h2 class="card-title">E-Governance Solution</h2>
+                <p class="paragraph-moses">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                  dolorem inventore sunt quod assumenda hic praesentium
+                  similique facere quasi. Vel, dicta pariatur. Dolorem neque
+                  minus esse ea. Deleniti, doloremque mollitia.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
 
+            <div class="card" style="border-radius: 1rem">
+              <img
+                src="/images/img3.jpg"
+                style="border-radius: 1rem"
+                alt="e-Governance Revenue Management System (eRMS)"
+              />
 
+              <div class="card-body">
+                <h2 class="card-title">E-Governance Solution</h2>
+                <p class="paragraph-moses">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                  dolorem inventore sunt quod assumenda hic praesentium
+                  similique facere quasi. Vel, dicta pariatur. Dolorem neque
+                  minus esse ea. Deleniti, doloremque mollitia.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-    
     <section class="about">
-
-              <div class="row" id="skills">
-          <h1 class="heading">Consulting Skills</h1>
-        </div>
-        <div class="row consulting-skills">
-          <!-- Consulting Skills Grid -->
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Web Development</h6>
-              <p>
-                Website development solutions such as dynamic E-commerce
-                websites,Content Management Systems (CMS),bespoke web
-                applications,insightful reporting dashboards and comprehensive
-                website maintenance and support services.<br /><br />SKills<br />HTML,
-                CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
-                Django, Ruby on Rails, Express.js MySQL, PostgreSQL,MongoDB
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Mobile Development</h6>
-              <p>
-                We have Extensive experience in creating dynamic software
-                applications that run on mobile devices. We pride in development
-                of native, cross platform native and hybrid mobile applications
-                as well as progress web applications.<br /><br />Skills<br />
-                JavaScript, Android/IOs, Kotlin,JavaScript,Kotlin/RESTful
-                APIs,Mobile libraries for networking, Profilling and deubbing
-                mobile applications
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Project Management</h6>
-              <p>
-                We possess Comprehensive project management expertise,
-                underscoring our commitment to delivering successful outcomes
-                for our clients through seamless planning, execution, and
-                completion of projects, utilizing industry-best practices and
-                methodologies.<br /><br />Skills<br />
-
-                Leadership Skills, Stakeholder Management, Client Management,
-                Agile,Scrum,Kanban,Waterfall,ITIL,PRINCE2, Google
-                Workspace,Microsoft
-                Project,Jira,Asana,Trello,Clickup,Monday.com.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>System Testing</h6>
-              <p>
-                We have extensive Knowledge and experience in manual and
-                automated testing of software applications to evaluate their
-                compliance to system requirements and end user needs.<br /><br />Skills<br />
-                Understanding pr software applications testing process,
-                Experience in Development of Test plans, Hands-on experience
-                with automated testing tools like Master selenium and Manual
-                Testing.
-
-                <br /><br />System Training and Support<br />
-                We have a proven record in system end user training and level
-                1&2 system support. Prepare Training Manuals System User
-                training
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>UI/UX Designing</h6>
-              <p>
-                We work with clients to understand their data and formats they
-                would want such data presented. This include converting manual
-                to digital data, cleaning existing digital data as well as
-                analysis the data to achieve client’s needs.<br /><br />Skills<br />
-                SSL implementation, User Experience (UX) and User Interface (UI)
-                Design, Theme Development and Customization
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Data Entry</h6>
-              <p>
-                We work with clients to understand their data and formats they
-                would want such data presented. This include converting manual
-                to digital data, cleaning existing digital data as well as
-                analysis the data to achieve client’s needs.<br /><br />Skills<br />
-                Typing, Data Conversion/ Formatting/Cleanup, Transcription, Data
-                Analysis.
-              </p>
-            </div>
+      <div class="row" id="skills">
+        <h1 class="heading">Consulting Skills</h1>
+      </div>
+      <div class="row consulting-skills">
+        <!-- Consulting Skills Grid -->
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Web Development</h6>
+            <p>
+              Website development solutions such as dynamic E-commerce
+              websites,Content Management Systems (CMS),bespoke web
+              applications,insightful reporting dashboards and comprehensive
+              website maintenance and support services.<br /><br />SKills<br />HTML,
+              CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
+              Django, Ruby on Rails, Express.js MySQL, PostgreSQL,MongoDB
+            </p>
           </div>
         </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Mobile Development</h6>
+            <p>
+              We have Extensive experience in creating dynamic software
+              applications that run on mobile devices. We pride in development
+              of native, cross platform native and hybrid mobile applications as
+              well as progress web applications.<br /><br />Skills<br />
+              JavaScript, Android/IOs, Kotlin,JavaScript,Kotlin/RESTful
+              APIs,Mobile libraries for networking, Profilling and deubbing
+              mobile applications
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Project Management</h6>
+            <p>
+              We possess Comprehensive project management expertise,
+              underscoring our commitment to delivering successful outcomes for
+              our clients through seamless planning, execution, and completion
+              of projects, utilizing industry-best practices and
+              methodologies.<br /><br />Skills<br />
 
+              Leadership Skills, Stakeholder Management, Client Management,
+              Agile,Scrum,Kanban,Waterfall,ITIL,PRINCE2, Google
+              Workspace,Microsoft Project,Jira,Asana,Trello,Clickup,Monday.com.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>System Testing</h6>
+            <p>
+              We have extensive Knowledge and experience in manual and automated
+              testing of software applications to evaluate their compliance to
+              system requirements and end user needs.<br /><br />Skills<br />
+              Understanding pr software applications testing process, Experience
+              in Development of Test plans, Hands-on experience with automated
+              testing tools like Master selenium and Manual Testing.
 
+              <br /><br />System Training and Support<br />
+              We have a proven record in system end user training and level 1&2
+              system support. Prepare Training Manuals System User training
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>UI/UX Designing</h6>
+            <p>
+              We work with clients to understand their data and formats they
+              would want such data presented. This include converting manual to
+              digital data, cleaning existing digital data as well as analysis
+              the data to achieve client’s needs.<br /><br />Skills<br />
+              SSL implementation, User Experience (UX) and User Interface (UI)
+              Design, Theme Development and Customization
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Data Entry</h6>
+            <p>
+              We work with clients to understand their data and formats they
+              would want such data presented. This include converting manual to
+              digital data, cleaning existing digital data as well as analysis
+              the data to achieve client’s needs.<br /><br />Skills<br />
+              Typing, Data Conversion/ Formatting/Cleanup, Transcription, Data
+              Analysis.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <div id="products" class="pt-5 mt-8">
