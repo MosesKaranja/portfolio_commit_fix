@@ -29,21 +29,32 @@ const count = ref(0);
     <header class="header">
       <a href="#" class="logo"
         ><img
-          style="width: 130px; height: 50px; object-fit: contain"
-          src="/images/strath.png"
+          style="width: 197px; height: 50px; object-fit: contain"
+          src="/images/ilab_africa_stolen.png"
           alt=""
       /></a>
       <div class="fas fa-bars"></div>
       <nav class="navbar">
         <ul>
-          <li><a href="#">Home</a></li>
-          <!-- <li><a class="#services" href="#">Home</a></li> -->
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#skills">Skills/Expertise</a></li>
+          <li onclick="linkClicked('home')">
+            <a href="#" class="link-hover" id="home-link">Home</a>
+          </li>
+          <li onclick="linkClicked('about_us')">
+            <a href="#about" id="about-link">About Us</a>
+          </li>
+          <li onclick="linkClicked('skills')">
+            <a href="#skills" id="skills-link">Skills/Expertise</a>
+          </li>
 
-          <li><a href="#products">Products</a></li>
-          <li><a href="#service">Our Work</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li onclick="linkClicked('products')">
+            <a href="#products" id="product-link">Products</a>
+          </li>
+          <li onclick="linkClicked('our_work')">
+            <a href="#service" id="service-link">Our Work</a>
+          </li>
+          <li onclick="linkClicked('contact_us')">
+            <a href="#contact" id="contact-link">Contact Us</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -52,6 +63,7 @@ const count = ref(0);
       id="carouselExampleIndicators"
       class="carousel slide ban_img"
       data-ride="carousel"
+      style="margin-top: 81px"
     >
       <ol class="carousel-indicators">
         <li
@@ -61,6 +73,8 @@ const count = ref(0);
         ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -72,14 +86,20 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Revenue Management System (RMS)</span></strong>
+            <strong
+              ><span
+                >Cutting-edge Tech Solutions for your Every Need</span
+              ></strong
+            >
             <p>
-              A robust, ready-to-use revenue automation <br />
-              software designed for seamless revenue <br />
-              collection and real-time reporting.
+              Step into the future with us, where we redefine innovations in
+              Web, <br />
+              Mobile, Enterprise and Low/No Code technologies.<br />
+              We empower our clients with the tools<br />
+              they need to thrive in the digital age.
             </p>
-            <a href="#revenue-management">View Demo</a>
-            <a href="#">Learn More</a>
+            <!-- <a href="#revenue-management">View Demo</a>
+            <a href="#">Learn More</a> -->
           </div>
         </div>
 
@@ -92,15 +112,13 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>WILD Mobile App</span></strong>
+            <strong><span>Web Development</span></strong>
             <p>
-              A comprehensive, ready-to-use data collection<br />
-              and reporting tool tailored for organizations<br />
-              engaged in conservation efforts across protected and community
-              areas.
+              With expertise honed through over 10 years<br />
+              of experience we leverage on the latest technologies<br />
+              to build responsive designs and seamless functionalities <br />
+              across devices
             </p>
-            <a href="#wild_app">View Demo</a>
-            <a href="#">Learn More</a>
           </div>
         </div>
 
@@ -113,14 +131,60 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>iLabPay - Payment Gateway</span></strong>
+            <strong><span>Mobile Development</span></strong>
             <p>
-              A payment gateway that; Support various<br />
-              various payment channels, secure client data,<br />
-              in Africa.
+              With our team of UX, UI Designers, developers and<br />
+              and project management experts encompassing a blend<br />
+              of technical and problem solving skills, we revolutionize<br />
+              mobile user experience with our intuitive, secure<br />
+              and scalable mobile applications
             </p>
-            <a href="#ilab-pay">View Demo</a>
-            <a href="#">Learn More</a>
+            <!-- <a href="#ilab-pay">View Demo</a>
+            <a href="#">Learn More</a> -->
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="/images/img3.jpg"
+            style="maxwidth: 100%; height: 600px; objectfit: cover"
+            class="d-block w-100"
+            alt="..."
+          />
+
+          <div class="ban_text">
+            <strong><span>Enterprise Application Development</span></strong>
+            <p>
+              In the evolving business world, our team has<br />
+              extensive experience across a wide range of<br />
+              industries including Human Resource, Procurement,<br />
+              Document Management and accounting, bringing our<br />
+              immeasurable knowledge, skills and passion<br />
+              in every project we deliver.
+            </p>
+            <!-- <a href="#ilab-pay">View Demo</a>
+            <a href="#">Learn More</a> -->
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="/images/img3.jpg"
+            style="maxwidth: 100%; height: 600px; objectfit: cover"
+            class="d-block w-100"
+            alt="..."
+          />
+
+          <div class="ban_text">
+            <strong><span>Low/No Code Development</span></strong>
+            <p>
+              We leverage new tools and technologies in the<br />
+              dynamic field of low/no code to craft creative<br />
+              solutions by designing user-friendly interfaces<br />
+              and unique workflows for our clients.
+            </p>
+            <!-- <a href="#ilab-pay">View Demo</a>
+            <a href="#">Learn More</a> -->
           </div>
         </div>
       </div>
@@ -301,8 +365,6 @@ const count = ref(0);
         </div>
       </div>
     </section>
-
-    <!--  -->
 
     <section class="about">
       <div class="row" id="skills">
