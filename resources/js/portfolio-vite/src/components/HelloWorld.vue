@@ -42,7 +42,7 @@ const count = ref(0);
           <li><a href="#skills">Skills/Expertise</a></li>
 
           <li><a href="#products">Products</a></li>
-          <li><a href="#service">Our Work</a></li> 
+          <li><a href="#service">Our Work</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
@@ -143,8 +143,12 @@ const count = ref(0);
         <span class="sr-only">Next</span>
       </a>
     </div>
-<br><br><br>
-    <section id="about" class="about" style="border:3px solid black;max-width:1140px;margin:0 auto;">
+    <br /><br /><br />
+    <section
+      id="about"
+      class="about"
+      style="border: 3px solid black; max-width: 1140px; margin: 0 auto"
+    >
       <section id="home" class="">
         <h1 class="heading">About Us</h1>
         <div class="row">
@@ -162,206 +166,237 @@ const count = ref(0);
             </p>
           </div>
         </div>
-
       </section>
     </section>
 
-            <section class="row container" style="margin: 0 auto;padding:0;">
-          <div class="card">
-            <div class="card-header pl-3 pr-3">
-              <h1 class="heading-edited-center">Web Development</h1>
-              <p class="paragraph-moses">We collaborate closely with our clients to understand their goals, forecast their needs and exceed expectations. With expertise honed through over 10 years of experience we leverage on the latest technologies to build responsive designs and seamless functionalities across devices. We harness the power of Agile approach to give our clients unprecedented efficiency and flexibility in each project we deliver.</p>
-              
-              <div class="skills">
-                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
-                <ul class="skills-list">
-                  <li>React</li>
-                  <li>Angular</li>
-                  <li>Vue JS</li>
-                  <li>Node JS</li>
-                  <li>PHP</li>
-                  <li>Python</li>
-                </ul>
+    <section class="row container" style="margin: 0 auto; padding: 0">
+      <div class="card">
+        <div class="card-header pl-3 pr-3">
+          <h1 class="heading-edited-center">Services</h1>
+          <h1 class="">Web Development</h1>
+          <p class="paragraph-moses">
+            We collaborate closely with our clients to understand their goals,
+            forecast their needs and exceed expectations. With expertise honed
+            through over 10 years of experience we leverage on the latest
+            technologies to build responsive designs and seamless
+            functionalities across devices. We harness the power of Agile
+            approach to give our clients unprecedented efficiency and
+            flexibility in each project we deliver.
+          </p>
 
+          <div class="skills">
+            <h5
+              class="heading-edited-left mb-2 pl-3"
+              style="font-size: 1.5rem; color: black"
+            >
+              Skills
+            </h5>
+            <ul class="skills-list">
+              <li>React</li>
+              <li>Angular</li>
+              <li>Vue JS</li>
+              <li>Node JS</li>
+              <li>PHP</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/LoginTakeRec.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="e-Governance Revenue Management System (eRMS)"
+                />
+              </video>
+
+              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
+
+              <div class="card-body">
+                <h2 class="card-title">E-Governance Solution</h2>
+                <p class="paragraph-moses">
+                  Our Solution defines the future of governance, where citizens
+                  are at the heart of every decision and administrative process.
+                  Our revolutionary user-centric eGovernance solution is
+                  designed to streamline administrative tasks, delivering
+                  efficiency, effectiveness, and transparency like never before.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
               </div>
-
             </div>
 
-            <div class="card-body">
-              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/My Businesses Done.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
 
-              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+              <div class="card-body">
+                <h2 class="card-title">E-Conservancy Solution</h2>
+                <p class="paragraph-moses">
+                  Our solution is in the forefront of conservation technology.
+                  It is a state-of-the-art web platform with a mobile app
+                  designed specifically for conservancies in protected and
+                  community areas. Our platform revolutionizes the way
+                  conservationists collect.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
+              </div>
+            </div>
 
-                  <div class="card mr-4" style="border-radius:1rem;">
+            <div class="card" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/WILD_FINAL.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
 
-                    <video
-                    oncontextmenu="return false;"
-                    width="320"
-                    height="240"
-                    controls
-                  >
-                    <source src="/images/LoginTakeRec.mp4" type="video/mp4" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
-                  </video>
-
-                    <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
-
-                    <div class="card-body">
-                      <h2 class="card-title">E-Governance Solution</h2>
-                      <p class="paragraph-moses">Our Solution defines the future of governance, where citizens are at the heart of every decision and administrative process. Our revolutionary user-centric eGovernance solution is designed to streamline administrative tasks, delivering efficiency, effectiveness, and transparency like never before.</p>
-                      <div class="d-flex justify-content-end">
-                        <a href="#" class="btn btn-primary">View More</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card mr-4" style="border-radius:1rem;">
-                    <video
-                    oncontextmenu="return false;"
-                    width="320"
-                    height="240"
-                    controls
-                  >
-                    <source
-                      src="/images/My Businesses Done.mp4" type="video/mp4" style="border-radius:1rem;" alt="eConservancy Solution"/>
-                  </video>
-
-                    <div class="card-body">
-                      <h2 class="card-title">E-Conservancy Solution</h2>
-                      <p class="paragraph-moses">Our solution is in the forefront of conservation technology. It  is a state-of-the-art web platform with a mobile app designed specifically for conservancies in protected and community areas. Our platform revolutionizes the way conservationists collect.</p>
-                      <div class="d-flex justify-content-end">
-                        <a href="#" class="btn btn-primary">View More</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="card" style="border-radius:1rem;">
-                    <video
-                    oncontextmenu="return false;"
-                    width="320"
-                    height="240"
-                    controls
-                  >
-                    
-                  <source src="/images/WILD_FINAL.mp4" type="video/mp4" style="border-radius:1rem;" alt="eConservancy Solution"/>
-                  </video>
-
-                    <div class="card-body">
-                      <h2 class="card-title">EDRMS</h2>
-                      <p class="paragraph-moses">Our Innovative Document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by; a) organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders.</p>
-                      <div class="d-flex justify-content-end">
-                        <a href="#" class="btn btn-primary">View More</a>
-                      </div>
-                    </div>
-                  </div>
+              <div class="card-body">
+                <h2 class="card-title">EDRMS</h2>
+                <p class="paragraph-moses">
+                  Our Innovative Document record management solution has
+                  assisted over 7 of our clients to unlock new levels of
+                  efficiency, collaboration and security by; a) organizing their
+                  documents into a centralized location saving users the hassle
+                  of sifting through piles of papers or digital folders.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <a href="#" class="btn btn-primary">View More</a>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
 
-        </section>
+    <!--  -->
 
-
-        <!--  -->
-
-    
     <section class="about">
-
-              <div class="row" id="skills">
-          <h1 class="heading">Consulting Skills</h1>
-        </div>
-        <div class="row consulting-skills">
-          <!-- Consulting Skills Grid -->
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Web Development</h6>
-              <p>
-                Website development solutions such as dynamic E-commerce
-                websites,Content Management Systems (CMS),bespoke web
-                applications,insightful reporting dashboards and comprehensive
-                website maintenance and support services.<br /><br />SKills<br />HTML,
-                CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
-                Django, Ruby on Rails, Express.js MySQL, PostgreSQL,MongoDB
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Mobile Development</h6>
-              <p>
-                We have Extensive experience in creating dynamic software
-                applications that run on mobile devices. We pride in development
-                of native, cross platform native and hybrid mobile applications
-                as well as progress web applications.<br /><br />Skills<br />
-                JavaScript, Android/IOs, Kotlin,JavaScript,Kotlin/RESTful
-                APIs,Mobile libraries for networking, Profilling and deubbing
-                mobile applications
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Project Management</h6>
-              <p>
-                We possess Comprehensive project management expertise,
-                underscoring our commitment to delivering successful outcomes
-                for our clients through seamless planning, execution, and
-                completion of projects, utilizing industry-best practices and
-                methodologies.<br /><br />Skills<br />
-
-                Leadership Skills, Stakeholder Management, Client Management,
-                Agile,Scrum,Kanban,Waterfall,ITIL,PRINCE2, Google
-                Workspace,Microsoft
-                Project,Jira,Asana,Trello,Clickup,Monday.com.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>System Testing</h6>
-              <p>
-                We have extensive Knowledge and experience in manual and
-                automated testing of software applications to evaluate their
-                compliance to system requirements and end user needs.<br /><br />Skills<br />
-                Understanding pr software applications testing process,
-                Experience in Development of Test plans, Hands-on experience
-                with automated testing tools like Master selenium and Manual
-                Testing.
-
-                <br /><br />System Training and Support<br />
-                We have a proven record in system end user training and level
-                1&2 system support. Prepare Training Manuals System User
-                training
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>UI/UX Designing</h6>
-              <p>
-                We work with clients to understand their data and formats they
-                would want such data presented. This include converting manual
-                to digital data, cleaning existing digital data as well as
-                analysis the data to achieve client’s needs.<br /><br />Skills<br />
-                SSL implementation, User Experience (UX) and User Interface (UI)
-                Design, Theme Development and Customization
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item">
-              <h6>Data Entry</h6>
-              <p>
-                We work with clients to understand their data and formats they
-                would want such data presented. This include converting manual
-                to digital data, cleaning existing digital data as well as
-                analysis the data to achieve client’s needs.<br /><br />Skills<br />
-                Typing, Data Conversion/ Formatting/Cleanup, Transcription, Data
-                Analysis.
-              </p>
-            </div>
+      <div class="row" id="skills">
+        <h1 class="heading">Consulting Skills</h1>
+      </div>
+      <div class="row consulting-skills">
+        <!-- Consulting Skills Grid -->
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Web Development</h6>
+            <p>
+              Website development solutions such as dynamic E-commerce
+              websites,Content Management Systems (CMS),bespoke web
+              applications,insightful reporting dashboards and comprehensive
+              website maintenance and support services.<br /><br />SKills<br />HTML,
+              CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
+              Django, Ruby on Rails, Express.js MySQL, PostgreSQL,MongoDB
+            </p>
           </div>
         </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Mobile Development</h6>
+            <p>
+              We have Extensive experience in creating dynamic software
+              applications that run on mobile devices. We pride in development
+              of native, cross platform native and hybrid mobile applications as
+              well as progress web applications.<br /><br />Skills<br />
+              JavaScript, Android/IOs, Kotlin,JavaScript,Kotlin/RESTful
+              APIs,Mobile libraries for networking, Profilling and deubbing
+              mobile applications
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Project Management</h6>
+            <p>
+              We possess Comprehensive project management expertise,
+              underscoring our commitment to delivering successful outcomes for
+              our clients through seamless planning, execution, and completion
+              of projects, utilizing industry-best practices and
+              methodologies.<br /><br />Skills<br />
 
+              Leadership Skills, Stakeholder Management, Client Management,
+              Agile,Scrum,Kanban,Waterfall,ITIL,PRINCE2, Google
+              Workspace,Microsoft Project,Jira,Asana,Trello,Clickup,Monday.com.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>System Testing</h6>
+            <p>
+              We have extensive Knowledge and experience in manual and automated
+              testing of software applications to evaluate their compliance to
+              system requirements and end user needs.<br /><br />Skills<br />
+              Understanding pr software applications testing process, Experience
+              in Development of Test plans, Hands-on experience with automated
+              testing tools like Master selenium and Manual Testing.
 
+              <br /><br />System Training and Support<br />
+              We have a proven record in system end user training and level 1&2
+              system support. Prepare Training Manuals System User training
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>UI/UX Designing</h6>
+            <p>
+              We work with clients to understand their data and formats they
+              would want such data presented. This include converting manual to
+              digital data, cleaning existing digital data as well as analysis
+              the data to achieve client’s needs.<br /><br />Skills<br />
+              SSL implementation, User Experience (UX) and User Interface (UI)
+              Design, Theme Development and Customization
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item">
+            <h6>Data Entry</h6>
+            <p>
+              We work with clients to understand their data and formats they
+              would want such data presented. This include converting manual to
+              digital data, cleaning existing digital data as well as analysis
+              the data to achieve client’s needs.<br /><br />Skills<br />
+              Typing, Data Conversion/ Formatting/Cleanup, Transcription, Data
+              Analysis.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <div id="products" class="pt-5 mt-8">
