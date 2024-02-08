@@ -143,7 +143,7 @@ const count = ref(0);
         <span class="sr-only">Next</span>
       </a>
     </div>
-
+<br><br><br>
     <section id="about" class="about" style="border:3px solid black;max-width:1140px;margin:0 auto;">
       <section id="home" class="">
         <h1 class="heading">About Us</h1>
@@ -170,6 +170,100 @@ const count = ref(0);
           <div class="card">
             <div class="card-header pl-3 pr-3">
               <h1 class="heading-edited-center">Web Development</h1>
+              <p class="paragraph-moses">We collaborate closely with our clients to understand their goals, forecast their needs and exceed expectations. With expertise honed through over 10 years of experience we leverage on the latest technologies to build responsive designs and seamless functionalities across devices. We harness the power of Agile approach to give our clients unprecedented efficiency and flexibility in each project we deliver.</p>
+              
+              <div class="skills">
+                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
+                <ul class="skills-list">
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Vue JS</li>
+                  <li>Node JS</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+
+                    <video
+                    oncontextmenu="return false;"
+                    width="320"
+                    height="240"
+                    controls
+                  >
+                    <source src="/images/LoginTakeRec.mp4" type="video/mp4" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+                  </video>
+
+                    <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Our Solution defines the future of governance, where citizens are at the heart of every decision and administrative process. Our revolutionary user-centric eGovernance solution is designed to streamline administrative tasks, delivering efficiency, effectiveness, and transparency like never before.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <video
+                    oncontextmenu="return false;"
+                    width="320"
+                    height="240"
+                    controls
+                  >
+                    <source
+                      src="/images/My Businesses Done.mp4" type="video/mp4" style="border-radius:1rem;" alt="eConservancy Solution"/>
+                  </video>
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Conservancy Solution</h2>
+                      <p class="paragraph-moses">Our solution is in the forefront of conservation technology. It  is a state-of-the-art web platform with a mobile app designed specifically for conservancies in protected and community areas. Our platform revolutionizes the way conservationists collect.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="border-radius:1rem;">
+                    <video
+                    oncontextmenu="return false;"
+                    width="320"
+                    height="240"
+                    controls
+                  >
+                    
+                  <source src="/images/WILD_FINAL.mp4" type="video/mp4" style="border-radius:1rem;" alt="eConservancy Solution"/>
+                  </video>
+
+                    <div class="card-body">
+                      <h2 class="card-title">EDRMS</h2>
+                      <p class="paragraph-moses">Our Innovative Document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by; a) organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+
+        <section class="row container" style="margin: 0 auto;padding:0;">
+          <div class="card">
+            <div class="card-header pl-3 pr-3">
+              <h1 class="heading-edited-center">Web Development</h1>
               <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
               
               <div class="skills">
@@ -188,7 +282,77 @@ const count = ref(0);
             </div>
 
             <div class="card-body">
-              <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5>
+              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="row container" style="margin: 0 auto;padding:0;">
+          <div class="card">
+            <div class="card-header pl-3 pr-3">
+              <h1 class="heading-edited-center">Web Development</h1>
+              <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
+              
+              <div class="skills">
+                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
+                <ul class="skills-list">
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Vue JS</li>
+                  <li>Node JS</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
               <div class="d-flex flex-row pl-3 pr-3" id="experiment">
 
@@ -241,8 +405,300 @@ const count = ref(0);
 
         </section>
 
+        <section class="row container" style="margin: 0 auto;padding:0;">
+          <div class="card">
+            <div class="card-header pl-3 pr-3">
+              <h1 class="heading-edited-center">Web Development</h1>
+              <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
+              
+              <div class="skills">
+                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
+                <ul class="skills-list">
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Vue JS</li>
+                  <li>Node JS</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="row container" style="margin: 0 auto;padding:0;">
+          <div class="card">
+            <div class="card-header pl-3 pr-3">
+              <h1 class="heading-edited-center">Web Development</h1>
+              <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
+              
+              <div class="skills">
+                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
+                <ul class="skills-list">
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Vue JS</li>
+                  <li>Node JS</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+ 
 
 
+
+
+
+        </section>
+
+        <section class="row container" style="margin: 0 auto;padding:0;">
+          <div class="card">
+            <div class="card-header pl-3 pr-3">
+              <h1 class="heading-edited-center">Web Development</h1>
+              <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
+              
+              <div class="skills">
+                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
+                <ul class="skills-list">
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Vue JS</li>
+                  <li>Node JS</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+ 
+
+
+
+
+
+        </section>
+
+        <section class="row container" style="margin: 0 auto;padding:0;">
+          <div class="card">
+            <div class="card-header pl-3 pr-3">
+              <h1 class="heading-edited-center">Web Development</h1>
+              <p class="paragraph-moses">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore voluptatibus quas laboriosam delectus? Autem, esse? Veritatis cupiditate ut architecto quibusdam praesentium incidunt, expedita maxime tenetur, voluptatibus quasi non minima.</p>
+              
+              <div class="skills">
+                <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Skills</h5>
+                <ul class="skills-list">
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>Vue JS</li>
+                  <li>Node JS</li>
+                  <li>PHP</li>
+                  <li>Python</li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+              <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mr-4" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card" style="border-radius:1rem;">
+                    <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" />
+
+                    <div class="card-body">
+                      <h2 class="card-title">E-Governance Solution</h2>
+                      <p class="paragraph-moses">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolorem inventore sunt quod assumenda hic praesentium similique facere quasi. Vel, dicta pariatur. Dolorem neque minus esse ea. Deleniti, doloremque mollitia.</p>
+                      <div class="d-flex justify-content-end">
+                        <a href="#" class="btn btn-primary">View More</a>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+ 
+
+
+
+
+
+        </section>
 
     
     <section class="about">
