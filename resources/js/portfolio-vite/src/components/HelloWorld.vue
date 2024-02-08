@@ -236,7 +236,9 @@ const count = ref(0);
     <section class="row container" style="margin: 0 auto; padding: 0">
       <div class="card">
         <div class="card-header pl-3 pr-3">
-          <h1 class="heading-edited-center">Web Development</h1>
+          <h1 class="heading-edited-center">Services</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h3 class="">Web Development</h3>
           <p class="paragraph-moses">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore
             voluptatibus quas laboriosam delectus? Autem, esse? Veritatis
