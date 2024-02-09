@@ -1,51 +1,52 @@
 <script>
-import { useRoute } from 'vue-router'
+import { useRoute } from "vue-router";
 
 const view_more_data = {
-    mtetezi:{
-        title:'lsdfdo',
-        url:'sadsa',
-        stack: ['','']
-    },
-    wild:{
-        title: 'EDRMS',
-        url: '/images/WILD_FINAL.mp4',
-        stack: ['Python', 'Django', 'Docker', 'Postgres', 'Redis'],
-        solution: 'Innovative solution that facilitates centralised access to documents, version and access controls improving access to documents, streamlining operations and improving productivity',
-        project: 'Automate document-centric processes such as approval workflows, review cycles, and document sharing, streamlining business operations and improving productivity. Inaccuracy and operational inefficiency while handling documents in an organization',
-        problem: 'Lack of visibility of incidents in conservancies in protected and community areas',
-        services_provided: [
-            'Needs assessment',
-            'Data Migration',
-            'Training',
-            'API Integration'
-            ]
-    }
-}
+  mtetezi: {
+    title: "lsdfdo",
+    url: "sadsa",
+    stack: ["", ""],
+  },
+  wild: {
+    title: "EDRMS",
+    url: "/images/WILD_FINAL.mp4",
+    stack: ["Python", "Django", "Docker", "Postgres", "Redis"],
+    solution:
+      "Innovative solution that facilitates centralised access to documents, version and access controls improving access to documents, streamlining operations and improving productivity",
+    project:
+      "Automate document-centric processes such as approval workflows, review cycles, and document sharing, streamlining business operations and improving productivity. Inaccuracy and operational inefficiency while handling documents in an organization",
+    problem:
+      "Lack of visibility of incidents in conservancies in protected and community areas",
+    services_provided: [
+      "Needs assessment",
+      "Data Migration",
+      "Training",
+      "API Integration",
+    ],
+  },
+};
 
 export default {
-  props:{
+  props: {
     title: String,
   },
   setup() {
-    const route = useRoute()
+    const route = useRoute();
 
     return {
-        more_data:view_more_data[route.query.current]
-    }
+      more_data: view_more_data[route.query.current],
+    };
   },
 
-  async mounted(){
-    console.log("Mounted called")
-    console.log(this.more_data)
-
-  }
+  async mounted() {
+    console.log("Mounted called");
+    console.log(this.more_data);
+  },
 };
 </script>
 
 <template>
   <div>
-
     <header class="header">
       <a href="#" class="logo"
         ><img
@@ -79,8 +80,8 @@ export default {
       </nav>
     </header>
 
-    <header style="max-width: 1140px;margin:81px auto 0 auto;">
-        <h1>{{ more_data.title }}</h1>
+    <header style="max-width: 1140px; margin: 81px auto 0 auto">
+      <h1>{{ more_data.title }}</h1>
     </header>
 
     <div
@@ -107,13 +108,22 @@ export default {
       </video>
     </div>
 
-    <div class="mt-3" style="max-width: 1140px;border:3px solid black;margin:0 auto;">
+
+
+    <div
+      class="mt-3"
+      style="max-width: 1140px; border: 3px solid black; margin: 0 auto"
+    >
       <div class="d-flex flex-row">
         <div class="flex-basis-30">
           <h2>Stacks</h2>
         </div>
         <div class="flex-basis-70">
-          <p>{{ more_data.stack }}</p>
+          <ul>
+            <li v-for="(item, index) in more_data.stack" :key="index">
+              {{ item }}
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -141,7 +151,6 @@ export default {
         </div>
         <div class="flex-basis-70">
           <p>{{ more_data.solution }}</p>
-
         </div>
       </div>
 
@@ -150,8 +159,14 @@ export default {
           <h2>Services Provided</h2>
         </div>
         <div class="flex-basis-70">
-          <p>{{ more_data.services_provided }}</p>
-
+          <ul>
+            <li
+              v-for="(item, index) in more_data.services_provided"
+              :key="index"
+            >
+              {{ item }}
+            </li>
+          </ul>
         </div>
       </div>
     </div>
