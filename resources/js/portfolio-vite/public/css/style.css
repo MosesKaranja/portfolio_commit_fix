@@ -124,6 +124,16 @@ body{
     min-width: 250px; /* Sets a minimum width for each column to maintain readability */
 }
 
+.flex-basis-30{
+    flex-basis: 30%;
+
+}
+
+.flex-basis-70{
+    flex-basis: 70%;
+    
+}
+
 
 
 @media (max-width: 768px){

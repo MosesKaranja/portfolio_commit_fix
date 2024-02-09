@@ -82,9 +82,6 @@ $('.accordion-header').click(function(){
 });
 
 });
-console.log("Show Something")
-
-document.getElementById("home-link").classList.add("link-hover")
 
 function linkClicked(item_clicked){
 

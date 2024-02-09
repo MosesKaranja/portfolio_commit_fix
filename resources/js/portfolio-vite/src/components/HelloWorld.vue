@@ -1,6 +1,16 @@
 <script setup>
 import { ref } from "vue";
+
 import Carousel from "./Carousel.vue";
+
+// import ViewMore from "../views/ViewMore.vue";
+// export default{
+//   components:{
+//     ViewMore,
+
+//   }
+// }
+
 
 $(document).ready(function () {
   $(".clients-carousel").owlCarousel({
@@ -298,6 +308,7 @@ const count = ref(0);
                 </p>
                 <div class="d-flex justify-content-end">
                   <a href="#" class="btn btn-primary">View More</a>
+    
                 </div>
               </div>
             </div>
@@ -357,7 +368,8 @@ const count = ref(0);
                   of sifting through piles of papers or digital folders.
                 </p>
                 <div class="d-flex justify-content-end">
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <router-link :to="{query:{current: 'wild'}, name: 'ViewMore', }"><a href="#" class="btn btn-primary">View More</a></router-link>
+                  
                 </div>
               </div>
             </div>
