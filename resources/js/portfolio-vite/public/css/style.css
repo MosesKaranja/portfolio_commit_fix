@@ -45,8 +45,48 @@ body{
     color: #EC7D30;
     letter-spacing: .2rem;
     padding-bottom: 1rem;
-    text-align: center;
+    text-align: justify;
 
+}
+
+.heading-edited-grey{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #808080 ;
+    letter-spacing: .2rem;
+    padding: 1rem 1rem;
+    text-align: left;
+
+}
+
+.view-more-text{
+    text-align:left;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    color: #444;
+    font-size:1.8rem;
+    
+}
+
+.view-more-list{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+
+}
+
+.view-more-list li{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+    color: #333;
+    font-size:1.8rem;
 }
 
 .heading-edited-left{
@@ -125,13 +165,18 @@ body{
 }
 
 .flex-basis-30{
-    flex-basis: 30%;
+    flex-basis: 23%;
 
 }
 
 .flex-basis-70{
     flex-basis: 70%;
-    
+
+}
+
+.flex-basis-85{
+    flex-basis: 80%;
+
 }
 
 
@@ -1794,6 +1839,7 @@ body{
         color: #333;
         padding: 1rem 0;
     } 
+
 
     .clients {
         position: relative;

@@ -220,7 +220,7 @@ const count = ref(0);
     <section
       id="about"
       class="about"
-      style="border: 3px solid black; max-width: 1140px; margin: 0 auto"
+      style="max-width: 1140px; margin: 0 auto"
     >
       <section id="home" class="">
         <h1 class="heading">About Us</h1>
