@@ -263,7 +263,7 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 color: grey;
                 ;
               "
@@ -274,15 +274,16 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.8rem">REACT</li>
-              <li style="color: black; font-size: 1.8rem">ANGULAR</li>
-              <li style="color: black; font-size: 1.8rem">VUE JS</li>
-              <li style="color: black; font-size: 1.8rem">NODE JS</li>
-              <li style="color: black; font-size: 1.8rem">PHP</li>
-              <li style="color: black; font-size: 1.8rem">PYTHON</li>
+              <li style="color: black; font-size: 1.5rem">REACT</li>
+              <li style="color: black; font-size: 1.5rem">ANGULAR</li>
+              <li style="color: black; font-size: 1.5rem">VUE JS</li>
+              <li style="color: black; font-size: 1.5rem">NODE JS</li>
+              <li style="color: black; font-size: 1.5rem">PHP</li>
+              <li style="color: black; font-size: 1.5rem">PYTHON</li>
             </ul>
           </div>
-          <h5 class="" style="font-size: 2.5rem;color: #808080;">Projects</h5>
+          <br>
+          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div> 
        
         <div class="card-body">
@@ -417,7 +418,7 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 2.5rem;
+                font-size: 2.0rem;
                 color: grey;
                 background-color: transparent;
               "
@@ -428,9 +429,9 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.8rem">ANDROID MOBILE DEVELOPMENT</li>
-              <li style="color: black; font-size: 1.8rem">IOS MOBILE DEVELOPMENT</li>
-              <li style="color: black; font-size: 1.8rem">FLUTTER DEVELOPMENT</li> 
+              <li style="color: black; font-size: 1.5rem">ANDROID MOBILE DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.5rem">IOS MOBILE DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.5rem">FLUTTER DEVELOPMENT</li> 
             </ul>
           </div>
         </div>
@@ -555,7 +556,7 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 color: grey;
                 background-color: transparent;
               "
@@ -566,10 +567,10 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.8rem">JAVA</li>
-              <li style="color: black; font-size: 1.8rem">POSTGRES</li>
-              <li style="color: black; font-size: 1.8rem">VUE JS</li>
-              <li style="color: black; font-size: 1.8rem">SPRINGBOOT</li>  
+              <li style="color: black; font-size: 1.5rem">JAVA</li>
+              <li style="color: black; font-size: 1.5rem">POSTGRES</li>
+              <li style="color: black; font-size: 1.5rem">VUE JS</li>
+              <li style="color: black; font-size: 1.5rem">SPRINGBOOT</li>  
             </ul>
           </div>
         </div>
@@ -695,7 +696,7 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 color: grey;
                 background-color: transparent;
               "
@@ -706,11 +707,11 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.8rem">E-COMMERCE WEB DEVELOPMENT</li>
-              <li style="color: black; font-size: 1.8rem">SHOPIFY</li>
-              <li style="color: black; font-size: 1.8rem">WORDPRESS</li>
-              <li style="color: black; font-size: 1.8rem">PRESTASHOP</li>
-              <li style="color: black; font-size: 1.8rem">PLUGIN DEVELOPMENT</li>  
+              <li style="color: black; font-size: 1.5rem">E-COMMERCE WEB DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.5rem">SHOPIFY</li>
+              <li style="color: black; font-size: 1.5rem">WORDPRESS</li>
+              <li style="color: black; font-size: 1.5rem">PRESTASHOP</li>
+              <li style="color: black; font-size: 1.5rem">PLUGIN DEVELOPMENT</li>  
             </ul>
           </div>
         </div>
