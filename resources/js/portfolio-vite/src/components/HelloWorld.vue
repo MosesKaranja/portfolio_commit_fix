@@ -242,10 +242,12 @@ const count = ref(0);
       </section>
     </section>
 
-    <section class="row container" style="margin: 0 auto; padding: 0">
-      <div class="card">
+    <div> <h1 class="heading-edited-center">Services</h1></div>
+
+    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0; border-radius: 10px;">
+      <div class="card p-5">
         <div class="card-header pl-3 pr-3">
-          <h1 class="heading-edited-center">Services</h1>
+          
           <h1 class="">Web Development</h1>
           <p class="paragraph-moses">
             We collaborate closely with our clients to understand their goals,
@@ -261,9 +263,9 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 1.5rem;
-                color: black;
-                background-color: transparent;
+                font-size: 2.5rem;
+                color: grey;
+                ;
               "
             >
               Skills
@@ -272,16 +274,17 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.2rem">React</li>
-              <li style="color: black; font-size: 1.2rem">Angular</li>
-              <li style="color: black; font-size: 1.2rem">Vue JS</li>
-              <li style="color: black; font-size: 1.2rem">Node JS</li>
-              <li style="color: black; font-size: 1.2rem">PHP</li>
-              <li style="color: black; font-size: 1.2rem">Python</li>
+              <li style="color: black; font-size: 1.8rem">REACT</li>
+              <li style="color: black; font-size: 1.8rem">ANGULAR</li>
+              <li style="color: black; font-size: 1.8rem">VUE JS</li>
+              <li style="color: black; font-size: 1.8rem">NODE JS</li>
+              <li style="color: black; font-size: 1.8rem">PHP</li>
+              <li style="color: black; font-size: 1.8rem">PYTHON</li>
             </ul>
           </div>
-        </div>
-
+          <h5 class="" style="font-size: 2.5rem;color: #808080;">Projects</h5>
+        </div> 
+       
         <div class="card-body">
           <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
@@ -402,10 +405,9 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row container" style="margin: 0 auto; padding: 0">
-      <div class="card">
-        <div class="card-header pl-3 pr-3">
-          <h1 class="heading-edited-center">Services</h1>
+    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
+      <div class="card p-5" >
+        <div class="card-header pl-3 pr-3"> 
           <h1 class="">Mobile Development</h1>
           <p class="paragraph-moses">
             In a world where mobile is king, we assist clients to have a standout presence in the palm of their customers’ hands. With our team of UX, UI Designers, developers and project management experts encompassing a blend of technical and  problem solving skills, we revolutionize  mobile user experience with our intuitive, secure and scalable mobile applications.
@@ -415,8 +417,8 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 1.5rem;
-                color: black;
+                font-size: 2.5rem;
+                color: grey;
                 background-color: transparent;
               "
             >
@@ -426,9 +428,9 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.2rem">Android Mobile Development</li>
-              <li style="color: black; font-size: 1.2rem">iOS Mobile Development</li>
-              <li style="color: black; font-size: 1.2rem">Flutter Development Kit</li> 
+              <li style="color: black; font-size: 1.8rem">ANDROID MOBILE DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.8rem">IOS MOBILE DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.8rem">FLUTTER DEVELOPMENT</li> 
             </ul>
           </div>
         </div>
@@ -541,10 +543,9 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row container" style="margin: 0 auto; padding: 0">
-      <div class="card">
+    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
+      <div class="card p-5">
         <div class="card-header pl-3 pr-3">
-          <h1 class="heading-edited-center">Services</h1>
           <h1 class="">Enterprise Applications</h1>
           <p class="paragraph-moses">
             We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including Human Resource, Procurement, Document Management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver.
@@ -554,8 +555,8 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 1.5rem;
-                color: black;
+                font-size: 2.5rem;
+                color: grey;
                 background-color: transparent;
               "
             >
@@ -565,10 +566,10 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.2rem">Java</li>
-              <li style="color: black; font-size: 1.2rem">Postgres</li>
-              <li style="color: black; font-size: 1.2rem">VueJs</li>
-              <li style="color: black; font-size: 1.2rem">SpringBoot</li>  
+              <li style="color: black; font-size: 1.8rem">JAVA</li>
+              <li style="color: black; font-size: 1.8rem">POSTGRES</li>
+              <li style="color: black; font-size: 1.8rem">VUE JS</li>
+              <li style="color: black; font-size: 1.8rem">SPRINGBOOT</li>  
             </ul>
           </div>
         </div>
@@ -681,10 +682,10 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row container" style="margin: 0 auto; padding: 0">
-      <div class="card">
+    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
+      <div class="card p-5">
         <div class="card-header pl-3 pr-3">
-          <h1 class="heading-edited-center">Services</h1>
+         
           <h1 class="">No/Low App Building</h1>
           <p class="paragraph-moses">
             We revolutionize the way our clients build solutions for their business by unleashing the power of low/no-code development to assist clients unlock their full brand potential on the web and achieve unparalleled agility. We leverage new tools and technologies in the dynamic field of low/no code to craft creative solutions by designing user-friendly interfaces and unique workflows for our clients.
@@ -694,8 +695,8 @@ const count = ref(0);
             <h5
               class=""
               style="
-                font-size: 1.5rem;
-                color: black;
+                font-size: 2.5rem;
+                color: grey;
                 background-color: transparent;
               "
             >
@@ -705,11 +706,11 @@ const count = ref(0);
               class="skills-list"
               style="list-style-type: none; padding-left: 0"
             >
-              <li style="color: black; font-size: 1.2rem">E-COMMERCE WEB DEVELOPMENT</li>
-              <li style="color: black; font-size: 1.2rem">SHOPIFY</li>
-              <li style="color: black; font-size: 1.2rem">WORDPRESS</li>
-              <li style="color: black; font-size: 1.2rem">PRESTASHOP</li>
-              <li style="color: black; font-size: 1.2rem">PLUGIN DEVELOPMENT</li>  
+              <li style="color: black; font-size: 1.8rem">E-COMMERCE WEB DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.8rem">SHOPIFY</li>
+              <li style="color: black; font-size: 1.8rem">WORDPRESS</li>
+              <li style="color: black; font-size: 1.8rem">PRESTASHOP</li>
+              <li style="color: black; font-size: 1.8rem">PLUGIN DEVELOPMENT</li>  
             </ul>
           </div>
         </div>
