@@ -687,7 +687,7 @@ const count = ref(0);
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
          
-          <h1 class="">No/Low App Building</h1>
+          <h1 class="">No/Low Code Building</h1>
           <p class="paragraph-moses">
             We revolutionize the way our clients build solutions for their business by unleashing the power of low/no-code development to assist clients unlock their full brand potential on the web and achieve unparalleled agility. We leverage new tools and technologies in the dynamic field of low/no code to craft creative solutions by designing user-friendly interfaces and unique workflows for our clients.
           </p>
