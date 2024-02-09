@@ -11,7 +11,6 @@ import Carousel from "./Carousel.vue";
 //   }
 // }
 
-
 $(document).ready(function () {
   $(".clients-carousel").owlCarousel({
     loop: true,
@@ -259,20 +258,28 @@ const count = ref(0);
           </p>
 
           <div class="skills">
-  <h5 class="" style="font-size: 1.5rem; color: black; background-color: transparent;">
-    Skills
-  </h5>
-  <ul class="skills-list" style="list-style-type: none; padding-left: 0;">
-    <li style="color: black; font-size: 1.2rem;">React</li>
-    <li style="color: black; font-size: 1.2rem;">Angular</li>
-    <li style="color: black; font-size: 1.2rem;">Vue JS</li>
-    <li style="color: black; font-size: 1.2rem;">Node JS</li>
-    <li style="color: black; font-size: 1.2rem;">PHP</li>
-    <li style="color: black; font-size: 1.2rem;">Python</li>
-  </ul>
-</div>
-
-
+            <h5
+              class=""
+              style="
+                font-size: 1.5rem;
+                color: black;
+                background-color: transparent;
+              "
+            >
+              Skills
+            </h5>
+            <ul
+              class="skills-list"
+              style="list-style-type: none; padding-left: 0"
+            >
+              <li style="color: black; font-size: 1.2rem">React</li>
+              <li style="color: black; font-size: 1.2rem">Angular</li>
+              <li style="color: black; font-size: 1.2rem">Vue JS</li>
+              <li style="color: black; font-size: 1.2rem">Node JS</li>
+              <li style="color: black; font-size: 1.2rem">PHP</li>
+              <li style="color: black; font-size: 1.2rem">Python</li>
+            </ul>
+          </div>
         </div>
 
         <div class="card-body">
@@ -306,8 +313,12 @@ const count = ref(0);
                   efficiency, effectiveness, and transparency like never before.
                 </p>
                 <div class="d-flex justify-content-end">
-                  <a href="#" class="btn btn-primary">View More</a>
-    
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
                 </div>
               </div>
             </div>
@@ -337,144 +348,16 @@ const count = ref(0);
                   conservationists collect.
                 </p>
                 <div class="d-flex justify-content-end">
-                  <section
-                    class="row container"
-                    style="margin: 0 auto; padding: 0"
+                  <router-link
+                    :to="{
+                      query: { current: 'eConservancy' },
+                      name: 'ViewMore',
+                    }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
                   >
-                    <!-- Existing content -->
-
-                    <div class="card-body">
-                      <!-- Other content -->
-
-                      <div class="d-flex flex-row pl-3 pr-3" id="experiment">
-                        <!-- Your existing cards -->
-
-                        <!-- Example for one card -->
-                        <div class="card mr-4" style="border-radius: 1rem">
-                          <!-- Card content -->
-
-                          <div class="card-body">
-                            <!-- Card body content -->
-                            <div class="d-flex justify-content-end">
-                              <!-- Button trigger modal -->
-                              <button
-                                type="button"
-                                class="btn btn-primary"
-                                data-toggle="modal"
-                                data-target="#exampleModalLong"
-                              >
-                                View More
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModalLong"
-                    tabindex="-1"
-                    role="dialog"
-                    aria-labelledby="exampleModalLongTitle"
-                    aria-hidden="true"
                   >
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLongTitle">
-                            E-Conservancy Solution
-                          </h5>
-                          <button
-                            type="button"
-                            class="close"
-                            data-dismiss="modal"
-                            aria-label="Close"
-                          >
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <!-- Your detailed information here -->
-                          <h3>E-Conservancy Solution</h3>
-                          <video
-                            oncontextmenu="return false;"
-                            width="320"
-                            height="240"
-                            controls
-                          >
-                            <source
-                              src="/images/My Businesses Done.mp4"
-                              type="video/mp4"
-                              style="border-radius: 1rem"
-                              alt="E-Conservancy Solution"
-                            />
-                          </video>
-                          <p>
-                            Our solution is in the forefront of conservation
-                            technology. It is a state-of-the-art web platform
-                            with a mobile app designed specifically for
-                            conservancies in protected and community areas. Our
-                            platform revolutionizes the way conservationists
-                            collect, analyze, and respond to critical
-                            information in real-time.
-                          </p>
-
-                          <p>
-                            by collecting and sending live data, flagging
-                            incidents, facilitating seamless communication
-                            between different teams and monitoring impact over
-                            time. Therefore, ensuring the preservation of our
-                            planet's most precious natural habitats and
-                            wildlife.
-                          </p>
-
-                          <h4>Video Script Stack</h4>
-                          <ul>
-                            <li>PHP</li>
-                            <li>JAVA</li>
-                            <li>ANDROID</li>
-                          </ul>
-                          <h4>Project</h4>
-                          <p>
-                            Developing an off the shelf data collection and
-                            reporting tool that can assist data management of
-                            conservancies in protected and community areas.
-                          </p>
-                          <h4>Problem</h4>
-                          <p>
-                            Lack of visibility of incidents in conservancies in
-                            protected and community areas.
-                          </p>
-                          <h4>Solution</h4>
-                          <p>
-                            A mobile App that tracks and reports units’ movement
-                            by taking GPS points and overlaying them on Google
-                            maps, Creating visibility of incidents in the
-                            conservancies including; poaching; animal mortality;
-                            Human-Wildlife Conflict (HWC); community service.
-                          </p>
-                          <h4>Services Provided</h4>
-                          <ul>
-                            <li>Backend Development</li>
-                            <li>GIS Integration</li>
-                          </ul>
-                        </div>
-                        <div class="modal-footer">
-                          <button
-                            type="button"
-                            class="btn btn-secondary"
-                            data-dismiss="modal"
-                          >
-                            Close
-                          </button>
-                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -504,8 +387,12 @@ const count = ref(0);
                   of sifting through piles of papers or digital folders.
                 </p>
                 <div class="d-flex justify-content-end">
-                  <router-link :to="{query:{current: 'wild'}, name: 'ViewMore', }"><a href="#" class="btn btn-primary">View More</a></router-link>
-                  
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
                 </div>
               </div>
             </div>

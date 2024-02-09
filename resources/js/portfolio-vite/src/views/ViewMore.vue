@@ -30,7 +30,7 @@ const view_more_data = {
             ]
     },
 
-    wild:{
+    eConservancy:{
         title: 'eConservancy Solution',
         url: '/images/LoginTakeRec.mp4',
         stack: ['PHP', 'JAVA', 'ANDROID', 'MYSQL'],
@@ -49,24 +49,24 @@ const view_more_data = {
             ]
     },
 
-    wild:{
-        title: 'EDRMS',
-        url: '/images/WILD_FINAL.mp4',
-        stack: ['Python', 'Django', 'Docker', 'Postgres', 'Redis'],
+    // wild:{
+    //     title: 'EDRMS',
+    //     url: '/images/WILD_FINAL.mp4',
+    //     stack: ['Python', 'Django', 'Docker', 'Postgres', 'Redis'],
         
-        project: 'Automate document-centric processes such as approval workflows, review cycles, and document sharing, streamlining business operations and improving productivity. Inaccuracy and operational inefficiency while handling documents in an organization',
-        problem: 'Lack of visibility of incidents in conservancies in protected and community areas',
+    //     project: 'Automate document-centric processes such as approval workflows, review cycles, and document sharing, streamlining business operations and improving productivity. Inaccuracy and operational inefficiency while handling documents in an organization',
+    //     problem: 'Lack of visibility of incidents in conservancies in protected and community areas',
 
-        solution: 'Innovative solution that facilitates centralised access to documents, version and access controls improving access to documents, streamlining operations and improving productivity',
+    //     solution: 'Innovative solution that facilitates centralised access to documents, version and access controls improving access to documents, streamlining operations and improving productivity',
         
         
-        services_provided: [
-            'Needs assessment',
-            'Data Migration',
-            'Training',
-            'API Integration'
-            ]
-    },
+    //     services_provided: [
+    //         'Needs assessment',
+    //         'Data Migration',
+    //         'Training',
+    //         'API Integration'
+    //         ]
+    // },
 
     JusticeLens:{
         title: 'EDRMS',
@@ -208,7 +208,7 @@ export default {
     </header>
 
     <header style="max-width: 1140px; margin: 81px auto 0 auto">
-      <h1>{{ more_data.title }}</h1>
+      <h1 class="heading-edited-center">{{ more_data.title }}</h1>
     </header>
 
     <div
