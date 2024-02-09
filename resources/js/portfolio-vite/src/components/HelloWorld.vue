@@ -52,14 +52,7 @@ const count = ref(0);
             <a href="#about" id="about-link">About Us</a>
           </li>
           <li onclick="linkClicked('skills')">
-            <a href="#skills" id="skills-link">Skills/Expertise</a>
-          </li>
-
-          <li onclick="linkClicked('products')">
-            <a href="#products" id="product-link">Products</a>
-          </li>
-          <li onclick="linkClicked('our_work')">
-            <a href="#service" id="service-link">Our Work</a>
+            <a href="#skills" id="skills-link">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>
@@ -434,6 +427,8 @@ const count = ref(0);
               <li style="color: black; font-size: 1.5rem">FLUTTER DEVELOPMENT</li> 
             </ul>
           </div>
+          <br>
+          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div>
 
         <div class="card-body">
@@ -573,6 +568,8 @@ const count = ref(0);
               <li style="color: black; font-size: 1.5rem">SPRINGBOOT</li>  
             </ul>
           </div>
+          <br>
+          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div>
 
         <div class="card-body">
@@ -714,6 +711,8 @@ const count = ref(0);
               <li style="color: black; font-size: 1.5rem">PLUGIN DEVELOPMENT</li>  
             </ul>
           </div>
+          <br>
+          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div>
 
         <div class="card-body">
