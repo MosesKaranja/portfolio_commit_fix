@@ -390,6 +390,7 @@ const count = ref(0);
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
                     ><a href="#" class="btn btn-primary"
+                    
                       >View More</a
                     ></router-link
                   >
@@ -401,372 +402,425 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="about">
-      <div class="row" id="skills">
-        <h1 class="heading">Consulting Skills</h1>
-      </div>
-      <div class="row consulting-skills">
-        <!-- Consulting Skills Grid -->
-        <div class="col-lg-4 col-sm-6">
-          <div class="item">
-            <h6>Web Development</h6>
-            <p>
-              Website development solutions such as dynamic E-commerce
-              websites,Content Management Systems (CMS),bespoke web
-              applications,insightful reporting dashboards and comprehensive
-              website maintenance and support services.<br /><br />SKills<br />HTML,
-              CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
-              Django, Ruby on Rails, Express.js MySQL, PostgreSQL,MongoDB
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item">
-            <h6>Mobile Development</h6>
-            <p>
-              We have Extensive experience in creating dynamic software
-              applications that run on mobile devices. We pride in development
-              of native, cross platform native and hybrid mobile applications as
-              well as progress web applications.<br /><br />Skills<br />
-              JavaScript, Android/IOs, Kotlin,JavaScript,Kotlin/RESTful
-              APIs,Mobile libraries for networking, Profilling and deubbing
-              mobile applications
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item">
-            <h6>Project Management</h6>
-            <p>
-              We possess Comprehensive project management expertise,
-              underscoring our commitment to delivering successful outcomes for
-              our clients through seamless planning, execution, and completion
-              of projects, utilizing industry-best practices and
-              methodologies.<br /><br />Skills<br />
+    <section class="row container" style="margin: 0 auto; padding: 0">
+      <div class="card">
+        <div class="card-header pl-3 pr-3">
+          <h1 class="heading-edited-center">Services</h1>
+          <h1 class="">Mobile Development</h1>
+          <p class="paragraph-moses">
+            In a world where mobile is king, we assist clients to have a standout presence in the palm of their customers’ hands. With our team of UX, UI Designers, developers and project management experts encompassing a blend of technical and  problem solving skills, we revolutionize  mobile user experience with our intuitive, secure and scalable mobile applications.
+          </p>
 
-              Leadership Skills, Stakeholder Management, Client Management,
-              Agile,Scrum,Kanban,Waterfall,ITIL,PRINCE2, Google
-              Workspace,Microsoft Project,Jira,Asana,Trello,Clickup,Monday.com.
-            </p>
+          <div class="skills">
+            <h5
+              class=""
+              style="
+                font-size: 1.5rem;
+                color: black;
+                background-color: transparent;
+              "
+            >
+              Skills
+            </h5>
+            <ul
+              class="skills-list"
+              style="list-style-type: none; padding-left: 0"
+            >
+              <li style="color: black; font-size: 1.2rem">Android Mobile Development</li>
+              <li style="color: black; font-size: 1.2rem">iOS Mobile Development</li>
+              <li style="color: black; font-size: 1.2rem">Flutter Development Kit</li> 
+            </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item">
-            <h6>System Testing</h6>
-            <p>
-              We have extensive Knowledge and experience in manual and automated
-              testing of software applications to evaluate their compliance to
-              system requirements and end user needs.<br /><br />Skills<br />
-              Understanding pr software applications testing process, Experience
-              in Development of Test plans, Hands-on experience with automated
-              testing tools like Master selenium and Manual Testing.
 
-              <br /><br />System Training and Support<br />
-              We have a proven record in system end user training and level 1&2
-              system support. Prepare Training Manuals System User training
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item">
-            <h6>UI/UX Designing</h6>
-            <p>
-              We work with clients to understand their data and formats they
-              would want such data presented. This include converting manual to
-              digital data, cleaning existing digital data as well as analysis
-              the data to achieve client’s needs.<br /><br />Skills<br />
-              SSL implementation, User Experience (UX) and User Interface (UI)
-              Design, Theme Development and Customization
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item">
-            <h6>Data Entry</h6>
-            <p>
-              We work with clients to understand their data and formats they
-              would want such data presented. This include converting manual to
-              digital data, cleaning existing digital data as well as analysis
-              the data to achieve client’s needs.<br /><br />Skills<br />
-              Typing, Data Conversion/ Formatting/Cleanup, Transcription, Data
-              Analysis.
-            </p>
+        <div class="card-body">
+          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/eGov Portfolio Video.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="e-Governance Revenue Management System (eRMS)"
+                />
+              </video>
+
+              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
+
+              <div class="card-body">
+                <h2 class="card-title">JusticeLens</h2>
+                <p class="paragraph-moses">
+                  Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/My Businesses Done.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
+
+              <div class="card-body">
+                <h2 class="card-title">Exam Revision Game App</h2>
+                <p class="paragraph-moses">
+                  Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement. 
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{
+                      query: { current: 'eConservancy' },
+                      name: 'ViewMore',
+                    }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/WILD_FINAL.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
+
+              <div class="card-body">
+                <h2 class="card-title">Tax eCompliance </h2>
+                <p class="paragraph-moses">
+                  Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                    
+                      >View More</a
+                    ></router-link
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div id="products" class="pt-5 mt-8">
-      <div class="pt-5" style="background-color: #f2f2f2">
-        <div class="container">
-          <div class="row">
-            <div class="section-head col-sm-12">
-              <h1>Products</h1>
-              <p>
-                We help you to build high-quality digital solutions and products
-                as well as deliver a wide range of related professional
-                services. We are providing world-class service to our clients.
-              </p>
-            </div>
+    <section class="row container" style="margin: 0 auto; padding: 0">
+      <div class="card">
+        <div class="card-header pl-3 pr-3">
+          <h1 class="heading-edited-center">Services</h1>
+          <h1 class="">Enterprise Applications</h1>
+          <p class="paragraph-moses">
+            We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including Human Resource, Procurement, Document Management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver.
+          </p>
 
-            <div class="col-lg-4 col-sm-6">
-              <div class="container">
-                <div class="row">
-                  <div class="item" style="border: 2px solid black">
-                    <span style="margin: auto" class="icon feature_box_col_one"
-                      ><i class="fa fa-laptop"></i
-                    ></span>
+          <div class="skills">
+            <h5
+              class=""
+              style="
+                font-size: 1.5rem;
+                color: black;
+                background-color: transparent;
+              "
+            >
+              Skills
+            </h5>
+            <ul
+              class="skills-list"
+              style="list-style-type: none; padding-left: 0"
+            >
+              <li style="color: black; font-size: 1.2rem">Java</li>
+              <li style="color: black; font-size: 1.2rem">Postgres</li>
+              <li style="color: black; font-size: 1.2rem">VueJs</li>
+              <li style="color: black; font-size: 1.2rem">SpringBoot</li>  
+            </ul>
+          </div>
+        </div>
 
-                    <h6>Web App Development</h6>
-                    <p>
-                      Our Custom Web Development Services Include Both Front-End
-                      And Back-End Development. Whether It Is Enhancing An
-                      Existing App Or Architecting An Enterprise App, Our
-                      Developers Are Up For The Challenge.
-                    </p>
-                  </div>
+        <div class="card-body">
+          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/eGov Portfolio Video.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="e-Governance Revenue Management System (eRMS)"
+                />
+              </video>
+
+              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
+
+              <div class="card-body">
+                <h2 class="card-title">Business Process Management (BPM</h2>
+                <p class="paragraph-moses">
+                  Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-sm-6">
-              <div class="container">
-                <div class="row">
-                  <div class="item" style="border: 2px solid black">
-                    <span style="margin: auto" class="icon feature_box_col_one"
-                      ><i class="fa fa-laptop"></i
-                    ></span>
-                    <h6>Revenue Management System</h6>
-                    <p>
-                      We Have Expertise In Creating Multi-Platform Revenue
-                      Management Systems, Solutions For Both Android And IOS
-                      Devices. Using Laravel, Vue js, We Offer Custom Web Apps
-                      That Runs Smoothly On Multiple Platforms.
-                    </p>
-                  </div>
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/My Businesses Done.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
+
+              <div class="card-body">
+                <h2 class="card-title">eProcurement</h2>
+                <p class="paragraph-moses">
+                  Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement. 
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{
+                      query: { current: 'eConservancy' },
+                      name: 'ViewMore',
+                    }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
+                  >
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="item" style="border: 2px solid black">
-                <span style="margin: auto" class="icon feature_box_col_two"
-                  ><i class="fa fa-android"></i
-                ></span>
-                <h6>Web Portals</h6>
-                <p>
-                  We Have Expertise In Creating Multi-Platform Web Apps
-                  Solutions For Both Android And IOS Devices. Using Laravel, Vue
-                  Js, And React Native, We Offer Custom Mobile App That Runs
-                  Smoothly On Multiple Platforms.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="item" style="border: 2px solid black">
-                <span style="margin: auto" class="icon feature_box_col_two"
-                  ><i class="fa fa-android"></i
-                ></span>
-                <h6>Wildlife Conservancy Systems</h6>
-                <p>
-                  The Wildlife Conservancy Systems that we provide have their
-                  own set of charms.
-                </p>
-              </div>
-            </div>
 
-            <div class="col-lg-4 col-sm-6">
-              <div class="item" style="border: 2px solid black">
-                <span style="margin: auto" class="icon feature_box_col_two"
-                  ><i class="fa fa-magic"></i
-                ></span>
-                <h6>Business Process Management Systems(BPM)</h6>
-                <p>
-                  The Business Process Management Systems(BPM) that we provide
-                  have their own set of charms.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="item" style="border: 2px solid black">
-                <span style="margin: auto" class="icon feature_box_col_two"
-                  ><i class="fa fa-android"></i
-                ></span>
-                <h6>Monitoring & Evaluation Systems(M&E)</h6>
-                <p>
-                  The Monitoring & Evaluation Systems(M&E) that we provide have
-                  their own set of charms.
-                </p>
-              </div>
-            </div>
+            <div class="card" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/WILD_FINAL.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
 
-            <div class="col-lg-4 col-sm-6">
-              <div class="item" style="border: 2px solid black">
-                <span style="margin: auto" class="icon feature_box_col_two"
-                  ><i class="fa fa-android"></i
-                ></span>
-                <h6>Payment Gateway Solutions</h6>
-                <p>
-                  The Payment Gateway Solutions that we provide have their own
-                  set of charms.
+              <div class="card-body">
+                <h2 class="card-title">eHR </h2>
+                <p class="paragraph-moses">
+                  Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish.
                 </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-              <div class="item" style="border: 2px solid black">
-                <span style="margin: auto" class="icon feature_box_col_two"
-                  ><i class="fa fa-android"></i
-                ></span>
-                <h6>Enterprise Resource Planning Systems(ERPs)</h6>
-                <p>
-                  The Enterprise Resource Planning Systems(ERPs) that we provide
-                  have their own set of charms.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-              <div class="item" style="border: 2px solid black">
-                <span style="margin: auto" class="icon feature_box_col_two"
-                  ><i class="fa fa-magic"></i
-                ></span>
-                <h6>
-                  Electronic Document and Records ManagementSystems(EDRMS)
-                </h6>
-                <p>
-                  The Payment Gateway Solutions that we provide have their own
-                  set of charms.
-                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                    
+                      >View More</a
+                    ></router-link
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="pt-5 mt-8" id="service">
-      <div class="pt-5 mt-8">
-        <div class="container">
-          <div class="row">
-            <div class="section-head-1 col-sm-12" style="text-align: center">
-              <h4 style="margin-top: -5rem" id="portfolio">
-                <span>Our</span> Work
-              </h4>
+    <section class="row container" style="margin: 0 auto; padding: 0">
+      <div class="card">
+        <div class="card-header pl-3 pr-3">
+          <h1 class="heading-edited-center">Services</h1>
+          <h1 class="">No/Low App Building</h1>
+          <p class="paragraph-moses">
+            We revolutionize the way our clients build solutions for their business by unleashing the power of low/no-code development to assist clients unlock their full brand potential on the web and achieve unparalleled agility. We leverage new tools and technologies in the dynamic field of low/no code to craft creative solutions by designing user-friendly interfaces and unique workflows for our clients.
+          </p>
 
-              <p>
-                Explore the dynamic range of our innovative solutions through a
-                collection of videos that highlights the expertise and
-                creativity embedded in our solutions.
-              </p>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="card mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Revenue Collection System</h5>
-                  <video
-                    oncontextmenu="return false;"
-                    width="320"
-                    height="240"
-                    controls
-                  >
-                    <source src="/images/LoginTakeRec.mp4" type="video/mp4" />
-                  </video>
-                  <br />
-                  <a href="#" style="" class="btn btn-primary">View Product</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="card mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">
-                    Electronic Document Management System
-                  </h5>
-                  <video
-                    oncontextmenu="return false;"
-                    width="320"
-                    height="240"
-                    controls
-                  >
-                    <source
-                      src="/images/My Businesses Done.mp4"
-                      type="video/mp4"
-                    />
-                  </video>
-                  <br />
-                  <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="card border-primary mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Wild Management System</h5>
-                  <video
-                    oncontextmenu="return false;"
-                    width="320"
-                    height="240"
-                    controls
-                  >
-                    <source src="/images/WILD_FINAL.mp4" type="video/mp4" />
-                  </video>
-                  <br />
-                  <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="card border-primary mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Payment Gateway System</h5>
-                  <video
-                    oncontextmenu="return false;"
-                    width="320"
-                    height="240"
-                    controls
-                  >
-                    <source
-                      src="/images/payment_gateway.mp4"
-                      type="video/mp4"
-                    />
-                  </video>
-                  <br />
-                  <a href="#" class="btn btn-primary">View Product</a>
-                </div>
-              </div>
-            </div>
+          <div class="skills">
+            <h5
+              class=""
+              style="
+                font-size: 1.5rem;
+                color: black;
+                background-color: transparent;
+              "
+            >
+              Skills
+            </h5>
+            <ul
+              class="skills-list"
+              style="list-style-type: none; padding-left: 0"
+            >
+              <li style="color: black; font-size: 1.2rem">E-COMMERCE WEB DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.2rem">SHOPIFY</li>
+              <li style="color: black; font-size: 1.2rem">WORDPRESS</li>
+              <li style="color: black; font-size: 1.2rem">PRESTASHOP</li>
+              <li style="color: black; font-size: 1.2rem">PLUGIN DEVELOPMENT</li>  
+            </ul>
           </div>
         </div>
 
-        <!-- <section>
-        <div class="pt-5 pb-5">
-          <div class="row">
-            <div class="section-head col-sm-12" id="service">
-              <h1>Our Partners</h1>
+        <div class="card-body">
+          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
-              <div
-                class="owl-carousel clients-carousel"
-                style="text-align: center; justify-content: center"
+          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
               >
-                <img src="/images/img3.png" alt="Partner1 Logo" />
-                <img src="/images/img4.png" alt="Partner2 Logo" />
-                <img src="/images/img5.png" alt="Partner3 Logo" />
-                <img src="/images/img6.png" alt="Partner4 Logo" />
-                <img src="/images/img7.png" alt="Partner5 Logo" />
-                <img src="/images/img8.png" alt="Partner6 Logo" />
-                <img src="/images/img9.png" alt="Partner7 Logo" />
-                <img src="/images/img10.png" alt="Partner6 Logo" />
-                <img src="/images/img11.png" alt="Partner8 Logo" />
-                <img src="/images/img12.png" alt="Partner9 Logo" />
+                <source
+                  src="/images/eGov Portfolio Video.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="e-Governance Revenue Management System (eRMS)"
+                />
+              </video>
+
+              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
+
+              <div class="card-body">
+                <h2 class="card-title">Ecommerce Site</h2>
+                <p class="paragraph-moses">
+                  We created a user-friendly and attractive eCommerce website for the company using Prestashop, a platform that enables fast and easy development with minimal coding. The website allows the company to sell electronic products online and get them delivered to the clients. We also developed a plugin to connect the website with a payment provider, giving the clients a convenient way to pay for their orders.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card mr-4" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/My Businesses Done.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
+
+              <div class="card-body">
+                <h2 class="card-title">Alumni Portal</h2>
+                <p class="paragraph-moses">
+                  Our solution provides an opportunity for continued communication and collaboration between students who have gone through and completed various training programmes. Learning can therefore be enhanced by allowing all participants to share best practices, new developments and seek assistance in their day to day activities. Technology enables the connection of learners globally, increasing the value of the knowledge that can be shared between themselves. 
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{
+                      query: { current: 'eConservancy' },
+                      name: 'ViewMore',
+                    }"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="border-radius: 1rem">
+              <video
+                oncontextmenu="return false;"
+                width="320"
+                height="240"
+                controls
+              >
+                <source
+                  src="/images/WILD_FINAL.mp4"
+                  type="video/mp4"
+                  style="border-radius: 1rem"
+                  alt="eConservancy Solution"
+                />
+              </video>
+
+              <div class="card-body">
+                <h2 class="card-title">Shopify Plugin </h2>
+                <p class="paragraph-moses">
+                  Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    ><a href="#" class="btn btn-primary"
+                    
+                      >View More</a
+                    ></router-link
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </div>
+    </section>
 
         <div class="clients">
           <div class="container">
@@ -1008,8 +1062,8 @@ const count = ref(0);
           <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
         </div>
       </div>
-    </div>
-  </div>
+    
+
 
   <!-- </div> -->
 </template>
