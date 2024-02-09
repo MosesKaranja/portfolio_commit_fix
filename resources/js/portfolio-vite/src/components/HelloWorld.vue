@@ -46,13 +46,18 @@ const count = ref(0);
       <nav class="navbar">
         <ul>
           <li onclick="linkClicked('home')">
-            <a href="#" class="link-hover" id="home-link">Home</a>
+
+          <router-link
+          :to="{ name: 'home' }"
+          href="#" class="link-hover" id="home-link">
+          Home
+          </router-link>
           </li>
           <li onclick="linkClicked('about_us')">
             <a href="#about" id="about-link">About Us</a>
           </li>
           <li onclick="linkClicked('skills')">
-            <a href="#skills" id="skills-link">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>
@@ -551,149 +556,7 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
-      <div class="card p-5">
-        <div class="card-header pl-3 pr-3">
-          <h1 class="">Enterprise Applications</h1>
-          <p class="paragraph-moses">
-            We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including Human Resource, Procurement, Document Management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver.
-          </p>
 
-          <div class="skills">
-            <h5
-              class=""
-              style="
-                font-size: 2.3rem;
-                color: grey;
-                background-color: transparent;
-              "
-            >
-              Skills
-            </h5>
-            <ul
-              class="skills-list"
-              style="list-style-type: none; padding-left: 0"
-            >
-              <li style="color: black; font-size: 1.5rem">JAVA</li>
-              <li style="color: black; font-size: 1.5rem">POSTGRES</li>
-              <li style="color: black; font-size: 1.5rem">VUE JS</li>
-              <li style="color: black; font-size: 1.5rem">SPRINGBOOT</li>  
-            </ul>
-          </div>
-          <br>
-          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
-        </div>
-
-        <div class="card-body">
-          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
-
-          <div class="row" id="experiment">
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/eGov Portfolio Video.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="e-Governance Revenue Management System (eRMS)"
-                />
-              </video>
-
-              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
-
-              <div class="card-body">
-                <h2 class="card-title">Business Process Management (BPM</h2>
-                <p class="paragraph-moses">
-                  Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens.
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link
-                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    ><a href="#" class="btn btn-primary"
-                      >View More</a
-                    ></router-link
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/My Businesses Done.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
-
-              <div class="card-body">
-                <h2 class="card-title">eProcurement</h2>
-                <p class="paragraph-moses">
-                  Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement. 
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link
-                    :to="{
-                      query: { current: 'eConservancy' },
-                      name: 'ViewMore',
-                    }"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    ><a href="#" class="btn btn-primary"
-                      >View More</a
-                    ></router-link
-                  >
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/wild_demo_9_feb.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
-
-              <div class="card-body">
-                <h2 class="card-title">eHR </h2>
-                <p class="paragraph-moses">
-                  Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish.
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link
-                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
-                    ><a href="#" class="btn btn-primary"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    
-                      >View More</a
-                    ></router-link
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
       <div class="card p-5">

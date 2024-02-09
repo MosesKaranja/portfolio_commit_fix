@@ -34,7 +34,7 @@ const view_more_data = {
 
   eConservancy: {
     title: "eConservancy Solution",
-    url: "/images/LoginTakeRec.mp4",
+    url: "/images/wild_demo_9_feb.mp4",
     stack: ["PHP", "JAVA", "ANDROID", "MYSQL"],
     project:
       "Developing an off the shelf data collection and reporting tool that can assist data management of  conservancies in protected and community areas",
@@ -187,20 +187,21 @@ export default {
       <nav class="navbar">
         <ul>
           <li onclick="linkClicked('home')">
-            <a href="#" class="link-hover" id="home-link">Home</a>
+
+                      <router-link
+          :to="{ name: 'home' }"
+          href="#" class="link-hover" id="home-link">
+          Home
+          </router-link>
+
           </li>
+
+
           <li onclick="linkClicked('about_us')">
             <a href="#about" id="about-link">About Us</a>
           </li>
           <li onclick="linkClicked('skills')">
-            <a href="#skills" id="skills-link">Skills/Expertise</a>
-          </li>
-
-          <li onclick="linkClicked('products')">
-            <a href="#products" id="product-link">Products</a>
-          </li>
-          <li onclick="linkClicked('our_work')">
-            <a href="#service" id="service-link">Our Work</a>
+            <a href="#skills" id="skills-link">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>

@@ -11,7 +11,8 @@ const routes = [
         component:ViewMore,
         /*props: route => ({ title: route.query.title })*/
         
-     }
+     },
+     { path: "/", name:"home", component:HelloWorld },
 ]
 
 const router = createRouter({
