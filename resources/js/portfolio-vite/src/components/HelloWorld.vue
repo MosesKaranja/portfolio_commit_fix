@@ -52,14 +52,7 @@ const count = ref(0);
             <a href="#about" id="about-link">About Us</a>
           </li>
           <li onclick="linkClicked('skills')">
-            <a href="#skills" id="skills-link">Skills/Expertise</a>
-          </li>
-
-          <li onclick="linkClicked('products')">
-            <a href="#products" id="product-link">Products</a>
-          </li>
-          <li onclick="linkClicked('our_work')">
-            <a href="#service" id="service-link">Our Work</a>
+            <a href="#skills" id="skills-link">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>
@@ -341,7 +334,7 @@ const count = ref(0);
                 controls
               >
                 <source
-                  src="/images/My Businesses Done.mp4"
+                  src="/images/wild_demo_9_feb.mp4"
                   type="video/mp4"
                   style="border-radius: 1rem"
                   alt="eConservancy Solution"
@@ -382,7 +375,7 @@ const count = ref(0);
                 controls
               >
                 <source
-                  src="/images/WILD_FINAL.mp4"
+                  src="/images/My Businesses Done.mp4"
                   type="video/mp4"
                   style="border-radius: 1rem"
                   alt="eConservancy Solution"
@@ -443,6 +436,8 @@ const count = ref(0);
               <li style="color: black; font-size: 1.5rem">FLUTTER DEVELOPMENT</li> 
             </ul>
           </div>
+          <br>
+          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div>
 
         <div class="card-body">
@@ -527,7 +522,7 @@ const count = ref(0);
                 controls
               >
                 <source
-                  src="/images/WILD_FINAL.mp4"
+                  src="/images/wild_demo_9_feb.mp4"
                   type="video/mp4"
                   style="border-radius: 1rem"
                   alt="eConservancy Solution"
@@ -585,6 +580,8 @@ const count = ref(0);
               <li style="color: black; font-size: 1.5rem">SPRINGBOOT</li>  
             </ul>
           </div>
+          <br>
+          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div>
 
         <div class="card-body">
@@ -669,7 +666,7 @@ const count = ref(0);
                 controls
               >
                 <source
-                  src="/images/WILD_FINAL.mp4"
+                  src="/images/wild_demo_9_feb.mp4"
                   type="video/mp4"
                   style="border-radius: 1rem"
                   alt="eConservancy Solution"
@@ -702,7 +699,7 @@ const count = ref(0);
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
          
-          <h1 class="">No/Low App Building</h1>
+          <h1 class="">No/Low Code Building</h1>
           <p class="paragraph-moses">
             We revolutionize the way our clients build solutions for their business by unleashing the power of low/no-code development to assist clients unlock their full brand potential on the web and achieve unparalleled agility. We leverage new tools and technologies in the dynamic field of low/no code to craft creative solutions by designing user-friendly interfaces and unique workflows for our clients.
           </p>
@@ -729,6 +726,8 @@ const count = ref(0);
               <li style="color: black; font-size: 1.5rem">PLUGIN DEVELOPMENT</li>  
             </ul>
           </div>
+          <br>
+          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div>
 
         <div class="card-body">
@@ -813,7 +812,7 @@ const count = ref(0);
                 controls
               >
                 <source
-                  src="/images/WILD_FINAL.mp4"
+                  src="/images/wild_demo_9_feb.mp4"
                   type="video/mp4"
                   style="border-radius: 1rem"
                   alt="eConservancy Solution"

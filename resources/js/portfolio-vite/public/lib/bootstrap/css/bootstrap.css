@@ -6035,6 +6035,7 @@ a.close.disabled {
   margin-left: -0.5rem;
   content: "";
   border-bottom: 1px solid #f7f7f7;
+  background-color: white;
 }
 
 .bs-popover-left, .bs-popover-auto[x-placement^="left"] {
@@ -6071,7 +6072,7 @@ a.close.disabled {
   margin-bottom: 0;
   font-size: 1rem;
   color: inherit;
-  background-color: #f7f7f7;
+  background-color: white;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
