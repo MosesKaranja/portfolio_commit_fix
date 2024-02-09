@@ -242,7 +242,11 @@ const count = ref(0);
       </section>
     </section>
 
-    <div> <h1 class="heading-edited-center">Services</h1></div>
+    <div> 
+      <h1 class="heading-edited-center">Our Services</h1>
+      <p class="our-services">Let Us Embark on a Journey of Innovation, Agility and Transformation Together.</p>
+      
+    </div>
 
     <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0; border-radius: 10px;">
       <div class="card p-5">
@@ -289,9 +293,10 @@ const count = ref(0);
         <div class="card-body">
           <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
-          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
-            <div class="card mr-4" style="border-radius: 1rem">
+          <div class="row" id="experiment">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
+                style="display:block;"
                 oncontextmenu="return false;"
                 width="320"
                 height="240"
@@ -313,12 +318,12 @@ const count = ref(0);
                   Our Solution defines the future of governance, where citizens
                   are at the heart of every decision and administrative process.
                   Our revolutionary user-centric eGovernance solution is
-                  designed to streamline administrative tasks, delivering
-                  efficiency, effectiveness, and transparency like never before.
+                  designed to streamline administrative tasks, delivering...
                 </p>
                 <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -327,8 +332,9 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card mr-4" style="border-radius: 1rem">
+            <div class=" col-sm-4 card" style="border-radius: 1rem;">
               <video
+                style="display:block;"
                 oncontextmenu="return false;"
                 width="320"
                 height="240"
@@ -357,6 +363,7 @@ const count = ref(0);
                       query: { current: 'eConservancy' },
                       name: 'ViewMore',
                     }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -366,8 +373,9 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card" style="border-radius: 1rem">
+            <div class=" col-sm-4 card" style="border-radius: 1rem">
               <video
+                style="display:block;"
                 oncontextmenu="return false;"
                 width="320"
                 height="240"
@@ -393,6 +401,7 @@ const count = ref(0);
                 <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                     
                       >View More</a
@@ -439,8 +448,8 @@ const count = ref(0);
         <div class="card-body">
           <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
-          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
-            <div class="card mr-4" style="border-radius: 1rem">
+          <div class="row" id="experiment">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -465,6 +474,7 @@ const count = ref(0);
                 <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -473,7 +483,7 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card mr-4" style="border-radius: 1rem">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -499,6 +509,7 @@ const count = ref(0);
                       query: { current: 'eConservancy' },
                       name: 'ViewMore',
                     }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -508,7 +519,7 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card" style="border-radius: 1rem">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -531,6 +542,7 @@ const count = ref(0);
                 <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                     
                       >View More</a
@@ -578,8 +590,8 @@ const count = ref(0);
         <div class="card-body">
           <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
-          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
-            <div class="card mr-4" style="border-radius: 1rem">
+          <div class="row" id="experiment">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -604,6 +616,7 @@ const count = ref(0);
                 <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -612,7 +625,7 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card mr-4" style="border-radius: 1rem">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -638,6 +651,7 @@ const count = ref(0);
                       query: { current: 'eConservancy' },
                       name: 'ViewMore',
                     }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -647,7 +661,7 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card" style="border-radius: 1rem">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -671,6 +685,7 @@ const count = ref(0);
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
                     ><a href="#" class="btn btn-primary"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     
                       >View More</a
                     ></router-link
@@ -719,8 +734,8 @@ const count = ref(0);
         <div class="card-body">
           <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
-          <div class="d-flex flex-row pl-3 pr-3" id="experiment">
-            <div class="card mr-4" style="border-radius: 1rem">
+          <div class="row" id="experiment">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -745,6 +760,7 @@ const count = ref(0);
                 <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -753,7 +769,7 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card mr-4" style="border-radius: 1rem">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -779,6 +795,7 @@ const count = ref(0);
                       query: { current: 'eConservancy' },
                       name: 'ViewMore',
                     }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                       >View More</a
                     ></router-link
@@ -788,7 +805,7 @@ const count = ref(0);
               </div>
             </div>
 
-            <div class="card" style="border-radius: 1rem">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
               <video
                 oncontextmenu="return false;"
                 width="320"
@@ -811,6 +828,7 @@ const count = ref(0);
                 <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
                     ><a href="#" class="btn btn-primary"
                     
                       >View More</a

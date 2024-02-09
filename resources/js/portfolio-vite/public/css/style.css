@@ -1182,6 +1182,16 @@ body{
 
 }
 
+.our-services{
+    padding-bottom: 10px;
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+    
+}
+
 
 
 .clients .section-header p {
