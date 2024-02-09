@@ -249,21 +249,20 @@ const count = ref(0);
           </p>
 
           <div class="skills">
-            <h5
-              class="heading-edited-left mb-2 pl-3"
-              style="font-size: 1.5rem; color: black"
-            >
-              Skills
-            </h5>
-            <ul class="skills-list">
-              <li>React</li>
-              <li>Angular</li>
-              <li>Vue JS</li>
-              <li>Node JS</li>
-              <li>PHP</li>
-              <li>Python</li>
-            </ul>
-          </div>
+  <h5 class="" style="font-size: 1.5rem; color: black; background-color: transparent;">
+    Skills
+  </h5>
+  <ul class="skills-list" style="list-style-type: none; padding-left: 0;">
+    <li style="color: black; font-size: 1.2rem;">React</li>
+    <li style="color: black; font-size: 1.2rem;">Angular</li>
+    <li style="color: black; font-size: 1.2rem;">Vue JS</li>
+    <li style="color: black; font-size: 1.2rem;">Node JS</li>
+    <li style="color: black; font-size: 1.2rem;">PHP</li>
+    <li style="color: black; font-size: 1.2rem;">Python</li>
+  </ul>
+</div>
+
+
         </div>
 
         <div class="card-body">
@@ -278,7 +277,7 @@ const count = ref(0);
                 controls
               >
                 <source
-                  src="/images/LoginTakeRec.mp4"
+                  src="/images/eGov Portfolio Video.mp4"
                   type="video/mp4"
                   style="border-radius: 1rem"
                   alt="e-Governance Revenue Management System (eRMS)"
@@ -297,7 +296,153 @@ const count = ref(0);
                   efficiency, effectiveness, and transparency like never before.
                 </p>
                 <div class="d-flex justify-content-end">
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <section
+                    class="row container"
+                    style="margin: 0 auto; padding: 0"
+                  >
+                    <!-- Existing content -->
+
+                    <div class="card-body">
+                      <!-- Other content -->
+
+                      <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+                        <!-- Your existing cards -->
+
+                        <!-- Example for one card -->
+                        <div class="card mr-4" style="border-radius: 1rem">
+                          <!-- Card content -->
+
+                          <div class="card-body">
+                            <!-- Card body content -->
+                            <div class="d-flex justify-content-end">
+                              <!-- Button trigger modal -->
+                              <button
+                                type="button"
+                                class="btn btn-primary"
+                                data-toggle="modal"
+                                data-target="#exampleModalLong"
+                              >
+                                View More
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModalLong"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalLongTitle"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">
+                            eGovernance Solution
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <!-- Your detailed information here -->
+                          <h3>eGovernance Solution</h3>
+                          <video
+                            oncontextmenu="return false;"
+                            width="320"
+                            height="240"
+                            controls
+                          >
+                            <source
+                              src="/images/LoginTakeRec.mp4"
+                              type="video/mp4"
+                              style="border-radius: 1rem"
+                              alt="e-Governance Revenue Management System (eRMS)"
+                            />
+                          </video>
+                          <p>
+                            Our Solution defines the future of governance, where
+                            citizens are at the heart of every decision and
+                            administrative process. Our revolutionary
+                            user-centric eGovernance solution is designed to
+                            streamline administrative tasks, delivering
+                            efficiency, effectiveness, and transparency like
+                            never before.
+                          </p>
+
+                          <p>
+                            Citizens access government services effortlessly,
+                            without the hassle of paperwork or long wait time,
+                            providing a seamless digital experience that
+                            simplifies interactions with government agencies.
+                            Additionally, our solution empowers government
+                            leadership by providing a comprehensive dashboard
+                            that puts key data and insights at their fingertips.
+                          </p>
+
+                          <h4>Video Script Stack</h4>
+
+                          <ul>
+                            <li>PHP</li>
+                            <li>VueJS</li>
+                            <li>MySQL</li>
+                            <li>Redis</li>
+                            <li>REST APIs</li>
+                          </ul>
+                          <h4>Project</h4>
+                          <p>
+                            Automate and streamline government administrative
+                            tasks to deliver effective and transparent user
+                            centric services
+                          </p>
+                          <h4>Problem</h4>
+                          <p>
+                            Inefficient and costly services with limited access
+                            and lacked transparency leading to risk of fraud and
+                            corruption
+                          </p>
+                          <h4>Solution</h4>
+                          <p>
+                            A powerful user centric web platform that assists
+                            government deliver efficient and transparent
+                            services
+                          </p>
+                          <h4>Services Provided</h4>
+                          <ul>
+                            <li>Processes Mapping</li>
+                            <li>UI/UX design</li>
+                            <li>Backend Development</li>
+                            <li>App deployment on Google Data Migration</li>
+                            <li>Production Server configuration and setup</li>
+                            <li>System Documentation</li>
+                            <li>User acceptance testing</li>
+                            <li>Training and system Support</li>
+                          </ul>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -327,7 +472,144 @@ const count = ref(0);
                   conservationists collect.
                 </p>
                 <div class="d-flex justify-content-end">
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <section
+                    class="row container"
+                    style="margin: 0 auto; padding: 0"
+                  >
+                    <!-- Existing content -->
+
+                    <div class="card-body">
+                      <!-- Other content -->
+
+                      <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+                        <!-- Your existing cards -->
+
+                        <!-- Example for one card -->
+                        <div class="card mr-4" style="border-radius: 1rem">
+                          <!-- Card content -->
+
+                          <div class="card-body">
+                            <!-- Card body content -->
+                            <div class="d-flex justify-content-end">
+                              <!-- Button trigger modal -->
+                              <button
+                                type="button"
+                                class="btn btn-primary"
+                                data-toggle="modal"
+                                data-target="#exampleModalLong"
+                              >
+                                View More
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModalLong"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalLongTitle"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">
+                            E-Conservancy Solution
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <!-- Your detailed information here -->
+                          <h3>E-Conservancy Solution</h3>
+                          <video
+                            oncontextmenu="return false;"
+                            width="320"
+                            height="240"
+                            controls
+                          >
+                            <source
+                              src="/images/My Businesses Done.mp4"
+                              type="video/mp4"
+                              style="border-radius: 1rem"
+                              alt="E-Conservancy Solution"
+                            />
+                          </video>
+                          <p>
+                            Our solution is in the forefront of conservation
+                            technology. It is a state-of-the-art web platform
+                            with a mobile app designed specifically for
+                            conservancies in protected and community areas. Our
+                            platform revolutionizes the way conservationists
+                            collect, analyze, and respond to critical
+                            information in real-time.
+                          </p>
+
+                          <p>
+                            by collecting and sending live data, flagging
+                            incidents, facilitating seamless communication
+                            between different teams and monitoring impact over
+                            time. Therefore, ensuring the preservation of our
+                            planet's most precious natural habitats and
+                            wildlife.
+                          </p>
+
+                          <h4>Video Script Stack</h4>
+                          <ul>
+                            <li>PHP</li>
+                            <li>JAVA</li>
+                            <li>ANDROID</li>
+                          </ul>
+                          <h4>Project</h4>
+                          <p>
+                            Developing an off the shelf data collection and
+                            reporting tool that can assist data management of
+                            conservancies in protected and community areas.
+                          </p>
+                          <h4>Problem</h4>
+                          <p>
+                            Lack of visibility of incidents in conservancies in
+                            protected and community areas.
+                          </p>
+                          <h4>Solution</h4>
+                          <p>
+                            A mobile App that tracks and reports units’ movement
+                            by taking GPS points and overlaying them on Google
+                            maps, Creating visibility of incidents in the
+                            conservancies including; poaching; animal mortality;
+                            Human-Wildlife Conflict (HWC); community service.
+                          </p>
+                          <h4>Services Provided</h4>
+                          <ul>
+                            <li>Backend Development</li>
+                            <li>GIS Integration</li>
+                          </ul>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -357,7 +639,148 @@ const count = ref(0);
                   of sifting through piles of papers or digital folders.
                 </p>
                 <div class="d-flex justify-content-end">
-                  <a href="#" class="btn btn-primary">View More</a>
+                  <section
+                    class="row container"
+                    style="margin: 0 auto; padding: 0"
+                  >
+                    <!-- Existing content -->
+
+                    <div class="card-body">
+                      <!-- Other content -->
+
+                      <div class="d-flex flex-row pl-3 pr-3" id="experiment">
+                        <!-- Your existing cards -->
+
+                        <!-- Example for one card -->
+                        <div class="card mr-4" style="border-radius: 1rem">
+                          <!-- Card content -->
+
+                          <div class="card-body">
+                            <!-- Card body content -->
+                            <div class="d-flex justify-content-end">
+                              <!-- Button trigger modal -->
+                              <button
+                                type="button"
+                                class="btn btn-primary"
+                                data-toggle="modal"
+                                data-target="#exampleModalLong"
+                              >
+                                View More
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModalLong"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalLongTitle"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="EDRMS" id="exampleModalLongTitle">
+                            EDRMS
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <!-- Your detailed information here -->
+                          <h3>EDRMS</h3>
+                          <video
+                            oncontextmenu="return false;"
+                            width="320"
+                            height="240"
+                            controls
+                          >
+                            <source
+                              src="/images/WILD_FINAL.mp4"
+                              type="video/mp4"
+                              style="border-radius: 1rem"
+                              alt="eConservancy Solution"
+                            />
+                          </video>
+                          <p>
+                            Our Innovative Document record management solution
+                            has assisted over 7 of our clients to unlock new
+                            levels of efficiency, collaboration and security by
+                            organizing their documents into a centralized
+                            location saving users the hassle of sifting through
+                            piles of papers or digital folders.
+                          </p>
+                          <p>
+                            b) facilitating seamless collaboration by allowing
+                            multiple users to access, edit, and comment on
+                            documents simultaneously, with version control and
+                            audit trails, to track changes and ensure everyone
+                            is working with the latest information and finally,
+                            c) providing security features including encryption,
+                            access controls, and user authentication to
+                            safeguard documents from unauthorized access and
+                            data breaches.
+                          </p>
+                          <h4>Video Script Stack</h4>
+                          <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>Docker</li>
+                            <li>Postgres</li>
+                            <li>Redis</li>
+                          </ul>
+                          <h4>Project</h4>
+                          <p>
+                            Automate document-centric processes such as approval
+                            workflows, review cycles, and document sharing,
+                            streamlining business operations and improving
+                            productivity.
+                          </p>
+                          <h4>Problem</h4>
+                          <p>
+                            Inaccuracy and operational inefficiency while
+                            handling documents in an organization
+                          </p>
+                          <h4>Solution</h4>
+                          <p>
+                            Innovative solution that facilitates centralised
+                            access to documents, version and access controls
+                            improving access to documents, streamlining
+                            operations and improving productivity
+                          </p>
+                          <h4>Services Provided</h4>
+                          <ul>
+                            <li>Needs assessment</li>
+                            <li>Data Migration</li>
+                            <li>Training</li>
+                            <li>API Integration</li>
+                          </ul>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <!-- <button type="button" class="btn btn-primary"></button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
