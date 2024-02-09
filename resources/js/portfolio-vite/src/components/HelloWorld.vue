@@ -401,13 +401,13 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="about">
+    <!-- <section class="about">
       <div class="row" id="skills">
         <h1 class="heading">Consulting Skills</h1>
       </div>
       <div class="row consulting-skills">
-        <!-- Consulting Skills Grid -->
-        <div class="col-lg-4 col-sm-6">
+        Consulting Skills Grid -->
+        <!-- <div class="col-lg-4 col-sm-6">
           <div class="item">
             <h6>Web Development</h6>
             <p>
@@ -489,14 +489,14 @@ const count = ref(0);
               digital data, cleaning existing digital data as well as analysis
               the data to achieve client’s needs.<br /><br />Skills<br />
               Typing, Data Conversion/ Formatting/Cleanup, Transcription, Data
-              Analysis.
-            </p>
+              Analysis. -->
+            <!-- </p>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <div id="products" class="pt-5 mt-8">
+    <!-- <div id="products" class="pt-5 mt-8">
       <div class="pt-5" style="background-color: #f2f2f2">
         <div class="container">
           <div class="row">
@@ -740,7 +740,7 @@ const count = ref(0);
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- <section>
         <div class="pt-5 pb-5">
@@ -1008,8 +1008,8 @@ const count = ref(0);
           <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
         </div>
       </div>
-    </div>
-  </div>
+    
+
 
   <!-- </div> -->
 </template>
