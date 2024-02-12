@@ -217,7 +217,7 @@ const count = ref(0);
 
     <div> 
       <h1 class="heading-edited-center">Services</h1>
-      <p class="our-services">Let Us Embark on a Journey of Innovation, Agility and Transformation Together.</p>
+      <p class="our-services">Let us embark on a journey of innovation, agility and transformation together.</p>
       
     </div>
 
@@ -352,7 +352,7 @@ const count = ref(0);
               <div class="card-body">
                 <h2 class="card-title">EDRMS</h2>
                 <p class="paragraph-moses">
-                  Our Innovative Document record management solution has
+                  Our innovative document record management solution has
                   assisted over 7 of our clients to unlock new levels of
                   efficiency, collaboration and security by; a) organizing their
                   documents into a centralized location saving users the hassle
@@ -488,7 +488,7 @@ const count = ref(0);
         <div class="card-header pl-3 pr-3">
           <h1 class="">Enterprise Applications</h1>
           <p class="paragraph-moses">
-            We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including Human Resource, Procurement, Document Management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver.
+            We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including human resource, procurement, document management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver.
           </p>
 
           <div class="skills">
