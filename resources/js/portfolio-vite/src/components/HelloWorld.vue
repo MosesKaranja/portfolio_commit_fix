@@ -46,12 +46,7 @@ const count = ref(0);
       <nav class="navbar">
         <ul>
           <li onclick="linkClicked('home')">
-
-          <router-link
-          :to="{ name: 'home' }"
-           class="link-hover" id="home-link">
-            Home
-          </router-link>
+            <a href="#" class="link-hover" id="home-link">Home</a>
           </li>
       <li onclick="linkClicked('about_us')">
         <a href="#about" id="about-link">About Us</a>
@@ -910,9 +905,9 @@ const count = ref(0);
                 <div class="col-lg-3 col-md-6 footer-newsletter">
                   <h4>Subscription</h4>
                   <p>
-                    With Our Skills Put Together, You Get An Ensemble Capable Of
-                    Doing Anything And Everything Your Brand Needs. Subscribe
-                    Here To Get Our Latest Updates.
+                    With our skills put together, You get an ensemble capable of
+                    doing anything and everything your brand needs. Subscribe
+                    here to get our latest updates.
                   </p>
                   <form action="" method="post">
                     <input type="email" name="email" /><input
