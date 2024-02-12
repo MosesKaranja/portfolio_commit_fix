@@ -55,9 +55,12 @@ const count = ref(0);
           </li>
           <li onclick="linkClicked('about_us')">
             <a href="#about" id="about-link">About Us</a>
+
+
+            
           </li>
-          <li onclick="linkClicked('skills')">
-            <a href="#services">Services</a>
+          <li onclick="linkClicked('services')">
+            <a href="#service">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>
@@ -100,10 +103,7 @@ const count = ref(0);
             >
             <p>
               Step into the future with us, where we redefine innovations in
-              Web, <br />
-              Mobile, Enterprise and Low/No Code technologies.<br />
-              We empower our clients with the tools<br />
-              they need to thrive in the digital age.
+              Web Mobile, Enterprise and Low/No Code technologies. We empower our clients with the tools they need to thrive in the digital age.
             </p>
             <!-- <a href="#revenue-management">View Demo</a>
             <a href="#">Learn More</a> -->
@@ -121,10 +121,7 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Web Development</span></strong>
             <p>
-              With expertise honed through over 10 years<br />
-              of experience we leverage on the latest technologies<br />
-              to build responsive designs and seamless functionalities <br />
-              across devices
+              With expertise honed through over 10 years of experience we leverage on the latest technologies to build responsive designs and seamless functionalities across devices
             </p>
           </div>
         </div>
@@ -140,11 +137,7 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Mobile Development</span></strong>
             <p>
-              With our team of UX, UI Designers, developers and<br />
-              and project management experts encompassing a blend<br />
-              of technical and problem solving skills, we revolutionize<br />
-              mobile user experience with our intuitive, secure<br />
-              and scalable mobile applications
+              With our team of UX, UI Designers, developers and and project management experts encompassing a blend of technical and problem solving skills, we revolutionize mobile user experience with our intuitive, secure and scalable mobile applications
             </p>
             <!-- <a href="#ilab-pay">View Demo</a>
             <a href="#">Learn More</a> -->
@@ -160,17 +153,10 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Enterprise Application Development</span></strong>
+            <strong><span>Enterprise application development</span></strong>
             <p>
-              In the evolving business world, our team has<br />
-              extensive experience across a wide range of<br />
-              industries including Human Resource, Procurement,<br />
-              Document Management and accounting, bringing our<br />
-              immeasurable knowledge, skills and passion<br />
-              in every project we deliver.
+              In the evolving business world, our team has extensive experience across a wide range of industries including human resource, procurement, document management, and accounting, bringing our immeasurable knowledge, skills, and passion in every project we deliver.
             </p>
-            <!-- <a href="#ilab-pay">View Demo</a>
-            <a href="#">Learn More</a> -->
           </div>
         </div>
 
@@ -220,25 +206,18 @@ const count = ref(0);
       class="about"
       style="max-width: 1140px; margin: 0 auto"
     >
-      <section id="home" class="">
-        <h1 class="heading">About Us</h1>
-        <div class="row">
-          <div class="content">
-            <p>
-              IT Outsourcing, @iLabAfrica, is a research and innovation centre
-              located at Strathmore University in Nairobi, Kenya.The centre
-              focuses on customizing and developing solutions for clients by
-              providing consulting services and end-to-end support for the
-              entire product-development life-cycle in organizations, through
-              developing,deploying and managing IT systems solutions.We pride
-              ourselves on being a dynamic team of skilled developers and
-              project management professionals dedicated to delivering
-              innovative IT solutions for both government and corporate sectors.
-            </p>
-          </div>
-        </div>
-      </section>
-    </section>
+    <section id="home" class="">
+  <h1 class="heading">About us</h1>
+  <div class="row">
+    <div class="content">
+      <p>IT outsourcing, @iLabAfrica, is a research and innovation centre located at Strathmore University in Nairobi, Kenya. 
+      The centre focuses on customizing and developing solutions for clients by providing consulting services and end-to-end support for the entire product development lifecycle in organizations, through developing, deploying, and managing IT systems solutions. 
+      We pride ourselves on being a dynamic team of skilled developers and project management professionals dedicated to delivering innovative IT solutions for both government and corporate sectors.</p>
+    </div>
+  </div>
+</section>
+</section>
+
 
     <div> 
       <h1 class="heading-edited-center">Our Services</h1>
@@ -318,7 +297,7 @@ const count = ref(0);
                   Our revolutionary user-centric eGovernance solution is
                   designed to streamline administrative tasks, delivering...
                 </p>
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-centre">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
@@ -873,15 +852,11 @@ const count = ref(0);
                     </li>
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#service">Our services</a>
-                    </li>
+                      <a href="#service">Services</a>
+                    </li> 
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#contact">Consultancy Services</a>
-                    </li>
-                    <li>
-                      <i class="ion-ios-arrow-forward"></i>
-                      <a href="#contact">Contact</a>
+                      <a href="#contact">Contact Us</a>
                     </li>
                   </ul>
                 </div>
