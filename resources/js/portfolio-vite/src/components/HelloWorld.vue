@@ -445,19 +445,8 @@ const count = ref(0);
 
           <div class="row" id="experiment">
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/eGov Portfolio Video.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="e-Governance Revenue Management System (eRMS)"
-                />
-              </video>
+             <img src="/images/pic2.png" />
+               
 
               <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -479,19 +468,7 @@ const count = ref(0);
             </div>
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/My Businesses Done.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <div class="card-body">
                 <h2 class="card-title">Exam Revision Game App</h2>
@@ -515,19 +492,7 @@ const count = ref(0);
             </div>
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/wild_demo_9_feb.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <div class="card-body">
                 <h2 class="card-title">Tax eCompliance </h2>
@@ -589,19 +554,7 @@ const count = ref(0);
 
           <div class="row" id="experiment">
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/eGov Portfolio Video.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="e-Governance Revenue Management System (eRMS)"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -623,19 +576,7 @@ const count = ref(0);
             </div>
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/My Businesses Done.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <div class="card-body">
                 <h2 class="card-title">eProcurement</h2>
@@ -659,19 +600,7 @@ const count = ref(0);
             </div>
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/wild_demo_9_feb.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <div class="card-body">
                 <h2 class="card-title">eHR </h2>
@@ -735,19 +664,7 @@ const count = ref(0);
 
           <div class="row" id="experiment">
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/eGov Portfolio Video.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="e-Governance Revenue Management System (eRMS)"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -769,19 +686,7 @@ const count = ref(0);
             </div>
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/My Businesses Done.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <div class="card-body">
                 <h2 class="card-title">Alumni Portal</h2>
@@ -805,19 +710,7 @@ const count = ref(0);
             </div>
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <video
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/wild_demo_9_feb.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <div class="card-body">
                 <h2 class="card-title">Shopify Plugin </h2>
