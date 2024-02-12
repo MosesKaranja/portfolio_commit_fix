@@ -46,13 +46,18 @@ const count = ref(0);
       <nav class="navbar">
         <ul>
           <li onclick="linkClicked('home')">
-            <a href="#" class="link-hover" id="home-link">Home</a>
+
+          <router-link
+          :to="{ name: 'home' }"
+          href="#" class="link-hover" id="home-link">
+          Home
+          </router-link>
           </li>
           <li onclick="linkClicked('about_us')">
             <a href="#about" id="about-link">About Us</a>
           </li>
           <li onclick="linkClicked('skills')">
-            <a href="#skills" id="skills-link">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>
@@ -516,6 +521,7 @@ const count = ref(0);
       </div>
     </section>
 
+<<<<<<< HEAD
     <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
@@ -623,6 +629,9 @@ const count = ref(0);
         </div>
       </div>
     </section>
+=======
+
+>>>>>>> 4aef4ff396506e0059e716be3417297bcfca9661
 
     <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
       <div class="card p-5">
