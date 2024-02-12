@@ -53,8 +53,8 @@ const count = ref(0);
       <li onclick="linkClicked('about_us')">
         <a href="#about" id="about-link">About Us</a>
       </li>
-      <li onclick="linkClicked('services')">
-        <a href="#service">Services</a>
+      <li onclick="linkClicked('Services')">
+        <a href="#services" class="link-hover" id="services-link">Services</a>
       </li>
       <li onclick="linkClicked('contact_us')">
         <a href="#contact" id="contact-link">Contact Us</a>
@@ -206,9 +206,9 @@ const count = ref(0);
   <h1 class="heading">About us</h1>
   <div class="row">
     <div class="content">
-      <p>IT outsourcing, @iLabAfrica, is a research and innovation centre located at Strathmore University in Nairobi, Kenya. 
-      The centre focuses on customizing and developing solutions for clients by providing consulting services and end-to-end support for the entire product development lifecycle in organizations, through developing, deploying, and managing IT systems solutions. 
-      We pride ourselves on being a dynamic team of skilled developers and project management professionals dedicated to delivering innovative IT solutions for both government and corporate sectors.</p>
+      <p>we focuse on customizing and developing solutions for clients by providing consulting services and end-to-end support for the entire product development lifecycle in organizations, through developing, deploying, and managing it systems solutions. 
+      we pride ourselves on being a dynamic team of skilled developers and project management professionals dedicated to delivering innovative it solutions for both government and corporate sectors.</p>
+
     </div>
   </div>
 </section>
