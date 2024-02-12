@@ -36,38 +36,34 @@ const count = ref(0);
 <template>
   <div>
     <header class="header">
-      <a href="#" class="logo"
-        ><img
-          style="width: 197px; height: 50px; object-fit: contain"
-          src="/images/ilab_africa_stolen.png"
-          alt=""
-      /></a>
-      <div class="fas fa-bars"></div>
-      <nav class="navbar">
-        <ul>
-          <li onclick="linkClicked('home')">
+  <a href="#" class="logo">
+    <img
+      style="width: 197px; height: 50px; object-fit: contain"
+      src="/images/ilab_africa_stolen.png"
+      alt=""
+    />
+  </a>
+  <div class="fas fa-bars"></div>
+  <nav class="navbar">
+    <ul>
 
-          <router-link
-          :to="{ name: 'home' }"
-          href="#" class="link-hover" id="home-link">
-          Home
-          </router-link>
+      <li onclick="linkClicked('home')">
+            <a href="#" class="link-hover" id="home-link">Home</a>
           </li>
-          <li onclick="linkClicked('about_us')">
-            <a href="#about" id="about-link">About Us</a>
+      <li onclick="linkClicked('about_us')">
+        <a href="#about" id="about-link">About Us</a>
+      </li>
+      <li onclick="linkClicked('services')">
+        <a href="#service">Services</a>
+      </li>
+      <li onclick="linkClicked('contact_us')">
+        <a href="#contact" id="contact-link">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
 
-            
-          </li>
-          <li onclick="linkClicked('services')">
-            <a href="#service">Services</a>
-          </li>
-          <li onclick="linkClicked('contact_us')">
-            <a href="#contact" id="contact-link">Contact Us</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
 
     <div
       id="carouselExampleIndicators"
@@ -220,7 +216,7 @@ const count = ref(0);
 
 
     <div> 
-      <h1 class="heading-edited-center">Our Services</h1>
+      <h1 class="heading-edited-center">Services</h1>
       <p class="our-services">Let Us Embark on a Journey of Innovation, Agility and Transformation Together.</p>
       
     </div>
@@ -297,7 +293,7 @@ const count = ref(0);
                   Our revolutionary user-centric eGovernance solution is
                   designed to streamline administrative tasks, delivering...
                 </p>
-                <div class="d-flex justify-content-centre">
+                <div class="d-flex justify-content-end">
                   <router-link
                     :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
