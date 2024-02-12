@@ -372,20 +372,7 @@ const count = ref(0);
             </div>
 
             <div class=" col-sm-4 card" style="border-radius: 1rem">
-              <video
-                style="display:block;"
-                oncontextmenu="return false;"
-                width="320"
-                height="240"
-                controls
-              >
-                <source
-                  src="/images/My Businesses Done.mp4"
-                  type="video/mp4"
-                  style="border-radius: 1rem"
-                  alt="eConservancy Solution"
-                />
-              </video>
+              <img src="/images/pic2.png" />
 
               <div class="card-body">
                 <h2 class="card-title">EDRMS</h2>
@@ -521,7 +508,6 @@ const count = ref(0);
       </div>
     </section>
 
-<<<<<<< HEAD
     <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
@@ -629,9 +615,6 @@ const count = ref(0);
         </div>
       </div>
     </section>
-=======
-
->>>>>>> 4aef4ff396506e0059e716be3417297bcfca9661
 
     <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
       <div class="card p-5">
@@ -695,28 +678,26 @@ const count = ref(0);
             </div>
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
+    <img src="/images/pic2.png" />
 
-              <div class="card-body">
-                <h2 class="card-title">Alumni Portal</h2>
-                <p class="paragraph-moses">
-                  Our solution provides an opportunity for continued communication and collaboration between students who have gone through and completed various training programmes. Learning can therefore be enhanced by allowing all participants to share best practices, new developments and seek assistance in their day to day activities. Technology enables the connection of learners globally, increasing the value of the knowledge that can be shared between themselves. 
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link
-                    :to="{
-                      query: { current: 'eConservancy' },
-                      name: 'ViewMore',
-                    }"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    ><a href="#" class="btn btn-primary"
-                      >View More</a
-                    ></router-link
-                  >
-                  >
-                </div>
-              </div>
-            </div>
+    <div class="card-body">
+        <h2 class="card-title">Alumni Portal</h2>
+        <p class="paragraph-moses">
+            Our solution provides an opportunity for continued communication and collaboration between students who have gone through and completed various training programmes. Learning can therefore be enhanced by allowing all participants to share best practices, new developments and seek assistance in their day to day activities. Technology enables the connection of learners globally, increasing the value of the knowledge that can be shared between themselves.
+        </p>
+        <div class="d-flex justify-content-end">
+            <router-link
+                :to="{
+                query: { current: 'eConservancy' },
+                name: 'ViewMore',
+                }"
+                style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
+            >
+                <a href="#" class="btn btn-primary" onclick="scrollToTop()">View More</a>
+            </router-link>
+        </div>
+    </div>
+</div> 
 
             <div class="col-sm-4 card" style="border-radius: 1rem">
               <img src="/images/pic2.png" />
