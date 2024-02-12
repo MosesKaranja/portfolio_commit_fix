@@ -200,8 +200,8 @@ export default {
           <li onclick="linkClicked('about_us')">
             <a href="#about" id="about-link">About Us</a>
           </li>
-          <li onclick="linkClicked('skills')">
-            <a href="#skills" id="skills-link">Services</a>
+          <li onclick="linkClicked('service')">
+            <a href="#service" id="service">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>
@@ -316,12 +316,8 @@ export default {
                 </li>
                 <li>
                   <i class="ion-ios-arrow-forward"></i>
-                  <a href="#service">Our services</a>
-                </li>
-                <li>
-                  <i class="ion-ios-arrow-forward"></i>
-                  <a href="#contact">Consultancy Services</a>
-                </li>
+                  <a href="#service">services</a>
+                </li> 
                 <li>
                   <i class="ion-ios-arrow-forward"></i>
                   <a href="#contact">Contact</a>
