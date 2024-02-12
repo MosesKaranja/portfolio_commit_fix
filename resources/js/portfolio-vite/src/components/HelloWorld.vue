@@ -49,8 +49,8 @@ const count = ref(0);
 
           <router-link
           :to="{ name: 'home' }"
-          href="#" class="link-hover" id="home-link">
-          Home
+           class="link-hover" id="home-link">
+            Home
           </router-link>
           </li>
           <li onclick="linkClicked('about_us')">
@@ -65,6 +65,8 @@ const count = ref(0);
         </ul>
       </nav>
     </header>
+
+    <div id="home-link"></div>
 
     <div
       id="carouselExampleIndicators"
@@ -218,13 +220,13 @@ const count = ref(0);
     <section
       id="about"
       class="about"
-      style="max-width: 1140px; margin: 0 auto"
+      style="max-width: 1455px; margin: 0 auto;"
     >
       <section id="home" class="">
         <h1 class="heading">About Us</h1>
         <div class="row">
           <div class="content">
-            <p>
+            <p id="services">
               IT Outsourcing, @iLabAfrica, is a research and innovation centre
               located at Strathmore University in Nairobi, Kenya.The centre
               focuses on customizing and developing solutions for clients by
@@ -246,7 +248,7 @@ const count = ref(0);
       
     </div>
 
-    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0; border-radius: 10px;">
+    <section class="row mt-3 mb-5" style="max-width:1280px;margin: 0 auto; padding: 0; border-radius: 10px;">
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
           
@@ -400,7 +402,7 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
+    <section class="row mt-3 mb-5" style="max-width:1280px;margin: 0 auto; padding: 0">
       <div class="card p-5" >
         <div class="card-header pl-3 pr-3"> 
           <h1 class="">Mobile Development</h1>
@@ -508,7 +510,7 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
+    <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
           <h1 class="">Enterprise Applications</h1>
@@ -616,7 +618,7 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row container mt-3 mb-5" style="margin: 0 auto; padding: 0">
+    <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
          
@@ -724,28 +726,28 @@ const count = ref(0);
       </div>
     </section>
 
-        <div class="clients">
-          <div class="container">
+        <div class="clients" style="max-width: 1280px;margin:0 auto;">
+          <div class="">
             <div class="section-header">
               <h2>Our Partners</h2>
               <p>We don't just build softwares, we build your business.</p>
             </div>
             <div class="owl-carousel clients-carousel">
-              <img src="/images/img3.png" alt="Partner1 Logo" />
-              <img src="/images/img4.png" alt="Partner2 Logo" />
-              <img src="/images/img5.png" alt="Partner3 Logo" />
-              <img src="/images/img6.png" alt="Partner4 Logo" />
-              <img src="/images/img7.png" alt="Partner5 Logo" />
-              <img src="/images/img8.png" alt="Partner6 Logo" />
-              <img src="/images/img9.png" alt="Partner7 Logo" />
-              <img src="/images/img10.png" alt="Partner8 Logo" />
-              <img src="/images/img11.png" alt="Partner9 Logo" />
-              <img src="/images/img12.png" alt="Partner10 Logo" />
+              <img src="/images/img3.png" style="width: 194px;height: 150px;" alt="Partner1 Logo" />
+              <img src="/images/img4.png" style="width: 194px;height: 150px;" alt="Partner2 Logo" />
+              <img src="/images/img5.png" style="width: 194px;height: 150px;" alt="Partner3 Logo" />
+              <img src="/images/img6.png" style="width: 194px;height: 150px;" alt="Partner4 Logo" />
+              <img src="/images/img7.png" style="width: 194px;height: 150px;" alt="Partner5 Logo" />
+              <img src="/images/img8.png" style="width: 194px;height: 150px;" alt="Partner6 Logo" />
+              <img src="/images/img9.png" style="width: 194px;height: 150px;" alt="Partner7 Logo" />
+              <img src="/images/img10.png" style="width: 194px;height: 150px;" alt="Partner8 Logo" />
+              <img src="/images/img11.png" style="width: 194px;height: 150px;" alt="Partner9 Logo" />
+              <img src="/images/img12.png" style="width: 194px;height: 150px;" alt="Partner10 Logo" />
 
-              <img src="/images/AAEA.png" alt="Partner11 Logo" />
-              <img src="/images/amedo-centres.png" alt="Partner12 Logo" />
-              <img src="/images/icpak.png" alt="Partner13 Logo" />
-              <img src="/images/imlu.png" alt="Partner14 Logo" />
+              <img src="/images/AAEA.png" style="width: 194px;height: 150px;" alt="Partner11 Logo" />
+              <img src="/images/amedo-centres.png" style="width: 194px;height: 150px;" alt="Partner12 Logo" />
+              <img src="/images/icpak.png" style="width: 194px;height: 150px;" alt="Partner13 Logo" />
+              <img src="/images/imlu.png" style="width: 194px;height: 150px;" alt="Partner14 Logo" />
               <img
                 src="/images/laikipia-wildlife-forum-logo-white-retina.png"
                 alt="Partner15 Logo"
@@ -756,7 +758,7 @@ const count = ref(0);
           </div>
         </div>
 
-        <section id="contact" class="contact">
+        <section id="contact" style="max-width: 1280px;margin: 0 auto;" class="contact">
           <h1 class="heading">Contact Us</h1>
           <div
             class="contact-container"
@@ -840,7 +842,7 @@ const count = ref(0);
         </section>
 
         <!-- Map Section -->
-        <section id="map" class="container mb-2">
+        <section id="map" class="mb-2" style="max-width: 1280px;margin: 0 auto;">
           <div class="contact-map">
             <!-- Google Maps iframe -->
             <h1 class="heading" style="display: block; text-align: center">
@@ -859,7 +861,7 @@ const count = ref(0);
 
         <div class="footer">
           <div class="footer-top">
-            <div class="container">
+            <div class="container" style="padding-left: 0;padding-right: 0;max-width: 1280px; margin-left:auto;margin-right: auto;">
               <div class="row">
                 <div class="col-lg-3 col-md-6 footer-links">
                   <h4>Useful Links</h4>
@@ -949,7 +951,7 @@ const count = ref(0);
             </div>
           </div>
 
-          <div class="container">
+          <div class="container" style="padding-left: 0;max-width: 1280px;">
             <div class="row align-items-center">
               <div
                 class="col-md-6 copyright"
