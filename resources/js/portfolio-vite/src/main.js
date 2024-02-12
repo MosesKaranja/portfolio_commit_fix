@@ -22,11 +22,11 @@ const router = createRouter({
         // always scroll to top
         // return { top: 0 }
 
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-              resolve({  top: 0 })
-            }, 100)
-          })
+        // return new Promise((resolve, reject) => {
+        //     setTimeout(() => {
+        //       resolve({  top: 0 })
+        //     }, 100)
+        //   })
       },
     routes
 })
