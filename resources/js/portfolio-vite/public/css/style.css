@@ -757,7 +757,7 @@ body{
   .ban_text strong {
     font: 800 62.22px/70px "Montserrat", sans-serif;
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   .ban_text strong span {
     font: 400 44.44px/52px "Montserrat", sans-serif;

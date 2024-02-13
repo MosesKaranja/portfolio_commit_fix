@@ -1,6 +1,6 @@
 const home = document.getElementById("home-link")
-const about_us = document.getElementById("about-link")
-const skills = document.getElementById("skills-link")
+const about_us_link = document.getElementById("about-link")
+const services = document.getElementById("services-link")
 const products  = document.getElementById("product-link")
 const our_work = document.getElementById("service-link")
 const contact_us = document.getElementById("contact-link")
@@ -86,85 +86,52 @@ $('.accordion-header').click(function(){
 function linkClicked(item_clicked){
 
     const home = document.getElementById("home-link")
-    const about_us = document.getElementById("about-link")
-    const skills = document.getElementById("skills-link")
-    const products  = document.getElementById("product-link")
-    const our_work = document.getElementById("service-link")
+    const about_us_link = document.getElementById("about-link")
+    const services = document.getElementById("services-link")
     const contact_us = document.getElementById("contact-link")
+
+   
 
 
     if(item_clicked == 'home'){
         home.classList.add("link-hover")
 
-        //home.classList.remove("link-hover")
-        about_us.classList.remove("link-hover")
-        skills.classList.remove("link-hover")
-        products.classList.remove("link-hover")
-        our_work.classList.remove("link-hover")
+        about_us_link.classList.remove("link-hover")
+        services.classList.remove("link-hover")
         contact_us.classList.remove("link-hover")
-
+        
     }
-    else if(item_clicked == 'about_us'){
-        about_us.classList.add("link-hover")
+    else if(item_clicked == 'about_us_link'){
+        about_us_link.classList.add("link-hover")
 
         home.classList.remove("link-hover")
-        //about_us.classList.remove("link-hover")
-        skills.classList.remove("link-hover")
-        products.classList.remove("link-hover")
-        our_work.classList.remove("link-hover")
+        services.classList.remove("link-hover")
         contact_us.classList.remove("link-hover")
 
     }
-    else if(item_clicked == 'skills'){
-        skills.classList.add("link-hover")
+    else if(item_clicked == 'services'){
+        services.classList.add("link-hover")
 
         home.classList.remove("link-hover")
-        about_us.classList.remove("link-hover")
-        //skills.classList.remove("link-hover")
-        products.classList.remove("link-hover")
-        our_work.classList.remove("link-hover")
+        about_us_link.classList.remove("link-hover")
         contact_us.classList.remove("link-hover")
 
     }
-    else if(item_clicked == 'products'){
-        products.classList.add("link-hover")
 
-        home.classList.remove("link-hover")
-        about_us.classList.remove("link-hover")
-        skills.classList.remove("link-hover")
-        //products.classList.remove("link-hover")
-        our_work.classList.remove("link-hover")
-        contact_us.classList.remove("link-hover")
-
-    }
-    else if(item_clicked == 'our_work'){
-        our_work.classList.add("link-hover")
-
-        home.classList.remove("link-hover")
-        about_us.classList.remove("link-hover")
-        skills.classList.remove("link-hover")
-        products.classList.remove("link-hover")
-        //our_work.classList.remove("link-hover")
-        contact_us.classList.remove("link-hover")
-
-    }
     else if(item_clicked == 'contact_us'){
         contact_us.classList.add("link-hover")
 
         home.classList.remove("link-hover")
-        about_us.classList.remove("link-hover")
-        skills.classList.remove("link-hover")
-        products.classList.remove("link-hover")
-        our_work.classList.remove("link-hover")
-        //contact_us.classList.remove("link-hover")
+        about_us_link.classList.remove("link-hover")
+        services.classList.remove("link-hover")
 
     }
 
 
 
 //     const home = document.getElementById("home-link")
-// const about_us = document.getElementById("about-link")
-// const skills = document.getElementById("skills-link")
+// const about_us_link = document.getElementById("about-link")
+// const services = document.getElementById("services-link")
 // const products  = document.getElementById("product-link")
 // const our_work = document.getElementById("service-link")
 // const contact_us = document.getElementById("contact-link")
