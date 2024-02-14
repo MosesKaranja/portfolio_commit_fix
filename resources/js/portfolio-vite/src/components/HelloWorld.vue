@@ -4,6 +4,7 @@ import { ref } from "vue";
 import Carousel from "./Carousel.vue";
 
 import Service from "../views/Service.vue"
+import MainService from "../views/MainService.vue";
 
 // import ViewMore from "../views/ViewMore.vue";
 // export default{
@@ -77,11 +78,15 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Cutting-edge Tech Solutions for your Every Need</span></strong>
             <p>
-              Step into the future with us, where we <br />
-              redefine innovations in Web Mobile,<br />
-              Enterprise and Low/No Code technologies.<br />
-              We empower our clients with the tools they<br />
-              need to thrive in the digital age.
+              Step into the future with us, where we<br />
+              redefine innovations in Web, Mobile,<br />
+              Enterprise technologies using traditional<br />
+              coding techniques, while harnessing the<br />
+              simplicity and speed of no-code tools<br />
+              to accelerate development cycles and<br />
+              empower clients to take control of<br />
+              their solutions.. We empower our clients<br />
+              with the tools they need to thrive in the digital age.
             </p>
             <!-- <a href="#revenue-management">View Demo</a>
             <a href="#">Learn More</a> -->
@@ -95,10 +100,14 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Web Development</span></strong>
             <p>
-              With expertise honed through over 10 years<br />
-              of experience we leverage on the latest<br />
-              technologies to build responsive designs<br />
-              and seamless functionalities across devices.
+              With expertise honed through over 10 years of<br />
+              experience, we embrace both traditional coding<br />
+              methods and no-code tools to empower our clients<br />
+              to navigate the complexities of the digital landscape<br />
+              with confidence and ease.  We are in the frontline of<br />
+              innovation and adaptability to deliver to our clients<br />
+              tailored, efficient, and future-proof web solutions that drive results.
+
             </p>
           </div>
         </div>
@@ -143,17 +152,38 @@ const count = ref(0);
             alt="..." />
 
           <div class="ban_text">
-            <strong><span>Low/No Code Development</span></strong>
+            <strong><span>Tailored Solutions with Shopify and Prestashop Development</span></strong>
             <p>
-              We leverage new tools and technologies in the<br />
-              dynamic field of low/no code to craft creative<br />
-              solutions by designing user-friendly interfaces<br />
-              and unique workflows for our clients.
+              We leverage the intuitive design and user-friendly<br />
+              interface of Shopify for building visually<br />
+              stunning storefronts, while tapping into the<br />
+              extensive e-commerce functionalities of PrestaShop<br />
+              for robust backend management and scalability.<br />
+              Our team of Shopify and prestashop experts<br />
+              combines creativity, technical prowess, and industry<br />
+              insights to deliver tailored solutions that exceed your expectations.
             </p>
-            <!-- <a href="#ilab-pay">View Demo</a>
-            <a href="#">Learn More</a> -->
+
           </div>
         </div>
+
+        <div class="carousel-item">
+          <img src="/images/img3.jpg" style="maxwidth: 100%; height: 600px; objectfit: cover" class="d-block w-100"
+            alt="..." />
+
+          <div class="ban_text">
+            <strong><span>Seamlessly Integrated Solutions with Webflow</span></strong>
+            <p>
+              Our approach is rooted in the fusion of creativity<br />
+              and functionality. With Webflow's intuitive visual<br />
+              editor. We collaborate with our clients to craft<br />
+              visually stunning  that wows your audience,<br />
+              drives conversions, and propels your business to new heights.
+            </p>
+
+          </div>
+        </div>
+
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -191,22 +221,46 @@ const count = ref(0);
       <p class="our-services">Let us embark on a journey of innovation, agility and transformation together.</p>
 
     </div>
+    
+    <MainService
+    card_header="Web Development" 
+    card_title="We collaborate closely with our clients to understand their goals, forecast their needs and exceed expectations. With expertise honed through over 10 years of experience  we embrace both traditional coding methods and no-code tools to empower our clients to navigate the complexities of the digital landscape with confidence and ease. We harness the power of Agile approach to give our clients unprecedented efficiency, adaptability and flexibility in each project we deliver."
 
-    <Service card_header="Web Development" card_title="We collaborate closely with our clients to understand their goals,
-                    forecast their needs and exceed expectations. With expertise honed
-                    through over 10 years of experience we leverage on the latest
-                    technologies to build responsive designs and seamless
-                    functionalities across devices. We harness the power of Agile
-                    approach to give our clients unprecedented efficiency and
-                    flexibility in each project we deliver."
-      :skills="['REACT', 'ANGULAR', 'VUE', 'JSNODE', 'JS', 'PHP', 'PYTHON']" card_1_url="/images/eGov Portfolio Video.mp4"
+      :skills="['REACT', 'ANGULAR', 'VUE', 'JSNODE', 'JS', 'PHP', 'PYTHON']" 
+      :skills_no_code="['E-COMMERCE WEB DEVELOPMENT', 'SHOPIFY', 'WORDPRESS', 'PRESTASHOP', 'PLUGIN DEVELOPMENT']"
+      card_1_url="/images/eGov Portfolio Video.mp4"
       card_1_title="E-Governance Solution"
       card_1_text=" Our Solution defines the future of governance, where citizens are at the heart of every decision and administrative process. Our revolutionary user-centric eGovernance solution is designed to streamline administrative tasks, delivering... "
-      card_1_view_more="wild" card_2_url="/images/wild_demo_9_feb.mp4" card_2_title="E-Conservancy Solution"
+      card_1_view_more="wild" 
+
+      card_2_url="/images/wild_demo_9_feb.mp4" 
+      card_2_title="E-Conservancy Solution"
       card_2_text="Our solution is in the forefront of conservation technology. It is a state-of-the-art web platform with a mobile app designed specifically for conservancies in protected and community areas. Our platform revolutionizes the way conservationists collect."
-      card_2_view_more="eConservancy" card_3_url="" card_3_title="EDRMS"
+      card_2_view_more="eConservancy"
+
+      card_3_url="" 
+      card_3_title="EDRMS"
       card_3_text="Our innovative document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by; a) organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders."
-      card_3_view_more="eRevenueManagementApp" />
+      card_3_view_more="eRevenueManagementApp" 
+
+
+      card_4_url="" 
+      card_4_title="Ecommerce Site"
+      card_4_text="We created a user-friendly and attractive eCommerce website for the company using Prestashop, a platform that enables fast and easy development with minimal coding. The website allows the company to sell electronic products online and get them delivered to the clients. We also developed a plugin to connect the website with a payment provider, giving the clients a convenient way to pay for their orders."
+      card_4_view_more="eRevenueManagementApp"
+
+      card_5_url="" 
+      card_5_title="Alumni Portal"
+      card_5_text="Our solution provides an opportunity for continued communication and collaboration between students who have gone through and completed various training programmes. Learning can therefore be enhanced by allowing all participants to share best practices, new developments and seek assistance in their day to day activities. Technology enables the connection of learners globally, increasing the value of the knowledge that can be shared between themselves."
+      card_5_view_more="eRevenueManagementApp"
+
+      card_6_url="" 
+      card_6_title="Shopify Plugin"
+      card_6_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
+      card_6_view_more="eRevenueManagementApp"
+
+      
+      />
 
 
 
@@ -217,114 +271,23 @@ const count = ref(0);
       card_1_text="Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens."
       card_1_view_more="JusticeLens" card_2_url="" card_2_title="Exam Revision Game App"
       card_2_text="Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement."
-      card_2_view_more="eConservancy" 
-      
-      card_3_url=""
-      card_3_title="Tax eCompliance"
+      card_2_view_more="eConservancy" card_3_url="" card_3_title="Tax eCompliance"
       card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
       card_3_view_more="eRevenueManagementApp" />
 
 
 
-    <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
-      <div class="card p-5">
-        <div class="card-header pl-3 pr-3">
-          <h1 class="">Enterprise Applications</h1>
-          <p class="paragraph-moses">
-            We partner with clients to streamline their business operations with tailored solutions, enabling them realize
-            tangible results. In the evolving business world, our team has extensive experience across a wide range of
-            industries including human resource, procurement, document management and accounting, bringing our clients
-            immeasurable knowledge, skills and passion in every project we deliver.
-          </p>
+    <Service card_header="Enterprise Applications"
+      card_title="We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including human resource, procurement, document management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver."
+      :skills="['JAVA', 'POSTGRES', 'VUE JS', 'SPRINGBOOT']" card_1_url=""
+      card_1_title="Business Process Management (BPM)."
+      card_1_text="Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens."
+      card_1_view_more="JusticeLens" card_2_url="" card_2_title="eProcurement"
+      card_2_text="Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement."
+      card_2_view_more="eConservancy" card_3_url="" card_3_title="eHR"
+      card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
+      card_3_view_more="eRevenueManagementApp" />
 
-          <div class="skills">
-            <h5 class="" style="
-                font-size: 2.3rem;
-                color: grey;
-                background-color: transparent;
-              ">
-              Skills
-            </h5>
-            <ul class="skills-list" style="list-style-type: none; padding-left: 0">
-              <li style="color: black; font-size: 1.5rem">JAVA</li>
-              <li style="color: black; font-size: 1.5rem">POSTGRES</li>
-              <li style="color: black; font-size: 1.5rem">VUE JS</li>
-              <li style="color: black; font-size: 1.5rem">SPRINGBOOT</li>
-            </ul>
-          </div>
-          <br>
-          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
-        </div>
-
-        <div class="card-body">
-          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
-
-          <div class="row" id="experiment">
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
-
-              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
-
-              <div class="card-body">
-                <h2 class="card-title">Business Process Management (BPM</h2>
-                <p class="paragraph-moses">
-                  Our solution empowers the individuals at the forefront of defending human rights with the right tools.
-                  They can be able to conveniently and securely capture information on human rights and election
-                  malpractices on the ground. Such information is pivotal in protecting the democratic space and
-                  protecting the wellbeing of the citizens.
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a href="#"
-                      class="btn btn-primary">View More</a></router-link>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
-
-              <div class="card-body">
-                <h2 class="card-title">eProcurement</h2>
-                <p class="paragraph-moses">
-                  Our solution enhances the process of revision for students by making use of the latest mobile
-                  technologies available. Students can interact with a gamified mobile app and answer quizzes and
-                  examination questions earning points and immediate feedback on the answers. Appropriate reports are
-                  provided enabling the students and their parents to monitor progress and identify areas for improvement.
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link :to="{
-                    query: { current: 'eConservancy' },
-                    name: 'ViewMore',
-                  }" style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a href="#"
-                      class="btn btn-primary">View More</a></router-link>
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
-
-              <div class="card-body">
-                <h2 class="card-title">eHR </h2>
-                <p class="paragraph-moses">
-                  Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance
-                  solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error.
-                  From assigning tasks and scheduling audits to sending reminders and generating reports, our solution
-                  streamlines your compliance processes from start to finish.
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"><a href="#" class="btn btn-primary"
-                      style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;">View
-                      More</a></router-link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
       <div class="card p-5">
