@@ -208,7 +208,7 @@ body{
 }
 
 .footer .container > .row {
-    display: flex;
+    display: auto;
     justify-content: space-between; /* This will space out the child elements evenly */
     width: 100%; /* Ensure the row takes up the full width */
 }
@@ -1758,6 +1758,13 @@ body{
         font-size: 50%;
     }
 
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: auto;
+      }
     .header .logo img{
         width: 20%;
         height: 3rem;
