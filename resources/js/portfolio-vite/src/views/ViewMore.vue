@@ -201,7 +201,7 @@ export default {
             <a href="#about" id="about-link">About Us</a>
           </li>
           <li onclick="linkClicked('service')">
-            <a href="#service" id="service">Services</a>
+            <a href="#services" id="service">Services</a>
           </li>
           <li onclick="linkClicked('contact_us')">
             <a href="#contact" id="contact-link">Contact Us</a>

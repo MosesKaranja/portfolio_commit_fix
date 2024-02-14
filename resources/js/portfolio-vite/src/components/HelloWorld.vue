@@ -115,12 +115,14 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Web Development</span></strong>
+            <strong><span>Web Development/ No/Low Code Building</span></strong>
             <p>
-              With expertise honed through over 10 years of experience we leverage on the latest technologies to build responsive designs and seamless functionalities across devices
+              With expertise honed through over 10 years of experience we leverage on the latest technologies to build responsive designs and seamless functionalities across devices. We leverage new tools and technologies in the dynamic field of low/no code to craft creative solutions by designing user-friendly interfaces and unique workflows for our clients.
             </p>
           </div>
         </div>
+
+        
 
         <div class="carousel-item">
           <img
@@ -129,6 +131,8 @@ const count = ref(0);
             class="d-block w-100"
             alt="..."
           />
+
+          
 
           <div class="ban_text">
             <strong><span>Mobile Development</span></strong>
@@ -156,15 +160,15 @@ const count = ref(0);
           </div>
         </div>
 
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <img
             src="/images/img3.jpg"
             style="maxwidth: 100%; height: 600px; objectfit: cover"
             class="d-block w-100"
-            alt="..."
-          />
+            alt="..." -->
+          <!-- /> -->
 
-          <div class="ban_text">
+          <!-- <div class="ban_text">
             <strong><span>Low/No Code Development</span></strong>
             <p>
               We leverage new tools and technologies in the<br />
@@ -172,10 +176,10 @@ const count = ref(0);
               solutions by designing user-friendly interfaces<br />
               and unique workflows for our clients.
             </p>
-            <!-- <a href="#ilab-pay">View Demo</a>
+          <a href="#ilab-pay">View Demo</a>
             <a href="#">Learn More</a> -->
-          </div>
-        </div>
+          <!-- </div>-->
+        <!-- </div> -->
       </div>
       <a
         class="carousel-control-prev"
@@ -225,7 +229,7 @@ const count = ref(0);
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
           
-          <h1 class="">Web Development</h1>
+          <h1 class="">Web Development/ No/Low Code Building</h1>
           <p class="paragraph-moses">
             We collaborate closely with our clients to understand their goals,
             forecast their needs and exceed expectations. With expertise honed
@@ -259,12 +263,101 @@ const count = ref(0);
               <li style="color: black; font-size: 1.5rem">PYTHON</li>
             </ul>
           </div>
+
+          <div class="skills">
+            <h5
+              class=""
+              style="
+                font-size: 2.3rem;
+                color: grey;
+                ;
+              "
+            >
+              Tools
+            </h5>
+            <ul
+              class="skills-list"
+              style="list-style-type: none; padding-left: 0"
+            >
+              <li style="color: black; font-size: 1.5rem">E-COMMERCE WEB DEVELOPMENT</li>
+              <li style="color: black; font-size: 1.5rem">SHOPIFY</li>
+              <li style="color: black; font-size: 1.5rem">WORDPRESS</li>
+              <li style="color: black; font-size: 1.5rem">PRESTASHOP</li>
+              <li style="color: black; font-size: 1.5rem">PLUGIN DEVELOPMENT</li> 
+            </ul>
+          </div>
           <br>
           <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div> 
        
         <div class="card-body">
           <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
+
+          <div class="card-body"> 
+          <div class="row" id="experiment">
+            <div class="col-sm-4 card" style="border-radius: 1rem">
+              <img src="/images/pic2.png" /> 
+              <div class="card-body">
+                <h2 class="card-title">Ecommerce Site</h2>
+                <p class="paragraph-moses">
+                  We created a user-friendly and attractive eCommerce website for the company using Prestashop, a platform that enables fast and easy development with minimal coding. The website allows the company to sell electronic products online and get them delivered to the clients. We also developed a plugin to connect the website with a payment provider, giving the clients a convenient way to pay for their orders.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
+                    ><a href="#" class="btn btn-primary"
+                      >View More</a
+                    ></router-link
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 card" style="border-radius: 1rem">
+    <img src="/images/pic2.png" />
+
+    <div class="card-body">
+        <h2 class="card-title">Alumni Portal</h2>
+        <p class="paragraph-moses">
+            Our solution provides an opportunity for continued communication and collaboration between students who have gone through and completed various training programmes. Learning can therefore be enhanced by allowing all participants to share best practices, new developments and seek assistance in their day to day activities. Technology enables the connection of learners globally, increasing the value of the knowledge that can be shared between themselves.
+        </p>
+        <div class="d-flex justify-content-end">
+            <router-link
+                :to="{
+                query: { current: 'eConservancy' },
+                name: 'ViewMore',
+                }"
+                style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
+            >
+                <a href="#" class="btn btn-primary" onclick="scrollToTop()">View More</a>
+            </router-link>
+        </div>
+    </div>
+</div> 
+
+            <div class="col-sm-4 card" style="border-radius: 1rem">
+              <img src="/images/pic2.png" />
+
+              <div class="card-body">
+                <h2 class="card-title">Shopify Plugin </h2>
+                <p class="paragraph-moses">
+                  Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish.
+                </p>
+                <div class="d-flex justify-content-end">
+                  <router-link
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
+                    ><a href="#" class="btn btn-primary"
+                    
+                      >View More</a
+                    ></router-link
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
           <div class="row" id="experiment">
             <div class="col-sm-4 card" style="border-radius: 1rem">
@@ -293,11 +386,12 @@ const count = ref(0);
                   Our revolutionary user-centric eGovernance solution is
                   designed to streamline administrative tasks, delivering...
                 </p>
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-top">
                   <router-link
-                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }" 
                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    ><a href="#" class="btn btn-primary"
+                    ><a href="E-Governance Solution" class="btn btn-primary" 
+                    
                       >View More</a
                     ></router-link
                   >
@@ -591,7 +685,7 @@ const count = ref(0);
       </div>
     </section>
 
-    <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
+    <!-- <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
       <div class="card p-5">
         <div class="card-header pl-3 pr-3">
          
@@ -626,15 +720,10 @@ const count = ref(0);
           <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
         </div>
 
-        <div class="card-body">
-          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
-
+        <div class="card-body"> 
           <div class="row" id="experiment">
             <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
-
-              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
-
+              <img src="/images/pic2.png" /> 
               <div class="card-body">
                 <h2 class="card-title">Ecommerce Site</h2>
                 <p class="paragraph-moses">
@@ -697,7 +786,7 @@ const count = ref(0);
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
         <div class="clients" style="max-width: 1280px;margin:0 auto;">
           <div class="">
