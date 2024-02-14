@@ -85,6 +85,7 @@ const count = ref(0);
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -102,15 +103,12 @@ const count = ref(0);
               ></strong
             >
             <p>
-              Step into the future with us, where we<br />
-              redefine innovations in Web, Mobile,<br />
-              Enterprise technologies using traditional<br />
-              coding techniques, while harnessing the<br />
-              simplicity and speed of no-code tools<br />
-              to accelerate development cycles and<br />
-              empower clients to take control of<br />
-              their solutions.. We empower our clients<br />
-              with the tools they need to thrive in the digital age.
+              Step into the future with us, where we redefine innovations in<br/>
+              Web, Mobile, Enterprise technologies using traditional coding<br/>
+              techniques, while harnessing the simplicity and speed of no-code<br/>
+              tools to accelerate development cycles and empower clients to take<br/>
+              control of their solutions. We empower our clients with the <br/>
+              tools they need to thrive in the digital age.
             </p>
             <!-- <a href="#revenue-management">View Demo</a>
             <a href="#">Learn More</a> -->
@@ -128,11 +126,10 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Web Development/ No/Low Code Building</span></strong>
             <p>
-              With expertise honed through over 10 years of<br />
-              experience, we embrace both traditional coding<br />
-              methods and no-code tools to empower our clients<br />
-              to navigate the complexities of the digital landscape<br />
-              with confidence and ease.  We are in the frontline of<br />
+              With expertise honed through over 10 years of experience,<br /> 
+              we embrace both traditional coding methods and no-code tools<br /> 
+              to empower our clients to navigate the complexities of the digital<br />
+              landscape with confidence and ease.  We are in the frontline of<br />
               innovation and adaptability to deliver to our clients<br />
               tailored, efficient, and future-proof web solutions that drive results.
 
@@ -175,7 +172,7 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Enterprise application development</span></strong>
+            <strong><span>Enterprise Application Development</span></strong>
             <p>
               In the evolving business world, our team has<br>
               extensive experience across a wide range of<br>
@@ -195,14 +192,12 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Tailored Solutions with Shopify and Prestashop Development</span></strong>
             <p>
-              We leverage the intuitive design and user-friendly<br />
-              interface of Shopify for building visually<br />
-              stunning storefronts, while tapping into the<br />
-              extensive e-commerce functionalities of PrestaShop<br />
-              for robust backend management and scalability.<br />
-              Our team of Shopify and prestashop experts<br />
-              combines creativity, technical prowess, and industry<br />
-              insights to deliver tailored solutions that exceed your expectations.
+              We leverage the intuitive design and user-friendly interface of <br/>
+              Shopify for building visuallystunning storefronts, while tapping <br/>
+              into the extensive e-commerce functionalities of PrestaShop for <br/> 
+              robust backend management and scalability. Our team of Shopify <br/> 
+              and prestashop experts combines creativity, technical prowess, <br/> 
+              and industry insights to deliver tailored solutions that exceed your expectations.
             </p>
 
           </div>
