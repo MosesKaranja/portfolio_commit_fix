@@ -21,12 +21,18 @@ const router = createRouter({
         //console.log("Inside CreateRouter")
         // always scroll to top
         // return { top: 0 }
+        console.log()
+        console.log()
+        
+        if (to.hash) {
+            return
+        }
 
-        // return new Promise((resolve, reject) => {
-        //     setTimeout(() => {
-        //       resolve({  top: 0 })
-        //     }, 100)
-        //   })
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+              resolve({  top: 0 })
+            }, 100)
+          })
       },
     routes
 })
