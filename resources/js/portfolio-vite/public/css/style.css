@@ -11,6 +11,11 @@
     text-decoration: none;
 }
 
+#alice-font-family{
+    font-family: "Alice", serif;
+
+}
+
 html{
     font-size: 62.5%;
     scroll-behavior:smooth;

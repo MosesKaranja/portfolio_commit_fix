@@ -98,11 +98,11 @@ const count = ref(0);
 
           <div class="ban_text">
             <strong
-              ><span
+              ><span id="alice-font-family"
                 >Cutting-edge Tech Solutions for your Every Need</span
               ></strong
             >
-            <p>
+            <p id="alice-font-family">
               Step into the future with us, where we redefine innovations in<br/>
               Web, Mobile, Enterprise technologies using traditional coding<br/>
               techniques, while harnessing the simplicity and speed of no-code<br/>
@@ -124,8 +124,8 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Web Development</span></strong>
-            <p>
+            <strong><span id="alice-font-family">Web Development</span></strong>
+            <p id="alice-font-family">
               With expertise honed through over 10 years of experience,<br /> 
               we embrace both traditional coding methods and no-code tools<br /> 
               to empower our clients to navigate the complexities of the digital<br />
@@ -150,8 +150,8 @@ const count = ref(0);
           
 
           <div class="ban_text">
-            <strong><span>Mobile Development</span></strong>
-            <p>
+            <strong><span id="alice-font-family">Mobile Development</span></strong>
+            <p id="alice-font-family">
               With our team of UX, UI Designers, developers<br>
               and and project management experts encompassing<br>
               a blend of technical and problem solving skills,<br>
@@ -170,8 +170,8 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Enterprise Application Development</span></strong>
-            <p>
+            <strong><span id="alice-font-family">Enterprise Application Development</span></strong>
+            <p id="alice-font-family">
               In the evolving business world, our team has<br>
               extensive experience across a wide range of<br>
               industries including human resource, procurement,<br>
@@ -188,8 +188,8 @@ const count = ref(0);
             alt="..." />
 
           <div class="ban_text">
-            <strong><span>Tailored Solutions with Shopify and Prestashop Development</span></strong>
-            <p>
+            <strong><span id="alice-font-family">Tailored Solutions with Shopify and Prestashop Development</span></strong>
+            <p id="alice-font-family">
               We leverage the intuitive design and user-friendly interface of <br/>
               Shopify for building visuallystunning storefronts, while tapping <br/>
               into the extensive e-commerce functionalities of PrestaShop for <br/> 
@@ -207,8 +207,8 @@ const count = ref(0);
             alt="..." />
 
           <div class="ban_text">
-            <strong><span>Seamlessly Integrated Solutions with Webflow</span></strong>
-            <p>
+            <strong><span id="alice-font-family">Seamlessly Integrated Solutions with Webflow</span></strong>
+            <p id="alice-font-family">
               Our approach is rooted in the fusion of creativity<br />
               and functionality. With Webflow's intuitive visual<br />
               editor. We collaborate with our clients to craft<br />
