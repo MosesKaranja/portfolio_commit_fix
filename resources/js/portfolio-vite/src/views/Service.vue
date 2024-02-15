@@ -85,7 +85,7 @@ export default {
                                 {{ card_1_text }}
                             </p>
                             <div class="d-flex justify-content-end">
-                                <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                                <router-link :to="{ query: { current: card_1_view_more, img: card_1_image }, name: 'ViewMore' }"
                                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
                             </div>
@@ -109,7 +109,7 @@ export default {
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{
-                                    query: { current: 'eConservancy' },
+                                    query: { current: card_2_view_more, img: card_2_image },
                                     name: 'ViewMore',
                                 }" style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
@@ -127,12 +127,12 @@ export default {
                         <img v-else :src="card_3_image" />
 
                         <div class="card-body">
-                            <h2 class="card-title">EDRMS</h2>
+                            <h2 class="card-title">{{ card_3_title }}</h2>
                             <p class="paragraph-moses">
-                                {{ card_2_text }}
+                                {{ card_3_text }}
                             </p>
                             <div class="d-flex justify-content-end">
-                                <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                                <router-link :to="{ query: { current: card_3_view_more, img: card_3_image }, name: 'ViewMore' }"
                                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
                             </div>

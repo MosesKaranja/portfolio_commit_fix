@@ -182,7 +182,7 @@ const view_more_data = {
     ],
   },
 
-  ExamRevisionGameApp: {
+  examRevisionGameApp: {
     title: "Exam Revision Game App",
     description:"Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement.",
     url: "",
@@ -340,6 +340,8 @@ export default {
 
     return {
       more_data: view_more_data[route.query.current],
+      image_link: route.query.img
+
     };
   },
 
@@ -391,8 +393,9 @@ export default {
     </header>
 
     <div
+      v-if="more_data.url"
       class=""
-      style="max-width: 1140px; display: block; margin: 4px auto 4px auto;"
+      style="max-width: 1140px; display: block; margin: 4px auto 4px auto;border: 3px solid black;"
     >
       <video
         oncontextmenu="return false;"
@@ -407,6 +410,13 @@ export default {
           alt="e-Governance Revenue Management System (eRMS)"
         />
       </video>
+
+      
+    </div>
+
+    <div v-else style="max-width: 1140px;display: block; margin-left: auto; margin-right: auto;">
+      <img :src="image_link" style="width: 100%; height: 637px; border-radius:10px;"/>
+
     </div>
 
     <div

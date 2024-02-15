@@ -135,7 +135,7 @@ export default {
                                 {{ card_1_text }}
                             </p>
                             <div class="d-flex justify-content-end">
-                                <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                                <router-link :to="{ query: { current: card_1_view_more }, name: 'ViewMore' }"
                                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
                             </div>
@@ -159,7 +159,7 @@ export default {
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{
-                                    query: { current: 'eConservancy' },
+                                    query: { current: card_2_view_more },
                                     name: 'ViewMore',
                                 }" style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
@@ -182,7 +182,7 @@ export default {
                                 {{ card_3_text }}
                             </p>
                             <div class="d-flex justify-content-end">
-                                <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                                <router-link :to="{ query: { current: card_3_view_more }, name: 'ViewMore' }"
                                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
                             </div>
@@ -207,7 +207,7 @@ export default {
                                 {{ card_4_text }}
                             </p>
                             <div class="d-flex justify-content-end">
-                                <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                                <router-link :to="{ query: { current: card_4_view_more }, name: 'ViewMore' }"
                                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
                             </div>
@@ -231,7 +231,7 @@ export default {
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{
-                                    query: { current: 'eConservancy' },
+                                    query: { current: card_5_view_more },
                                     name: 'ViewMore',
                                 }" style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
@@ -254,7 +254,7 @@ export default {
                                 {{ card_6_text }}
                             </p>
                             <div class="d-flex justify-content-end">
-                                <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
+                                <router-link :to="{ query: { current: card_6_view_more }, name: 'ViewMore' }"
                                     style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
                             </div>
