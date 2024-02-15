@@ -56,21 +56,21 @@ const view_more_data = {
 
   shopifyPlugin: {
     title: "Shopify Ecommerce",
-    description : "We created an ecommerce website on shopify with minimal customizations to ensure a seamless and easy purchase experience for online customers. The shopify platform enabled the solution to be delivered in a very tight schedule as well as reduce the number of hurdles in deploying the project. Our expertise on this platform gives us the freedom to implement custom features not available by coding some parts of the system.",
+    description : "We created an ecommerce plugin on shopify with customization options to ensure a seamless and easy purchase experience for online customers. The shopify platform enabled the solution to be delivered in a very tight schedule as well as reduce the number of hurdles in deploying the project. Our expertise on this platform gives us the freedom to implement custom features not available by coding the needed functionalities.",
     url: "",
-    stack: ["",],
+    stack: ["Shopify Liquid", "React", "Node JS", "MySQL"],
     project:
-      "",
+      "Shopify Product Display Plugin",
 
     problem:
-      "",
+      "Clients needed more options to view the products on the product details page. The uncertainty of how the product will look in  person would lower the conversion rate.",
 
     solution:
-      "",
+      "Creation of a plugin that will allow the client to view the product from different angles by rotating it.",
 
     services_provided: [
-      "",
-
+      "UI/UX design",
+      "Plugin Development"
 
     ],
   },
