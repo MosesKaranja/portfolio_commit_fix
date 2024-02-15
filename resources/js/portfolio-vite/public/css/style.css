@@ -1546,7 +1546,7 @@ body{
             font-size: 18px;
             display: inline-block;
             background: #ffffff;
-            color: #00bfff;
+            color: #45a92b;
             line-height: 1;
             padding: 9px 0;
             margin-right: 4px;
@@ -1557,7 +1557,7 @@ body{
         }
         
         .footer .footer-top .social-links a:hover {
-            background: #00bfff;
+            background: #45a92b;
             color: #ffffff;
         }
         
@@ -1668,7 +1668,7 @@ body{
         .back-to-top {
             position: fixed;
             display: none;
-            background-color: #00bfff;
+            background-color: #187000;
             color: #ffffff;
             width: 45px;
             height: 45px;
