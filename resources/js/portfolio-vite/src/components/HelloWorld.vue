@@ -355,7 +355,7 @@ const count = ref(0);
       card_3_url="" 
       card_3_image="/images/ehr.png"
       card_3_title="eHR"
-      card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
+      card_3_text="Our ERP solution is tailored for human resources processes embraces innovation, automation, and best practices, to empower our clients to enhance efficiency, improve employee engagement, and achieve strategic HR objectives. Our solution serves as a single source of truth for all employee-related information, consolidating data on demographics, employment history, performance evaluations, training records, and more."
       card_3_view_more="eHR" />
 
 
