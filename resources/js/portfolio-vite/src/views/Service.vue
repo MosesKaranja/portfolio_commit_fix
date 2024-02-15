@@ -72,7 +72,7 @@ export default {
                                 alt="e-Governance Revenue Management System (eRMS)" />
                         </video>
 
-                        <img v-else src="/images/justicelens.png" />
+                        <img v-else src="/images/Bpm.png" />
 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -95,7 +95,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/justicelens.png" />
+                        <img v-else src="/images/pic2.png" />
                         
 
                         <div class="card-body">
