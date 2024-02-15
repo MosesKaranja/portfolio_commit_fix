@@ -140,7 +140,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/EDRMS.png" />
                         
 
                         <div class="card-body">

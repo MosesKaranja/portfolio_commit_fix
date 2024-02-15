@@ -95,7 +95,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/justicelens.png" />
                         
 
                         <div class="card-body">
@@ -121,16 +121,12 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/EDRMS.png" />
 
                         <div class="card-body">
                             <h2 class="card-title">EDRMS</h2>
                             <p class="paragraph-moses">
-                                Our innovative document record management solution has
-                                assisted over 7 of our clients to unlock new levels of
-                                efficiency, collaboration and security by; a) organizing their
-                                documents into a centralized location saving users the hassle
-                                of sifting through piles of papers or digital folders.
+                                {{ card_2_text }}
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
