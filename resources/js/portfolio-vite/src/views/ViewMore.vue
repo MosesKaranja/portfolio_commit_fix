@@ -120,6 +120,25 @@ const view_more_data = {
     services_provided: ["Backend Development", "GIS Integration"],
   },
 
+  eDRMS: {
+    title: "eDRMS",
+    description: "Our Innovative Document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders.  facilitating seamless collaboration by allowing multiple users to access, edit, and comment on documents simultaneously, with version control and audit trails, to track changes and ensure everyone is working with the latest information providing security features including encryption, access controls, and user authentication to safeguard documents from unauthorized access and data breaches.",
+    url: "",
+    
+    banner_image:"",
+    stack: ["Python", "Django", "Docker", "Postgres", "Redis"],
+    project:
+      "Automate document-centric processes such as approval workflows, review cycles, and document sharing, streamlining business operations and improving productivity. Inaccuracy and operational inefficiency while handling documents in an organization.",
+
+    problem:
+      "",
+
+    solution:
+      "Innovative solution that facilitates centralised access to documents, version and access controls improving access to documents, streamlining operations and improving productivity.",
+
+    services_provided: ["Needs assessment", "Data Migration", "Training", "API Integration"],
+  },
+
   // wild:{
   //     title: 'EDRMS',
   //     url: '/images/WILD_FINAL.mp4',
@@ -138,9 +157,11 @@ const view_more_data = {
   //         ]
   // },
 
-  JusticeLens: {
-    title: "EDRMS",
-    url: "/images/WILD_FINAL.mp4",
+  justiceLens: {
+    title: "JusticeLens",
+    description: "Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens.",
+    url: "",
+    banner_image:"",
     stack: ["Dart", "Flutter", "Codeigniter", "PHP", "Javascript"],
 
     project: "Development of a Justice Lens mobile application and backend.",
@@ -148,7 +169,7 @@ const view_more_data = {
     problem:
       "Lack of Efficient and accurate collection and analysis of data on human rights offenses. ",
 
-    solution: "Data Collection Mobile Application and Web based backend",
+    solution: "A Data Collection Mobile Application and Web based backend.",
 
     services_provided: [
       "UI/UX design",
@@ -163,7 +184,9 @@ const view_more_data = {
 
   ExamRevisionGameApp: {
     title: "Exam Revision Game App",
-    url: "/images/WILD_FINAL.mp4",
+    description:"Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement.",
+    url: "",
+    banner_image:"",
     stack: ["Kotlin", "Android", "Laravel", "PHP", "Javascript"],
 
     project: "Developing an Exam Revision Game App.",
@@ -184,9 +207,11 @@ const view_more_data = {
     ],
   },
 
-  TaxeCompliance: {
-    title: "Tax eCompliance  ",
-    url: "/images/WILD_FINAL.mp4",
+  eTaxCompliance: {
+    title: "eTaxCompliance",
+    description: "Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish.",
+    url: "",
+    banner_image:"",
     stack: ["Java", "Android", "Laravel", "PHP", "Javascript"],
 
     project:
@@ -206,25 +231,104 @@ const view_more_data = {
   },
 
   eRevenueManagementApp: {
-    title: "eRevenue Management App ",
-    url: "/images/WILD_FINAL.mp4",
+    title: "eRevenue Management App",
+    description: "Our solution enables the government officials to collect revenue effectively while mobile. It eliminates the manual processes that make reconciliation of transactions time consuming and prone to errors. A mobile application installed on a mobile point of sale device (POS) device provides a more convenient method of processing payments for government services on site. The device has provisions for various modes of payments including integrations to enable mobile money payments. Printing of receipts is achieved with integration between the software and the device hardware using a software development kit(SDK) sourced from the device manufacturer. Appropriate security is achieved via use of HTTPS for all API calls, two factor authentication and activation of administrator privileges on the device. The application is built on the Android platform using the JAVA programming language.",
+    banner_image: "",
+    url: "",
     stack: ["Java", "Android", "Laravel", "PHP", "Javascript"],
 
-    project:
-      "Development of a solution that simplifies and streamlines tax compliance operations for governments.",
+    project: "",
 
-    problem: "Lack of real-time visibility into compliance activities.",
+    problem: "",
 
-    solution:
-      "A solution that provides enforcers with a platform to query and verify compliance in real time.",
+    solution: "",
 
     services_provided: [
-      "User needs assessment",
+      "UI/UX design",
       "Software Development",
+      "Production Server configuration and setup",
       "System Documentation",
-      "User Training",
+      "User acceptance testing",
+      "User Training"
+
     ],
   },
+
+  businessProcessManagement: {
+    title: "Business Process Management (BPM)",
+    description: "",
+    banner_image: "",
+    url: "",
+    stack: ["Java", "Vue JS", "Springboot", "Postgress"],
+
+    project: "To automate and accelerate the recruitment and onboarding steps within departments.",
+
+    problem: "Recruitment and on-boarding is a cross-departmental and time consuming process making it more laborious when it’s manually executed.",
+
+    solution: "A highly configurable recruitment and onboarding BPM system that consists of an admin portal and a user facing interface. The admin portal allows for a degree of configurability to fit the expected requirements of the Business Process. The configurations made on the admin portal are reflected on the user facing interface.",
+
+    services_provided: [
+      "System Requirement analysis",
+      "UI/UX Design",
+      "Web Service and API integrations",
+
+    ],
+  },
+
+  eProcurement: {
+    title: "eProcurement",
+    description: "Our solution transforms your procurement operations by leveraging innovative technologies and best practices. We empower organizations to unlock the full potential of their procurement processes and propel their business towards growth and prosperity.",
+    banner_image: "",
+    url: "",
+    stack: ["Python", "Javascript", "MariaDB / Redis", "Docker"],
+
+    project: "Developing an ERP solution tailored to eProcurement.",
+
+    problem: "Traditional procurement methods often involve manual tasks, lengthy approval processes, and fragmented systems, leading to inefficiencies, errors, and increased costs.",
+
+    solution: "ERP solution tailored to eProcurement to optimize efficiency, reduce costs, and achieve sustainable competitive advantage in today's dynamic marketplace.",
+
+    services_provided: [
+      "Requisitions",
+      "Products and Product Categories",
+      "Supplier Management",
+      "Catalogue Management",
+      "Purchase Modes",
+      "RFQs",
+      "Tenders"
+
+    ],
+  },
+
+  eHR: {
+    title: "eHR",
+    description: "Our ERP solution is tailored for human resources processes embraces innovation, automation, and best practices, to empower our clients to enhance efficiency, improve employee engagement, and achieve strategic HR objectives Our solution serves as a single source of truth for all employee-related information, consolidating data on demographics, employment history, performance evaluations, training records, and more.",
+    banner_image: "",
+    url: "",
+    stack: ["Python", "Javascript", "MariaDB / Redis", "Docker"],
+
+    project: "Developing an ERP solution tailored to eHR processes.",
+
+    problem: "Traditional HR processes often involve manual tasks, disparate systems, and outdated practices, leading to inefficiencies, compliance risks, and decreased employee satisfaction.",
+
+    solution: "A comprehensive platform designed to streamline and optimize human resource processes within organizations of all sizes.",
+
+    services_provided: [
+      "Employee Profile",
+      "Employee Qualifications",
+      "Employment Contracts",
+      "Leave Management",
+      "Recruitment Portal",
+      "Promotions/Demotions",
+      "Employee Training & Course Management",
+      "Performance Evaluations",
+      "Employee Travel Management",
+      "Disciplinary",
+      "Employee Separation"
+
+    ],
+  },
+
 };
 
 export default {
