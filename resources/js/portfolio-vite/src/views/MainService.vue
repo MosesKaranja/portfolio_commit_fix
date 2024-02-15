@@ -96,7 +96,7 @@ export default {
                 color: grey;
                 ;
               ">
-                        Our Skills
+                        Skills
                     </h5>
                     <ul class="skills-list" style="list-style-type: none; padding-left: 0">
 
@@ -144,11 +144,9 @@ export default {
                         </div>
 
 
-                        <!-- <img v-else :src="card_1_image" /> -->
-
+                        <!-- <img v-else :src="card_1_image" /> --> 
                         <div v-else :style="buttonStyles(this.card_1_image)">
-                        </div>
-
+                        </div> 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
                         <div class="card-body">
@@ -329,5 +327,10 @@ export default {
 <style scoped>
 button {
     font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 </style>
