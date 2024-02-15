@@ -35,6 +35,16 @@ export default {
         card_6_title: String,
         card_6_text: String,
         card_6_view_more: String,
+
+        card_7_url: String,
+        card_7_title: String,
+        card_7_text: String,
+        card_7_view_more: String,
+
+        card_8_url: String,
+        card_8_title: String,
+        card_8_text: String,
+        card_8_view_more: String,
                     
 
 
@@ -81,7 +91,7 @@ export default {
                 color: grey;
                 ;
               ">
-                        Our Tools
+                        Tools
                     </h5>
                     <ul class="skills-list" style="list-style-type: none; padding-left: 0">
 
@@ -156,7 +166,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/EDRMS.png" />
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_3_title }}</h2>
@@ -179,7 +189,7 @@ export default {
                                 alt="e-Governance Revenue Management System (eRMS)" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/ecommerce.png" />
 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -202,7 +212,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/alumni_platform.png" />
                         
 
                         <div class="card-body">
@@ -228,7 +238,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/shopify_plugin.png" />
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_6_title }}</h2>
@@ -242,6 +252,7 @@ export default {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

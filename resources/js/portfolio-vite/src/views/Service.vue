@@ -72,7 +72,7 @@ export default {
                                 alt="e-Governance Revenue Management System (eRMS)" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else src="/images/justicelens.png" />
 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
