@@ -1248,6 +1248,52 @@ body{
     justify-content: center;
 }
 
+.media-content {
+    width: 100%;
+    height: auto; 
+    border-radius: 1rem; 
+}
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base Styles */
+  body {
+    font-family: 'Open Sans', sans-serif; /* Example font */
+    line-height: 1.6; /* Example line height */
+  }
+  
+  /* Container Class */
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Utility Classes for Margins and Paddings */
+  .mt-1 { margin-top: 8px; }
+  .mb-1 { margin-bottom: 8px; }
+  /* Add more as needed... */
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+    /* Add more responsive rules as needed... */
+  }
+  
+  /* Scoped Style */
+  .read-the-docs {
+    color: #888;
+  }
+  
+
 .team .row .card{
     height: 35rem;
     width: 25rem;

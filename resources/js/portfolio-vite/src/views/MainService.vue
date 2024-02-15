@@ -82,7 +82,7 @@ export default {
                 color: grey;
                 ;
               ">
-                        Our Skills
+                        Skills
                     </h5>
                     <ul class="skills-list" style="list-style-type: none; padding-left: 0">
 
@@ -125,7 +125,9 @@ export default {
                                 alt="e-Governance Revenue Management System (eRMS)" />
                         </video>
 
-                        <img v-else :src="card_1_image" />
+                        <!-- <img v-else :src="card_1_image" /> -->
+                        <img v-else :src="card_1_image" class="media-content" />
+
 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -148,7 +150,8 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else :src="card_2_image" />
+                        <!-- <img v-else :src="card_2_image" /> -->
+                        <img v-else :src="card_2_image" class="media-content" />
                         
 
                         <div class="card-body">
@@ -174,7 +177,8 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else :src="card_3_image" />
+                        <!-- <img v-else :src="card_3_image" /> -->
+                        <img v-else :src="card_3_image" class="media-content" />
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_3_title }}</h2>
@@ -197,7 +201,8 @@ export default {
                                 alt="e-Governance Revenue Management System (eRMS)" />
                         </video>
 
-                        <img v-else :src="card_4_image" />
+                        <!-- <img v-else :src="card_4_image" /> -->
+                        <img v-else :src="card_4_image" class="media-content" />
 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -220,7 +225,8 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else :src="card_5_image" />
+                        <!-- <img v-else :src="card_5_image" /> -->
+                        <img v-else :src="card_5_image" class="media-content" />
                         
 
                         <div class="card-body">
@@ -246,7 +252,8 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else :src="card_6_image" />
+                        <!-- <img v-else :src="card_6_image" /> -->
+                        <img v-else :src="card_6_image" class="media-content" />
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_6_title }}</h2>
@@ -271,5 +278,10 @@ export default {
 <style scoped>
 button {
     font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 </style>
