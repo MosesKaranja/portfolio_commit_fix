@@ -28,9 +28,25 @@ export default {
     },
     data() {
         return {
-            count: 0
+            count: 0,
+            imageStyling:'background-image:url(${this.card_3_image}); background-position: center; width:378px; height:262px; background-size:cover; background-repeat: no-repeat;'
         }
-    }
+    },
+    methods:{
+        buttonStyles(card_image){
+            return {
+                "background-image":"url("+`${card_image}`+")",
+                "background-position": "center",
+                "width":"378px",
+                "height":"262px",
+                "background-size":"cover",
+                "background-repeat": "no-repeat",
+                "margin-top": "10px",
+                "border-radius": "10px"
+
+            };
+        }
+    },
 }
 </script>
 
@@ -75,7 +91,10 @@ export default {
                                 alt="e-Governance Revenue Management System (eRMS)" />
                         </video>
 
-                        <img v-else :src="card_1_image" />
+                        <!-- <img v-else :src="card_1_image" /> -->
+
+                        <div v-else :style="buttonStyles(this.card_1_image)">
+                        </div>
 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -98,7 +117,10 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else :src="card_2_image" />
+                        <!-- <img v-else :src="card_2_image" /> -->
+
+                        <div v-else :style="buttonStyles(this.card_2_image)">
+                        </div>
                         
 
                         <div class="card-body">
@@ -124,7 +146,11 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else :src="card_3_image" />
+                        <!-- <div v-else style="background-image:url('/images/ehr.png'); background-position: center; width:378px; height:262px; background-size:cover; background-repeat: no-repeat;">
+                        </div> -->
+
+                        <div v-else :style="buttonStyles(this.card_3_image)">
+                        </div>
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_3_title }}</h2>
