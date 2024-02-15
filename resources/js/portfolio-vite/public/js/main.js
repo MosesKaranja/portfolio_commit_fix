@@ -101,7 +101,7 @@ function linkClicked(item_clicked){
         contact_us.classList.remove("link-hover")
         
     }
-    else if(item_clicked == 'about_us_link'){
+    else if(item_clicked == 'about_us'){
         about_us_link.classList.add("link-hover")
 
         home.classList.remove("link-hover")

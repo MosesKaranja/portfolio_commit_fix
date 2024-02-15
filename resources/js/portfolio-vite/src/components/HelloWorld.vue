@@ -55,8 +55,8 @@ const count = ref(0);
       <li onclick="linkClicked('about_us')">
         <a href="#about" id="about-link">About Us</a>
       </li>
-      <li onclick="linkClicked('Services')">
-        <a href="#services" class="link-hover" id="services-link">Services</a>
+      <li onclick="linkClicked('services')">
+        <a href="#services" id="services-link">Services</a>
       </li>
       <li onclick="linkClicked('contact_us')">
         <a href="#contact" id="contact-link">Contact Us</a>
@@ -85,6 +85,7 @@ const count = ref(0);
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -102,15 +103,12 @@ const count = ref(0);
               ></strong
             >
             <p>
-              Step into the future with us, where we<br />
-              redefine innovations in Web, Mobile,<br />
-              Enterprise technologies using traditional<br />
-              coding techniques, while harnessing the<br />
-              simplicity and speed of no-code tools<br />
-              to accelerate development cycles and<br />
-              empower clients to take control of<br />
-              their solutions.. We empower our clients<br />
-              with the tools they need to thrive in the digital age.
+              Step into the future with us, where we redefine innovations in<br/>
+              Web, Mobile, Enterprise technologies using traditional coding<br/>
+              techniques, while harnessing the simplicity and speed of no-code<br/>
+              tools to accelerate development cycles and empower clients to take<br/>
+              control of their solutions. We empower our clients with the <br/>
+              tools they need to thrive in the digital age.
             </p>
             <!-- <a href="#revenue-management">View Demo</a>
             <a href="#">Learn More</a> -->
@@ -128,11 +126,10 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Web Development/ No/Low Code Building</span></strong>
             <p>
-              With expertise honed through over 10 years of<br />
-              experience, we embrace both traditional coding<br />
-              methods and no-code tools to empower our clients<br />
-              to navigate the complexities of the digital landscape<br />
-              with confidence and ease.  We are in the frontline of<br />
+              With expertise honed through over 10 years of experience,<br /> 
+              we embrace both traditional coding methods and no-code tools<br /> 
+              to empower our clients to navigate the complexities of the digital<br />
+              landscape with confidence and ease.  We are in the frontline of<br />
               innovation and adaptability to deliver to our clients<br />
               tailored, efficient, and future-proof web solutions that drive results.
 
@@ -155,7 +152,11 @@ const count = ref(0);
           <div class="ban_text">
             <strong><span>Mobile Development</span></strong>
             <p>
-              With our team of UX, UI Designers, developers and and project management experts encompassing a blend of technical and problem solving skills, we revolutionize mobile user experience with our intuitive, secure and scalable mobile applications
+              With our team of UX, UI Designers, developers<br>
+              and and project management experts encompassing<br>
+              a blend of technical and problem solving skills,<br>
+              we revolutionize mobile user experience with<br>
+              our intuitive, secure and scalable mobile applications.
             </p>
           </div>
         </div>
@@ -169,10 +170,34 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Enterprise application development</span></strong>
+            <strong><span>Enterprise Application Development</span></strong>
             <p>
-              In the evolving business world, our team has extensive experience across a wide range of industries including human resource, procurement, document management, and accounting, bringing our immeasurable knowledge, skills, and passion in every project we deliver.
+              In the evolving business world, our team has<br>
+              extensive experience across a wide range of<br>
+              industries including human resource, procurement,<br>
+              document management, and accounting, bringing our<br>
+              immeasurable knowledge, skills, and passion in<br>
+              every project we deliver.<br>
             </p>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="/images/img3.jpg" style="maxwidth: 100%; height: 600px; objectfit: cover" class="d-block w-100"
+            alt="..." />
+
+          <div class="ban_text">
+            <strong><span>Tailored Solutions with Shopify and Prestashop Development</span></strong>
+            <p>
+              We leverage the intuitive design and user-friendly interface of <br/>
+              Shopify for building visuallystunning storefronts, while tapping <br/>
+              into the extensive e-commerce functionalities of PrestaShop for <br/> 
+              robust backend management and scalability. Our team of Shopify <br/> 
+              and prestashop experts combines creativity, technical prowess, <br/> 
+              and industry insights to deliver tailored solutions that exceed your expectations.
+            </p>
+
           </div>
         </div>
 
@@ -226,6 +251,8 @@ const count = ref(0);
     <div class="content">
       <p>We focuse on customizing and developing solutions for clients by providing consulting services and end-to-end support for the entire product development lifecycle in organizations, through developing, deploying, and managing it systems solutions. 
       we pride ourselves on being a dynamic team of skilled developers and project management professionals dedicated to delivering innovative it solutions for both government and corporate sectors.</p>
+
+      <div id="services"></div>
 
     </div>
   </div>
@@ -316,114 +343,6 @@ const count = ref(0);
       card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
       card_3_view_more="eRevenueManagementApp" />
 
-
-    <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
-      <div class="card p-5">
-        <div class="card-header pl-3 pr-3">
-          <h1 class="">Enterprise Applications</h1>
-          <p class="paragraph-moses">
-            We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including human resource, procurement, document management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver.
-          </p>
-
-          <div class="skills">
-            <h5
-              class=""
-              style="
-                font-size: 2.3rem;
-                color: grey;
-                background-color: transparent;
-              "
-            >
-              Skills
-            </h5>
-            <ul
-              class="skills-list"
-              style="list-style-type: none; padding-left: 0"
-            >
-              <li style="color: black; font-size: 1.5rem">JAVA</li>
-              <li style="color: black; font-size: 1.5rem">POSTGRES</li>
-              <li style="color: black; font-size: 1.5rem">VUE JS</li>
-              <li style="color: black; font-size: 1.5rem">SPRINGBOOT</li>  
-            </ul>
-          </div>
-          <br>
-          <h5 class="" style="font-size: 2.3rem;color: #808080;">Projects</h5>
-        </div>
-
-        <div class="card-body">
-          <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
-
-          <div class="row" id="experiment">
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
-
-              <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
-
-              <div class="card-body">
-                <h2 class="card-title">Business Process Management (BPM</h2>
-                <p class="paragraph-moses">
-                  Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens.
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link
-                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    ><a href="#" class="btn btn-primary"
-                      >View More</a
-                    ></router-link
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
-
-              <div class="card-body">
-                <h2 class="card-title">eProcurement</h2>
-                <p class="paragraph-moses">
-                  Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement. 
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link
-                    :to="{
-                      query: { current: 'eConservancy' },
-                      name: 'ViewMore',
-                    }"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    ><a href="#" class="btn btn-primary"
-                      >View More</a
-                    ></router-link
-                  >
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 card" style="border-radius: 1rem">
-              <img src="/images/pic2.png" />
-
-              <div class="card-body">
-                <h2 class="card-title">eHR </h2>
-                <p class="paragraph-moses">
-                  Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish.
-                </p>
-                <div class="d-flex justify-content-end">
-                  <router-link
-                    :to="{ query: { current: 'wild' }, name: 'ViewMore' }"
-                    ><a href="#" class="btn btn-primary"
-                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"
-                    
-                      >View More</a
-                    ></router-link
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- <section class="row mt-3 mb-5" style="max-width: 1280px;margin: 0 auto; padding: 0">
       <div class="card p-5">
