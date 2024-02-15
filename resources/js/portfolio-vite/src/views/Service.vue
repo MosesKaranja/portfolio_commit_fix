@@ -6,16 +6,19 @@ export default {
         skills: Array,
 
         card_1_url: String,
+        card_1_image: String,
         card_1_title: String,
         card_1_text: String,
         card_1_view_more: String,
 
         card_2_url: String,
+        card_2_image: String,
         card_2_title: String,
         card_2_text: String,
         card_2_view_more: String,
 
         card_3_url: String,
+        card_3_image: String,
         card_3_title: String,
         card_3_text: String,
         card_3_view_more: String,
@@ -48,7 +51,7 @@ export default {
                 color: grey;
                 ;
               ">
-                        Skills
+                        Our Skills
                     </h5>
                     <ul class="skills-list" style="list-style-type: none; padding-left: 0">
 
@@ -72,7 +75,7 @@ export default {
                                 alt="e-Governance Revenue Management System (eRMS)" />
                         </video>
 
-                        <img v-else src="/images/Bpm.png" />
+                        <img v-else :src="card_1_image" />
 
                         <!-- <img src="/images/img3.jpg" style="border-radius:1rem;" alt="e-Governance Revenue Management System (eRMS)" /> -->
 
@@ -95,7 +98,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/pic2.png" />
+                        <img v-else :src="card_2_image" />
                         
 
                         <div class="card-body">
@@ -121,7 +124,7 @@ export default {
                                 alt="eConservancy Solution" />
                         </video>
 
-                        <img v-else src="/images/EDRMS.png" />
+                        <img v-else :src="card_3_image" />
 
                         <div class="card-body">
                             <h2 class="card-title">EDRMS</h2>

@@ -7,18 +7,89 @@ const view_more_data = {
     url: "sadsa",
     stack: ["", ""],
   },
-  wild: {
+
+
+  eCommerceSite: {
+    title: "Ecommerce Site",
+    description : "We created a user-friendly and attractive eCommerce website for the company using Prestashop, a platform that enables fast and easy development with minimal coding. The website allows the company to sell electronic products online and get them delivered to the clients. We also developed a plugin to connect the website with a payment provider, giving the clients a convenient way to pay for their orders.",
+    url: "",
+    stack: ["Prestashop ecommerce platform", "PHP"],
+    project:
+      "Development of a state of the art ecommerce website.",
+
+    problem:
+      "Clients were unable to conveniently browse through and purchase the company's products online. This limited the customer base to walk in customers and reduced sales.",
+
+    solution:
+      "Ecommerce Website",
+
+    services_provided: [
+      "UI/UX design",
+      "Plugin Development",
+      "Production server setup and deployment",
+      "Administrative user training.",
+      "System documentation"
+    ],
+  },
+
+  alumniEPortal: {
+    title: "Alumni Portal",
+    description : "Our solution provides an opportunity for continued communication and collaboration between students who have gone through and completed various training programmes. Learning can therefore be enhanced by allowing all participants to share best practices, new developments and seek assistance in their day to day activities. Technology enables the connection of learners globally, increasing the value of the knowledge that can be shared between themselves.",
+    url: "",
+    stack: ["Wordpress CMS", "Javascript", "PHP"],
+    project:
+      "Development of an Alumni Portal for collaboration and sharing knowledge",
+
+    problem:
+      "Cohorts of students who had gone through various training programs had no way of maintaining contact after the end of their programs. This limited the value they could receive from sharing knowledge and skills both from their training and day to day experiences.",
+
+    solution:
+      "Alumni portal website with features to aid communication and collaboration such as live chat and forums.",
+
+    services_provided: [
+      "CMS installation and customization.",
+      "System documentation",
+      "User acceptance testing"
+
+    ],
+  },
+
+  shopifyPlugin: {
+    title: "Shopify Ecommerce",
+    description : "We created an ecommerce website on shopify with minimal customizations to ensure a seamless and easy purchase experience for online customers. The shopify platform enabled the solution to be delivered in a very tight schedule as well as reduce the number of hurdles in deploying the project. Our expertise on this platform gives us the freedom to implement custom features not available by coding some parts of the system.",
+    url: "",
+    stack: ["",],
+    project:
+      "",
+
+    problem:
+      "",
+
+    solution:
+      "",
+
+    services_provided: [
+      "",
+
+
+    ],
+  },
+
+
+
+  eGovernanceSolution: {
     title: "eGovernance Solution",
+    description: "Our Solution defines the future of governance, where citizens are at the heart of every decision and administrative process. Our revolutionary user-centric eGovernance solution is designed to streamline administrative tasks, delivering efficiency, effectiveness, and transparency like never before. Citizens access government services effortlessly, without the hassle of paperwork or long wait time, providing a seamless digital experience that simplifies interactions with government agencies. Additionally, our solution  empowers government leadership by providing a comprehensive dashboard that puts key data and insights at their fingertips.",
     url: "/images/eGov Portfolio Video.mp4",
     stack: ["PHP", "VueJS", "MySQL ", "Redis", "REST APIs"],
     project:
-      "Automate and streamline government administrative tasks to deliver effective and transparent user centric services",
+      "Automate and streamline government administrative tasks to deliver effective and transparent user centric services." ,
 
     problem:
-      "Inefficient and costly services with limited access and lacked transparency leading to risk of fraud and corruption",
+      "Inefficient and costly services with limited access and lacked transparency leading to risk of fraud and corruption.",
 
     solution:
-      "A powerful user centric web platform that assist government deliver efficient and transparent services",
+      "A powerful user centric web platform that assist government deliver efficient and transparent services.",
 
     services_provided: [
       "Processes Mapping",
@@ -32,8 +103,9 @@ const view_more_data = {
     ],
   },
 
-  eConservancy: {
+  eConservancySolution: {
     title: "eConservancy Solution",
+    description: "Our solution is in the forefront of conservation technology. It  is a state-of-the-art web platform with a mobile app designed specifically for conservancies in protected and community areas. Our platform revolutionizes the way conservationists collect, analyze, and respond to critical information in real-time.  The system collects and sends live data, flagging incidents, facilitating seamless communication between different teams and monitoring impact over time. Therefore, ensuring the preservation of our planet's most precious natural habitats and wildlife.",
     url: "/images/wild_demo_9_feb.mp4",
     stack: ["PHP", "JAVA", "ANDROID", "MYSQL"],
     project:
