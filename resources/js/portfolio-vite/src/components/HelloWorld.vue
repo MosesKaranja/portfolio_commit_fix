@@ -408,7 +408,7 @@ const count = ref(0);
             <div class="contact-details" style="flex: 1; width: 50%">
               <h3 class="heading-edited">Our Contact Details</h3>
               <h2 style="margin-top: 0">
-                <i class="fas fa-map-marker-alt"></i> Location
+                <i class="fas fa-map-marker-alt heading-edited"></i> Location
               </h2>
               <!-- <p>
                 Strathmore University Student Centre, Keri Road<br />Nairobi,
@@ -500,22 +500,22 @@ const count = ref(0);
             <div class="container" style="padding-left: 0;padding-right: 0;max-width: 1280px; margin-left:auto;margin-right: auto;">
               <div class="row">
                 <div class="col-lg-3 col-md-6 footer-links">
-                  <h4>Useful Links</h4>
+                  <h4 style="font-size: 2.1rem;">Useful Links</h4>
                   <ul>
                     <li>
-                      <i class="ion-ios-arrow-forward"></i> <a href="#">Home</a>
+                      <i class="ion-ios-arrow-forward"></i> <a href="#" style="font-size: 2rem;">Home</a>
                     </li>
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#about">About us</a>
+                      <a href="#about" style="font-size: 2rem;">About us</a>
                     </li>
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#service">Services</a>
+                      <a href="#service" style="font-size: 2rem;">Services</a>
                     </li> 
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#contact">Contact Us</a>
+                      <a href="#contact" style="font-size: 2rem;">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -524,7 +524,7 @@ const count = ref(0);
                   class="col-lg-3 col-md-6 footer-contact"
                   style="font-size: 1.5rem"
                 >
-                  <h4>Contact Us</h4>
+                  <h4 style="font-size: 2.1rem;">Contact Us</h4>
                   <!-- <p>
                     Strathmore University<br />
                     Olesankale Link Road<br />
@@ -534,15 +534,71 @@ const count = ref(0);
                     <strong>Email:</strong> itoutsourcing@strathmore.edu<br />
                   </p> -->
 
-                  <div class="social-links">
-                    <a
-                      href="https://www.facebook.com/StrathmoreUniversity"
+                  <div class="social-links d-flex">
+
+                    <div class="pr-2">
+                      <a
+                      href="https://twitter.com/home"
                       target="_blank"
                     >
-                      <i class="/images/fb.png"></i>
+                      <img style="width:36px;height:36px;" src="/images/twitter64.png"/>
                     </a>
+                      
+                    </div>
 
-                    <a href="https://twitter.com/login?lang=en"
+                    <div class="pr-2">
+
+                    <a
+                      href="https://www.instagram.com/fundgroom/"
+                      target="_blank"
+                    >
+                      <img style="width:36px;height:36px;" src="/images/instagram64.png"/>
+
+                    </a>
+                      
+                    </div>
+
+
+                    <div class="pr-2">
+
+                    <a
+                      href="https://www.youtube.com/@fundgroom"
+                      target="_blank"
+                    >
+                      <img style="width:36px;height:36px;" src="/images/youtube64.png"/>
+
+                    </a>
+                      
+                    </div>
+
+
+                    <div>
+
+                      <a
+                      href="https://www.facebook.com/bounceback.fundgroom"
+                      target="_blank"
+                    >
+                      <img style="width:36px;height:36px;" src="/images/facebook64.png"/>
+
+                    </a>
+                      
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+                    <!-- <a href="https://twitter.com/login?lang=en"
                       ><i class="/images/twitter.png"></i
                     ></a>
                     <a
@@ -557,7 +613,7 @@ const count = ref(0);
                       target="_blank"
                     >
                       <i class="youtube"></i>
-                    </a>
+                    </a> -->
 
                     <!-- <a href="https://accounts.google.com/" target="_blank">
                       <i class="ion-logo-googleplus"></i>
@@ -566,8 +622,8 @@ const count = ref(0);
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-newsletter">
-                  <h4>Subscription</h4>
-                  <p>
+                  <h4 style="font-size: 2.1rem;">Subscription</h4>
+                  <p style="font-size: 2rem;">
                     With our skills put together, You get an ensemble capable of
                     doing anything and everything your brand needs. Subscribe
                     here to get our latest updates.
@@ -587,7 +643,7 @@ const count = ref(0);
             <div class="row align-items-center">
               <div
                 class="col-md-6 copyright"
-                style="color: #fff; font-size: 1.3rem"
+                style="color: #fff; font-size: 2rem"
               >
                 <!-- Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
                 Reserved. -->
