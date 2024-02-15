@@ -592,7 +592,7 @@ const count = ref(0);
                 <!-- Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
                 Reserved. -->
 
-                Copyright &copy; 2024 Department Name, @CompanyName. All Rights
+                Copyright &copy; 2024 @FundGroom. All Rights
                 Reserved.
                 
               </div>
