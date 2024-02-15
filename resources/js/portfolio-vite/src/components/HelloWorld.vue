@@ -124,7 +124,7 @@ const count = ref(0);
           />
 
           <div class="ban_text">
-            <strong><span>Web Development/ No/Low Code Building</span></strong>
+            <strong><span>Web Development</span></strong>
             <p>
               With expertise honed through over 10 years of experience,<br /> 
               we embrace both traditional coding methods and no-code tools<br /> 
