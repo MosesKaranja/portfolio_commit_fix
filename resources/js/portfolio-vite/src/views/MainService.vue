@@ -74,7 +74,7 @@ export default {
                 color: grey;
                 ;
               ">
-                        Skills
+                        Our Skills
                     </h5>
                     <ul class="skills-list" style="list-style-type: none; padding-left: 0">
 

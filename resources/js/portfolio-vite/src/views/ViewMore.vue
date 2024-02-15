@@ -7,6 +7,36 @@ const view_more_data = {
     url: "sadsa",
     stack: ["", ""],
   },
+
+
+  eCommerceSite: {
+    title: "Ecommerce Site",
+    description : "We created a user-friendly and attractive eCommerce website for the company using Prestashop, a platform that enables fast and easy development with minimal coding. The website allows the company to sell electronic products online and get them delivered to the clients. We also developed a plugin to connect the website with a payment provider, giving the clients a convenient way to pay for their orders.",
+    url: "",
+    stack: ["PHP", "VueJS", "MySQL ", "Redis", "REST APIs"],
+    project:
+      "Development of a state of the art ecommerce website.",
+
+    problem:
+      "Clients were unable to conveniently browse through and purchase the company's products online. This limited the customer base to walk in customers and reduced sales.",
+
+    solution:
+      "Ecommerce Website",
+
+    services_provided: [
+      "Processes Mapping",
+      "UI/UX design",
+      "Backend Development",
+      "App deployment on Google Data Migration",
+      "Production Server configuration and setup",
+      "System Documentation",
+      "User acceptance testing",
+      "Training and system Support",
+    ],
+  },
+
+
+
   wild: {
     title: "eGovernance Solution",
     url: "/images/eGov Portfolio Video.mp4",
