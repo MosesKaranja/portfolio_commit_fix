@@ -287,27 +287,27 @@ const count = ref(0);
       card_2_view_more="eConservancy"
 
       card_3_url=""
-      card_3_image="/images/EDRMS.PNG"
+      card_3_image="/images/EDRMS.png"
       card_3_title="EDRMS"
       card_3_text="Our innovative document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by; a) organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders."
       card_3_view_more="eRevenueManagementApp" 
 
 
       card_4_url="" 
-      card_4_image="/images/eccomerce.PNG"
+      card_4_image="/images/ecommerce.png"
 
       card_4_title="Ecommerce Site"
       card_4_text="We created a user-friendly and attractive eCommerce website for the company using Prestashop, a platform that enables fast and easy development with minimal coding. The website allows the company to sell electronic products online and get them delivered to the clients. We also developed a plugin to connect the website with a payment provider, giving the clients a convenient way to pay for their orders."
       card_4_view_more="eRevenueManagementApp"
 
       card_5_url="" 
-      card_5_image="/images/alumni_portal.PNG"
+      card_5_image="/images/alumni_platform.png"
       card_5_title="Alumni Portal"
       card_5_text="Our solution provides an opportunity for continued communication and collaboration between students who have gone through and completed various training programmes. Learning can therefore be enhanced by allowing all participants to share best practices, new developments and seek assistance in their day to day activities. Technology enables the connection of learners globally, increasing the value of the knowledge that can be shared between themselves."
       card_5_view_more="eRevenueManagementApp"
 
       card_6_url="" 
-      card_6_image="/images/shopify_plugin.PNG"
+      card_6_image="/images/shopify_plugin.png"
       card_6_title="Shopify Plugin"
       card_6_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
       card_6_view_more="eRevenueManagementApp"
@@ -321,19 +321,19 @@ const count = ref(0);
       card_title="In a world where mobile is king, we assist clients to have a standout presence in the palm of their customers’ hands. With our team of UX, UI Designers, developers and project management experts encompassing a blend of technical and problem solving skills, we revolutionize mobile user experience with our intuitive, secure and scalable mobile applications."
       :skills="['ANDROID MOBILE DEVELOPMENT', 'IOS MOBILE DEVELOPMENT', 'FLUTTER DEVELOPMENT']" 
       card_1_url=""
-      card_1_image="/images/justicelens.PNG"
+      card_1_image="/images/justicelens.png"
       card_1_title="JusticeLens"
       card_1_text="Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens."
       card_1_view_more="JusticeLens" 
 
       card_2_url="" 
-      card_2_image="/images/justicelens.PNG"
+      card_2_image="/images/exam.png"
       card_2_title="Exam Revision Game App"
       card_2_text="Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement."
       card_2_view_more="eConservancy" 
 
       card_3_url="" 
-      card_3_image=""
+      card_3_image="/images/EDRMS.png"
       card_3_title="Tax eCompliance"
       card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
       card_3_view_more="eRevenueManagementApp" />
@@ -342,19 +342,19 @@ const count = ref(0);
       card_title="We partner with clients to streamline their business operations with tailored solutions, enabling them realize tangible results. In the evolving business world, our team has extensive experience across a wide range of industries including human resource, procurement, document management and accounting, bringing our clients immeasurable knowledge, skills and passion in every project we deliver."
       :skills="['JAVA', 'POSTGRES', 'VUE JS', 'SPRINGBOOT']" 
       card_1_url=""
-      card_1_image="/images/justicelens.PNG"
+      card_1_image="/images/Bpm.png"
       card_1_title="Business Process Management (BPM)."
       card_1_text="Our solution empowers the individuals at the forefront of defending human rights with the right tools. They can be able to conveniently and securely capture information on human rights and election malpractices on the ground. Such information is pivotal in protecting the democratic space and protecting the wellbeing of the citizens."
       card_1_view_more="JusticeLens" 
       
       card_2_url=""
-      card_2_image=""
+      card_2_image="/images/eprocurement.png"
       card_2_title="eProcurement"
       card_2_text="Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement."
       card_2_view_more="eConservancy" 
 
       card_3_url="" 
-      card_3_image=""
+      card_3_image="/images/EDRMS.png"
       card_3_title="eHR"
       card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
       card_3_view_more="eRevenueManagementApp" />
