@@ -127,11 +127,7 @@ export default {
                         <img v-else :src="card_3_image" />
 
                         <div class="card-body">
-<<<<<<< HEAD
-                            <h2 class="card-title">eHR</h2>
-=======
                             <h2 class="card-title">{{ card_3_title }}</h2>
->>>>>>> 7ce6f1c192b155d1732ed5cc7f1567fbc4abb0d0
                             <p class="paragraph-moses">
                                 {{ card_3_text }}
                             </p>
