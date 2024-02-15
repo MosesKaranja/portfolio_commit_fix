@@ -53,7 +53,7 @@ export default {
         card_8_title: String,
         card_8_text: String,
         card_8_view_more: String,
-                    
+
 
 
     },
@@ -62,14 +62,14 @@ export default {
             count: 0
         }
     },
-    methods:{
-        buttonStyles(card_image){
+    methods: {
+        buttonStyles(card_image) {
             return {
-                "background-image":"url("+`${card_image}`+")",
+                "background-image": "url(" + `${card_image}` + ")",
                 "background-position": "center",
-                "width":"378px",
-                "height":"262px",
-                "background-size":"cover",
+                "width": "378px",
+                "height": "240px",
+                "background-size": "cover",
                 "background-repeat": "no-repeat",
                 "margin-top": "10px",
                 "border-radius": "10px"
@@ -134,10 +134,15 @@ export default {
 
                 <div class="row" id="experiment">
                     <div class="col-sm-4 card" style="border-radius: 1rem">
-                        <video v-if="card_1_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
-                            <source :src="card_1_url" type="video/mp4" style="border-radius: 1rem"
-                                alt="e-Governance Revenue Management System (eRMS)" />
-                        </video>
+
+                        <div v-if="card_1_url">
+                            <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
+                                <source :src="card_1_url" type="video/mp4" style="border-radius: 1rem"
+                                    alt="e-Governance Revenue Management System (eRMS)" />
+                            </video>
+
+                        </div>
+
 
                         <!-- <img v-else :src="card_1_image" /> -->
 
@@ -160,17 +165,20 @@ export default {
                     </div>
 
                     <div class=" col-sm-4 card" style="border-radius: 1rem;">
-                        <video v-if="card_2_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
-                            <source :src="card_2_url" type="video/mp4" style="border-radius: 1rem"
-                                alt="eConservancy Solution" />
-                        </video>
+
+                        <div v-if="card_2_url">
+                            <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
+                                <source :src="card_2_url" type="video/mp4" style="border-radius: 1rem"
+                                    alt="eConservancy Solution" />
+                            </video>
+                        </div>
 
                         <!-- <img v-else :src="card_2_image" /> -->
 
                         <div v-else :style="buttonStyles(this.card_2_image)">
                         </div>
-                        
-                        
+
+
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_2_title }}</h2>
@@ -190,16 +198,19 @@ export default {
                     </div>
 
                     <div class=" col-sm-4 card" style="border-radius: 1rem">
-                        <video v-if="card_3_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
-                            <source :src="card_3_url" type="video/mp4" style="border-radius: 1rem"
-                                alt="eConservancy Solution" />
-                        </video>
+                        <div v-if="card_3_url">
+                            <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
+                                <source :src="card_3_url" type="video/mp4" style="border-radius: 1rem"
+                                    alt="eConservancy Solution" />
+                            </video>
+
+                        </div>
 
                         <!-- <img v-else :src="card_3_image" /> -->
 
                         <div v-else :style="buttonStyles(this.card_3_image)">
                         </div>
-                        
+
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_3_title }}</h2>
@@ -217,10 +228,13 @@ export default {
 
                 <div class="row" id="experiment">
                     <div class="col-sm-4 card" style="border-radius: 1rem">
-                        <video v-if="card_4_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
-                            <source :src="card_4_url" type="video/mp4" style="border-radius: 1rem"
-                                alt="e-Governance Revenue Management System (eRMS)" />
-                        </video>
+
+                        <div v-if="card_4_url">
+                            <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
+                                <source :src="card_4_url" type="video/mp4" style="border-radius: 1rem"
+                                    alt="e-Governance Revenue Management System (eRMS)" />
+                            </video>
+                        </div>
 
                         <!-- <img v-else :src="card_4_image" /> -->
                         <div v-else :style="buttonStyles(this.card_4_image)">
@@ -242,15 +256,21 @@ export default {
                     </div>
 
                     <div class=" col-sm-4 card" style="border-radius: 1rem;">
-                        <video v-if="card_5_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
-                            <source :src="card_5_url" type="video/mp4" style="border-radius: 1rem"
-                                alt="eConservancy Solution" />
-                        </video>
+
+                        <div v-if="card_5_url">
+                            <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
+                                <source :src="card_5_url" type="video/mp4" style="border-radius: 1rem"
+                                    alt="eConservancy Solution" />
+                            </video>
+
+
+                        </div>
+
 
                         <!-- <img v-else :src="card_5_image" /> -->
                         <div v-else :style="buttonStyles(this.card_5_image)">
                         </div>
-                        
+
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_5_title }}</h2>
@@ -270,15 +290,21 @@ export default {
                     </div>
 
                     <div class=" col-sm-4 card" style="border-radius: 1rem">
-                        <video v-if="card_6_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
-                            <source :src="card_6_url" type="video/mp4" style="border-radius: 1rem"
-                                alt="eConservancy Solution" />
-                        </video>
+
+                        <div v-if="card_6_url">
+                            <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
+                                <source :src="card_6_url" type="video/mp4" style="border-radius: 1rem"
+                                    alt="eConservancy Solution" />
+                            </video>
+
+
+
+                        </div>
 
                         <!-- <img v-else :src="card_6_image" /> -->
                         <div v-else :style="buttonStyles(this.card_6_image)">
                         </div>
-                        
+
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_6_title }}</h2>
@@ -292,7 +318,7 @@ export default {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

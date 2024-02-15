@@ -38,7 +38,7 @@ export default {
                 "background-image":"url("+`${card_image}`+")",
                 "background-position": "center",
                 "width":"378px",
-                "height":"262px",
+                "height":"240px",
                 "background-size":"cover",
                 "background-repeat": "no-repeat",
                 "margin-top": "10px",
