@@ -327,6 +327,9 @@ body{
     margin: 0 1.5rem;
 }
 
+.card-title {
+    font-weight: bold; /* Ensures the text is bold */
+  }
 .header .navbar ul li a{
     font-size: 2rem;
     color: #000;
