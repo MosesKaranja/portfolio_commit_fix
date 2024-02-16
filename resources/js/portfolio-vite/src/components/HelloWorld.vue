@@ -42,7 +42,7 @@ const count = ref(0);
     <header class="header">
       <a href="#" class="logo"
         ><img
-          style="width: 250px; height: 100px; object-fit: contain"
+          style="width: 200px; height: 50px; object-fit: contain"
           src="/images/Transparent.png"
           alt=""
       /></a>
@@ -394,7 +394,7 @@ const count = ref(0);
           </div>
         </div>
 
-        <section id="contact" style="max-width: 1280px;margin: 0 auto;" class="contact">
+        <section id="contact" style="max-width: 1280px;margin: 0 auto;" class="contact mb-3">
           <h1 class="heading">Contact Us</h1>
           <div
             class="contact-container"
@@ -639,17 +639,21 @@ const count = ref(0);
             </div>
           </div>
 
-          <!-- <div class="container" style="padding-left: 0;max-width: 1280px;">
+          <div class="container" style="padding-left: 0;max-width: 1280px;">
             <div class="row align-items-center">
               <div
                 class="col-md-6 copyright"
                 style="color: #fff; font-size: 1.3rem"
               >
-                Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
+                <!-- Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
+                Reserved. -->
+
+                Copyright &copy; 2024 Department Name, @CompanyName. All Rights
                 Reserved.
+                
               </div>
             </div>
-          </div> -->
+          </div>
 
           <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
         </div>
