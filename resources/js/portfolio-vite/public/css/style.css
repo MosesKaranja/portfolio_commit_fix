@@ -34,12 +34,22 @@ body{
     overflow-x: hidden;
 }
 
-.heading-edited{
+/* .heading-edited{
     display: inline-block;
     font-size: 3.5rem;
     color: #45a92b;
     letter-spacing: .2rem;
     padding-bottom: 1rem;
+
+} */
+
+.heading-edited{
+    display: inline-block;
+    font-size: 2rem;
+    color: #45a92b;
+    font-size:2rem;
+    line-height:1.6;
+    letter-spacing:1px;
 
 }
 
@@ -1548,24 +1558,25 @@ body{
         }
         
         .footer .footer-top .social-links a {
-            font-size: 18px;
+            /* font-size: 18px;
             display: inline-block;
             background: #ffffff;
             color: #45a92b;
             line-height: 1;
             padding: 9px 0;
             margin-right: 4px;
-            text-align: center;
-            width: 36px;
-            height: 36px;
-            transition: 0.3s;
+            text-align: center; */
+            width: 16px;
+            height: 16px;
+            /* transition: 0.3s; */
         }
         
-        .footer .footer-top .social-links a:hover {
+        /* .footer .footer-top .social-links a:hover {
             background: #45a92b;
             color: #ffffff;
-        }
-        
+        } */
+
+
         .footer .footer-top h4 {
             font-size: 16px;
             font-weight: 700;
