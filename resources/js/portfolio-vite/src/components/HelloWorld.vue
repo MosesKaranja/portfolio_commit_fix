@@ -643,7 +643,7 @@ const count = ref(0);
             <div class="row align-items-center">
               <div
                 class="col-md-6 copyright"
-                style="color: #fff; font-size: 1.3rem"
+                style="color: #fff; font-size: 2rem"
               >
                 <!-- Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
                 Reserved. -->
