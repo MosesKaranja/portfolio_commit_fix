@@ -358,7 +358,7 @@ export default {
       <a href="#" class="logo"
         ><img
           style="width: 197px; height: 50px; object-fit: contain"
-          src="/images/ilab_africa_stolen.png"
+          src="/images/Transparent.png"
           alt=""
       /></a>
       <div class="fas fa-bars"></div>
@@ -366,7 +366,7 @@ export default {
         <ul>
           <li onclick="linkClicked('home')">
 
-                      <router-link
+          <router-link
           :to="{ name: 'home' }"
           href="#" class="link-hover" id="home-link">
           Home
@@ -517,44 +517,100 @@ export default {
             >
               <h4>Contact Us</h4>
               <p>
-                Strathmore University<br />
+                <!-- Strathmore University<br />
                 Olesankale Link Road<br />
                 Nairobi, Kenya <br />
                 <strong>Phone:</strong> +254 /0703 034
                 616/0717306466/0700138739<br />
-                <strong>Email:</strong> itoutsourcing@strathmore.edu<br />
+                <strong>Email:</strong> itoutsourcing@strathmore.edu<br /> -->
               </p>
 
-              <div class="social-links">
-                <a
-                  href="https://www.facebook.com/StrathmoreUniversity"
-                  target="_blank"
-                >
-                  <i class="ion-logo-facebook"></i>
-                </a>
+              <div class="social-links d-flex">
 
-                <a href="https://twitter.com/login?lang=en"
-                  ><i class="ion-logo-twitter"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/school/strathmore-university/"
-                  target="_blank"
-                >
-                  <i class="ion-logo-linkedin"></i>
-                </a>
+<div class="pr-2">
+  <a
+  href="https://twitter.com/home"
+  target="_blank"
+>
+  <img style="width:36px;height:36px;" src="/images/twitter64.png"/>
+</a>
+  
+</div>
 
-                <a
-                  href="https://www.instagram.com/strathmore.university/"
-                  target="_blank"
-                >
-                  <i class="ion-logo-instagram"></i>
-                </a>
+<div class="pr-2">
 
-                <a href="https://accounts.google.com/" target="_blank">
-                  <i class="ion-logo-googleplus"></i>
-                </a>
-              </div>
-            </div>
+<a
+  href="https://www.instagram.com/fundgroom/"
+  target="_blank"
+>
+  <img style="width:36px;height:36px;" src="/images/instagram64.png"/>
+
+</a>
+  
+</div>
+
+
+<div class="pr-2">
+
+<a
+  href="https://www.youtube.com/@fundgroom"
+  target="_blank"
+>
+  <img style="width:36px;height:36px;" src="/images/youtube64.png"/>
+
+</a>
+  
+</div>
+
+
+<div>
+
+  <a
+  href="https://www.facebook.com/bounceback.fundgroom"
+  target="_blank"
+>
+  <img style="width:36px;height:36px;" src="/images/facebook64.png"/>
+
+</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <a href="https://twitter.com/login?lang=en"
+  ><i class="/images/twitter.png"></i
+></a>
+<a
+  href="https://www.linkedin.com/school/strathmore-university/"
+  target="_blank"
+>
+  <i class="/images/linkedin.png"></i>
+</a>
+
+<a
+  href="https://www.youtube.com/strathmore.university/"
+  target="_blank"
+>
+  <i class="youtube"></i>
+</a> -->
+
+<!-- <a href="https://accounts.google.com/" target="_blank">
+  <i class="ion-logo-googleplus"></i>
+</a> -->
+</div>
+</div>
 
             <div class="col-lg-3 col-md-6 footer-newsletter">
               <h4>Subscription</h4>
@@ -580,7 +636,7 @@ export default {
             class="col-md-6 copyright"
             style="color: #fff; font-size: 1.3rem"
           >
-            Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
+            Copyright &copy; 2024 @FundGroom. All Rights
             Reserved.
           </div>
         </div>

@@ -287,9 +287,9 @@ const count = ref(0);
       card_2_view_more="eConservancySolution"
 
       card_3_url=""
-      card_3_image="/images/Facebook.png"
+      card_3_image="/images/EDRMS.png"
       card_3_title="EDRMS"
-      card_3_text="Our innovative document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by; a) organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders."
+      card_3_text="Our Innovative Document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders."
       card_3_view_more="eDRMS" 
 
 
@@ -308,7 +308,7 @@ const count = ref(0);
       card_6_url="" 
       card_6_image="/images/shopify_plugin.png"
       card_6_title="Shopify Plugin"
-      card_6_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
+      card_6_text="We created an ecommerce plugin on shopify with customization options to ensure a seamless and easy purchase experience for online customers. The shopify platform enabled the solution to be delivered in a very tight schedule as well as reduce the number of hurdles in deploying the project. Our expertise on this platform gives us the freedom to implement custom features not available by coding the needed functionalities."
       card_6_view_more="shopifyPlugin"
 
       
@@ -333,8 +333,8 @@ const count = ref(0);
       card_2_view_more="examRevisionGameApp" 
 
       card_3_url="" 
-      card_3_image="/images/EDRMS.png"
-      card_3_title="eDRMS"
+      card_3_image="/images/Facebook.png"
+      card_3_title="eTaxCompliance"
       card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
       card_3_view_more="eDRMS" />
 
@@ -354,7 +354,7 @@ const count = ref(0);
       card_2_view_more="eProcurement" 
 
       card_3_url="" 
-      card_3_image="/images/resized_ehr.png"
+      card_3_image="/images/ehr.png"
       card_3_title="eHR"
       card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
       card_3_view_more="eHR" />
