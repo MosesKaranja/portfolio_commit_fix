@@ -350,13 +350,14 @@ const count = ref(0);
       card_2_url=""
       card_2_image="/images/resized_eprocurement.png"
       card_2_title="eProcurement"
-      card_2_text="Our solution enhances the process of revision for students by making use of the latest mobile technologies available. Students can interact with a gamified mobile app and answer quizzes and examination questions earning points and immediate feedback on the answers. Appropriate reports are provided enabling the students and their parents to monitor progress and identify areas for improvement."
+      card_2_text="Our solution transforms your procurement operations by leveraging innovative technologies and best practices. We empower organizations to unlock the full potential of their procurement processes and propel their business towards growth and prosperity."
       card_2_view_more="eProcurement" 
 
       card_3_url="" 
       card_3_image="/images/ehr.png"
       card_3_title="eHR"
-      card_3_text="Our solution simplifies and streamlines tax compliance operations for governments. Our eCompliance solution automates repetitive tasks and workflows, saving you time and reducing the risk of human error. From assigning tasks and scheduling audits to sending reminders and generating reports, our solution streamlines your compliance processes from start to finish."
+      card_3_text="Our ERP solution is tailored for human resources processes embraces innovation, automation, and best practices, to empower our clients to enhance efficiency, improve employee engagement, and achieve strategic HR objectives
+Our solution serves as a single source of truth for all employee-related information, consolidating data on demographics, employment history, performance evaluations, training records, and more."
       card_3_view_more="eHR" />
 
 
