@@ -37,7 +37,7 @@ body{
 .heading-edited{
     display: inline-block;
     font-size: 3.5rem;
-    color: #EC7D30;
+    color: #45a92b;
     letter-spacing: .2rem;
     padding-bottom: 1rem;
 
@@ -49,7 +49,7 @@ body{
     margin: 2rem;
     padding-top: 1rem;
     font-size: 3.5rem;
-    color: #EC7D30;
+    color: #45a92b;
     letter-spacing: .2rem;
     padding-bottom: 1rem;
     text-align: center;
@@ -99,7 +99,7 @@ body{
 .heading-edited-left{
     display: block;
     font-size: 1.5rem;
-    color: #EC7D30;
+    color: #45a92b;
     letter-spacing: .2rem;
     padding-bottom: 1rem;
     text-align: justify;
@@ -109,7 +109,7 @@ body{
 .heading-edited-find-us{
     display: inline-block;
     font-size: 3.5rem;
-    color: #EC7D30;
+    color: #45a92b;
     letter-spacing: .2rem;
     margin: 2rem;
     padding-bottom: 1rem;
@@ -121,7 +121,7 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #EC7D30;
+    color: #45a92b;
     position: relative;
     letter-spacing: .2rem;
 }
@@ -275,7 +275,7 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #EC7D30;
+    background: #45a92b;
 }
 
 .communicate .btn:hover{
@@ -323,12 +323,12 @@ body{
 }
 
 .link-hover{
-    color: #EC7D30 !important;
+    color: #187000 !important;
     text-decoration: underline;
 }
 
 .header .navbar ul li a:hover{
-    color: #EC7D30;
+    color: #187000;
     text-decoration: underline;
 }
 
@@ -789,7 +789,7 @@ body{
     text-decoration:none;
   }
   .ban_text a:hover {
-    background: #EC7D30;
+    background: #45a92b;
     color: #ffffff;
   }
 
@@ -808,7 +808,7 @@ body{
     text-decoration:none;
   }
    .video-btn:hover {
-    background: #EC7D30;
+    background: #45a92b;
     color: #ffffff;
   }
 
@@ -1509,7 +1509,7 @@ body{
             letter-spacing: .1rem;
             opacity: .9;
             color: white;
-            background: #EC7D30;
+            background: #45a92b;
         }
 		.contact-form-phone
 		{
@@ -1532,7 +1532,7 @@ body{
         .footer {
             position: relative;
             padding: 0 0 30px 0;
-            background: #EC7D30;
+            background: #45a92b;
         }
         
         .footer .footer-top {
@@ -1644,7 +1644,7 @@ body{
         
         .footer .footer-top .footer-newsletter input[type="submit"]:hover {
             color: #ffffff;
-            background: #00bfff;
+            background: #45a92b;
             border: 1px solid #00bfff;
             letter-spacing: .2rem;
         }
@@ -2039,7 +2039,7 @@ body{
             letter-spacing: .1rem;
             opacity: .9;
             color: white;
-            background: #EC7D30;
+            background: #45a92b;
         }
 		.contact-form-phone
 		{

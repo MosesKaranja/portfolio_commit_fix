@@ -42,8 +42,8 @@ const count = ref(0);
     <header class="header">
       <a href="#" class="logo"
         ><img
-          style="width: 197px; height: 50px; object-fit: contain"
-          src="/images/ilab_africa_stolen.png"
+          style="width: 250px; height: 100px; object-fit: contain"
+          src="/images/Transparent.png"
           alt=""
       /></a>
       <div class="fas fa-bars"></div>
@@ -90,7 +90,7 @@ const count = ref(0);
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="/images/img3.jpg"
+            src="/images/Black card.jpg"
             style="maxwidth: 100%; height: 600px; objectfit: cover"
             class="d-block w-100"
             alt="..."
@@ -117,7 +117,7 @@ const count = ref(0);
 
         <div class="carousel-item">
           <img
-            src="/images/img3.jpg"
+            src="/images/Black card.jpg"
             style="maxwidth: 100%; height: 600px; objectfit: cover"
             class="d-block w-100"
             alt="..."
@@ -141,7 +141,7 @@ const count = ref(0);
 
         <div class="carousel-item">
           <img
-            src="/images/img3.jpg"
+            src="/images/Black card.jpg"
             style="maxwidth: 100%; height: 600px; objectfit: cover"
             class="d-block w-100"
             alt="..."
@@ -163,7 +163,7 @@ const count = ref(0);
 
         <div class="carousel-item">
           <img
-            src="/images/img3.jpg"
+            src="/images/Black card.jpg"
             style="maxwidth: 100%; height: 600px; objectfit: cover"
             class="d-block w-100"
             alt="..."
@@ -184,7 +184,7 @@ const count = ref(0);
 
 
         <div class="carousel-item">
-          <img src="/images/img3.jpg" style="maxwidth: 100%; height: 600px; objectfit: cover" class="d-block w-100"
+          <img src="/images/Black card.jpg" style="maxwidth: 100%; height: 600px; objectfit: cover" class="d-block w-100"
             alt="..." />
 
           <div class="ban_text">
@@ -203,7 +203,7 @@ const count = ref(0);
 
 
         <div class="carousel-item">
-          <img src="/images/img3.jpg" style="maxwidth: 100%; height: 600px; objectfit: cover" class="d-block w-100"
+          <img src="/images/Black card.jpg" style="maxwidth: 100%; height: 600px; objectfit: cover" class="d-block w-100"
             alt="..." />
 
           <div class="ban_text">
@@ -287,7 +287,7 @@ const count = ref(0);
       card_2_view_more="eConservancySolution"
 
       card_3_url=""
-      card_3_image="/images/EDRMS.png"
+      card_3_image="/images/Facebook.png"
       card_3_title="EDRMS"
       card_3_text="Our innovative document record management solution has assisted over 7 of our clients to unlock new levels of efficiency, collaboration and security by; a) organizing their documents into a centralized location saving users the hassle of sifting through piles of papers or digital folders."
       card_3_view_more="eDRMS" 
@@ -410,23 +410,23 @@ const count = ref(0);
               <h2 style="margin-top: 0">
                 <i class="fas fa-map-marker-alt"></i> Location
               </h2>
-              <p>
+              <!-- <p>
                 Strathmore University Student Centre, Keri Road<br />Nairobi,
                 Kenya
-              </p>
+              </p> -->
 
               <h2><i class="fas fa-envelope"></i> Email</h2>
               <p>
-                <a href="mailto:ilabafrica@strathmore.edu"
+                <!-- <a href="mailto:ilabafrica@strathmore.edu"
                   >itoutsourcing@strathmore.edu</a
-                >
+                > -->
               </p>
 
               <h2><i class="fas fa-phone"></i> Phone</h2>
               <p>
-                <a href="tel:+254703034616"
+                <!-- <a href="tel:+254703034616"
                   >+254 703 034 616 / 0717 306 466 / 0700 138 739</a
-                >
+                > -->
               </p>
 
               <h2><i class="fas fa-clock"></i> Working Hours</h2>
@@ -478,9 +478,9 @@ const count = ref(0);
         </section>
 
         <!-- Map Section -->
-        <section id="map" class="mb-2" style="max-width: 1280px;margin: 0 auto;">
+        <!-- <section id="map" class="mb-2" style="max-width: 1280px;margin: 0 auto;">
           <div class="contact-map">
-            <!-- Google Maps iframe -->
+             Google Maps iframe
             <h1 class="heading" style="display: block; text-align: center">
               Find Us
             </h1>
@@ -493,7 +493,7 @@ const count = ref(0);
               loading="lazy"
             ></iframe>
           </div>
-        </section>
+        </section> -->
 
         <div class="footer">
           <div class="footer-top">
@@ -525,43 +525,43 @@ const count = ref(0);
                   style="font-size: 1.5rem"
                 >
                   <h4>Contact Us</h4>
-                  <p>
+                  <!-- <p>
                     Strathmore University<br />
                     Olesankale Link Road<br />
                     Nairobi, Kenya <br />
                     <strong>Phone:</strong> +254 /0703 034
                     616/0717306466/0700138739<br />
                     <strong>Email:</strong> itoutsourcing@strathmore.edu<br />
-                  </p>
+                  </p> -->
 
                   <div class="social-links">
                     <a
                       href="https://www.facebook.com/StrathmoreUniversity"
                       target="_blank"
                     >
-                      <i class="ion-logo-facebook"></i>
+                      <i class="/images/fb.png"></i>
                     </a>
 
                     <a href="https://twitter.com/login?lang=en"
-                      ><i class="ion-logo-twitter"></i
+                      ><i class="/images/twitter.png"></i
                     ></a>
                     <a
                       href="https://www.linkedin.com/school/strathmore-university/"
                       target="_blank"
                     >
-                      <i class="ion-logo-linkedin"></i>
+                      <i class="/images/linkedin.png"></i>
                     </a>
 
                     <a
-                      href="https://www.instagram.com/strathmore.university/"
+                      href="https://www.youtube.com/strathmore.university/"
                       target="_blank"
                     >
-                      <i class="ion-logo-instagram"></i>
+                      <i class="youtube"></i>
                     </a>
 
-                    <a href="https://accounts.google.com/" target="_blank">
+                    <!-- <a href="https://accounts.google.com/" target="_blank">
                       <i class="ion-logo-googleplus"></i>
-                    </a>
+                    </a> -->
                   </div>
                 </div>
 
@@ -583,7 +583,7 @@ const count = ref(0);
             </div>
           </div>
 
-          <div class="container" style="padding-left: 0;max-width: 1280px;">
+          <!-- <div class="container" style="padding-left: 0;max-width: 1280px;">
             <div class="row align-items-center">
               <div
                 class="col-md-6 copyright"
@@ -593,7 +593,7 @@ const count = ref(0);
                 Reserved.
               </div>
             </div>
-          </div>
+          </div> -->
 
           <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
         </div>
