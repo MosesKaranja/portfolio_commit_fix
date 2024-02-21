@@ -74,6 +74,19 @@ export default {
                 "margin-top": "10px",
                 "border-radius": "10px"
             };
+        },
+
+        returnNumberOfWords(words, characters){
+            let my_new_string = words.split(' ', characters)
+            let my_string = ''
+            
+            for (let index = 0; index < my_new_string.length; index++) {
+                my_string = my_string + ' ' + my_new_string[index]
+                
+            }
+
+            return my_string
+
         }
     },
 }
@@ -85,7 +98,7 @@ export default {
             <div class="card-header pl-3 pr-3">
 
                 <h1 class="">{{ this.card_header }}</h1>
-                <p class="paragraph-moses">
+                <p id="paragraph-moses-id">
                     {{ this.card_title }}
 
                 </p>
@@ -133,7 +146,7 @@ export default {
                 <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
                 <div class="row" id="experiment">
-                    <div class="col-sm-4 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
 
                         <div v-if="card_1_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -152,7 +165,7 @@ export default {
                         <div class="card-body">
                             <h2 class="card-title">{{ card_1_title }}</h2>
                             <p class="paragraph-moses">
-                                {{ card_1_text }}
+                                {{ returnNumberOfWords(card_1_text, 40) }}
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{ query: { current: card_1_view_more, img: card_1_image }, name: 'ViewMore' }"
@@ -162,7 +175,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class=" col-sm-4 card" style="border-radius: 1rem;">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem;">
 
                         <div v-if="card_2_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -181,7 +194,7 @@ export default {
                         <div class="card-body">
                             <h2 class="card-title">{{ card_2_title }}</h2>
                             <p class="paragraph-moses">
-                                {{ card_2_text }}
+                                {{ returnNumberOfWords(card_2_text, 37) }} <b>...</b>
 
                             </p>
                             <div class="d-flex justify-content-end">
@@ -195,7 +208,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class=" col-sm-4 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
                         <div v-if="card_3_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
                                 <source :src="card_3_url" type="video/mp4" style="border-radius: 1rem"
@@ -213,7 +226,7 @@ export default {
                         <div class="card-body">
                             <h2 class="card-title">{{ card_3_title }}</h2>
                             <p class="paragraph-moses">
-                                {{ card_3_text }}
+                                {{ returnNumberOfWords(card_3_text, 37) }} <b>...</b>  
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{ query: { current: card_3_view_more, img: card_3_image  }, name: 'ViewMore' }"
@@ -225,7 +238,7 @@ export default {
                 </div>
 
                 <div class="row" id="experiment">
-                    <div class="col-sm-4 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
 
                         <div v-if="card_4_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -243,7 +256,8 @@ export default {
                         <div class="card-body">
                             <h2 class="card-title">{{ card_4_title }}</h2>
                             <p class="paragraph-moses">
-                                {{ card_4_text }}
+                                {{ returnNumberOfWords(card_4_text, 40) }} <b>...</b>
+                                
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{ query: { current: card_4_view_more, img: card_4_image  }, name: 'ViewMore' }"
@@ -253,7 +267,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class=" col-sm-4 card" style="border-radius: 1rem;">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem;">
 
                         <div v-if="card_5_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -273,7 +287,7 @@ export default {
                         <div class="card-body">
                             <h2 class="card-title">{{ card_5_title }}</h2>
                             <p class="paragraph-moses">
-                                {{ card_5_text }}
+                                {{ returnNumberOfWords(card_5_text, 33) }} <b>...</b>
 
                             </p>
                             <div class="d-flex justify-content-end">
@@ -287,7 +301,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class=" col-sm-4 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
 
                         <div v-if="card_6_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -307,7 +321,8 @@ export default {
                         <div class="card-body">
                             <h2 class="card-title">{{ card_6_title }}</h2>
                             <p class="paragraph-moses">
-                                {{ card_6_text }}
+                                {{ returnNumberOfWords(card_6_text, 40) }} <b>...</b>
+                                
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{ query: { current: card_6_view_more, img: card_6_image }, name: 'ViewMore' }"

@@ -45,7 +45,21 @@ export default {
                 "border-radius": "10px"
 
             };
+        },
+
+        returnNumberOfWords(words, characters){
+            let my_new_string = words.split(' ', characters)
+            let my_string = ''
+            
+            for (let index = 0; index < my_new_string.length; index++) {
+                my_string = my_string + ' ' + my_new_string[index]
+                
+            }
+
+            return my_string
+
         }
+
     },
 }
 </script>
@@ -56,7 +70,7 @@ export default {
             <div class="card-header pl-3 pr-3">
 
                 <h1 class="">{{ this.card_header }}</h1>
-                <p class="paragraph-moses">
+                <p id="paragraph-moses-id">
                     {{ this.card_title }}
 
                 </p>
@@ -85,7 +99,7 @@ export default {
                 <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
                 <div class="row" id="experiment">
-                    <div class="col-sm-4 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
                         <video v-if="card_1_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
                             <source :src="card_1_url" type="video/mp4" style="border-radius: 1rem"
                                 alt="e-Governance Revenue Management System (eRMS)" />
@@ -100,8 +114,8 @@ export default {
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_1_title }}</h2>
-                            <p class="paragraph-moses">
-                                {{ card_1_text }}
+                            <p id="paragraph-moses-id">
+                                {{ returnNumberOfWords(card_1_text, 40) }} <b>...</b>
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{ query: { current: card_1_view_more, img: card_1_image }, name: 'ViewMore' }"
@@ -111,7 +125,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class=" col-sm-4 card" style="border-radius: 1rem;">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem;">
                         <video v-if="card_2_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
                             <source :src="card_2_url" type="video/mp4" style="border-radius: 1rem"
                                 alt="eConservancy Solution" />
@@ -125,9 +139,8 @@ export default {
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_2_title }}</h2>
-                            <p class="paragraph-moses">
-                                {{ card_2_text }}
-
+                            <p id="paragraph-moses-id">
+                                {{ returnNumberOfWords(card_2_text, 40) }} <b>...</b>
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{
@@ -140,7 +153,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class=" col-sm-4 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
                         <video v-if="card_3_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
                             <source :src="card_3_url" type="video/mp4" style="border-radius: 1rem"
                                 alt="eConservancy Solution" />
@@ -154,12 +167,12 @@ export default {
 
                         <div class="card-body">
                             <h2 class="card-title">{{ card_3_title }}</h2>
-                            <p class="paragraph-moses">
-                                {{ card_3_text }}
+                            <p id="paragraph-moses-id">
+                                {{ returnNumberOfWords(card_3_text, 36) }} <b>...</b>
                             </p>
                             <div class="d-flex justify-content-end">
                                 <router-link :to="{ query: { current: card_3_view_more, img: card_3_image }, name: 'ViewMore' }"
-                                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;"><a
+                                    style="position:absolute;right:0;bottom:0; margin-right:8px;margin-bottom:8px;" id="paragraph-moses-id"><a
                                         href="#" class="btn btn-primary">View More</a></router-link>
                             </div>
                         </div>

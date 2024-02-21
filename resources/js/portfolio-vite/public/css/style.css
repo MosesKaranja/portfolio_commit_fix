@@ -23,7 +23,12 @@ html{
 
 .paragraph-moses{
     font-size:2rem;
-    /* font-family: Helvetica, Arial, sans-serif; */
+    line-height:1.6;
+    letter-spacing:1px;
+
+}
+#paragraph-moses-id{
+    font-size:2rem;
     line-height:1.6;
     letter-spacing:1px;
 
@@ -176,10 +181,11 @@ body{
     flex-wrap: wrap; /* Allows items to wrap on smaller screens */
 }
 
-.footer .col-lg-3, .footer .col-md-6 {
-    flex: 1; /* Allows each column to grow and fill the available space */
+.footer .col-lg-3, .footer .col-md-user-6 {
+    /*flex: 1;  Allows each column to grow and fill the available space */
     min-width: 250px; /* Sets a minimum width for each column to maintain readability */
 }
+
 
 .flex-basis-30{
     flex-basis: 23%;
@@ -217,7 +223,7 @@ body{
         align-items: center; /* Centers the items when they're stacked */
     }
 
-    .footer .col-lg-3, .footer .col-md-6 {
+    .footer .col-lg-3, .footer .col-md-user-6 {
         flex: none; /* Resets the flex property */
         max-width: 100%; /* Allows each item to take the full width */
     }
@@ -229,9 +235,9 @@ body{
     width: 100%; /* Ensure the row takes up the full width */
 }
 
-.footer .col-lg-3, .footer .col-md-6 {
+.footer .col-lg-3, .footer .col-md-user-6 {
     margin: 0; /* Remove default margins */
-    flex: 1; /* This will allow each column to grow and take up equal space */
+    /* flex: 1; This will allow each column to grow and take up equal space */
     padding: 0 15px; /* Add some padding on the sides for spacing, adjust as needed */
 }
 

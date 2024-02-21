@@ -249,7 +249,7 @@ const count = ref(0);
   <h1 class="heading">About us</h1>
   <div class="row">
     <div class="content">
-      <p>We focuse on customizing and developing solutions for clients by providing consulting services and end-to-end support for the entire product development lifecycle in organizations, through developing, deploying, and managing it systems solutions. 
+      <p id="paragraph-moses-id">We focuse on customizing and developing solutions for clients by providing consulting services and end-to-end support for the entire product development lifecycle in organizations, through developing, deploying, and managing it systems solutions. 
       we pride ourselves on being a dynamic team of skilled developers and project management professionals dedicated to delivering innovative it solutions for both government and corporate sectors.</p>
 
       <div id="services"></div>
@@ -262,7 +262,7 @@ const count = ref(0);
 
     <div> 
       <h1 class="heading-edited-center">Services</h1>
-      <p class="our-services">Let us embark on a journey of innovation, agility and transformation together.</p>
+      <p class="our-services" id="paragraph-moses-id">Let us embark on a journey of innovation, agility and transformation together.</p>
       
     </div>
 
@@ -367,7 +367,7 @@ Our solution serves as a single source of truth for all employee-related informa
           <div class="">
             <div class="section-header">
               <h2>Our Partners</h2>
-              <p>We don't just build softwares, we build your business.</p>
+              <p id="paragraph-moses-id">We don't just build softwares, we build your business.</p>
             </div>
             <div class="owl-carousel clients-carousel">
               <img src="/images/img3.png" style="width: 194px;height: 150px;" alt="Partner1 Logo" />
@@ -439,6 +439,7 @@ Our solution serves as a single source of truth for all employee-related informa
               <form action="./contactme.php" method="POST">
                 <input
                   type="text"
+                  id="paragraph-moses-id"
                   name="name"
                   placeholder="Name"
                   class="contact-form-txt"
@@ -446,7 +447,7 @@ Our solution serves as a single source of truth for all employee-related informa
                 />
                 <input
                   type="tel"
-                  id="phone"
+                  id="paragraph-moses-id"
                   name="phone"
                   pattern="[0-9]{10}"
                   required
@@ -457,17 +458,20 @@ Our solution serves as a single source of truth for all employee-related informa
                 <input
                   type="email"
                   name="email"
+                  id="paragraph-moses-id"
                   placeholder="Email"
                   class="contact-form-email"
                   required
                 />
                 <textarea
+                  id="paragraph-moses-id"
                   placeholder="Your Message"
                   name="message"
                   class="contact-form-txtarea"
                   required
                 ></textarea>
                 <input
+                  id="paragraph-moses-id"
                   type="submit"
                   value="Submit"
                   name="submit"
@@ -500,30 +504,31 @@ Our solution serves as a single source of truth for all employee-related informa
           <div class="footer-top">
             <div class="container" style="padding-left: 0;padding-right: 0;max-width: 1280px; margin-left:auto;margin-right: auto;">
               <div class="row">
-                <div class="col-lg-3 col-md-6 footer-links">
+                <div class="col-sm-12 col-lg-3 col-md-12 col-md-user-6 footer-links">
                   <h4 style="font-size: 2.1rem;">Useful Links</h4>
                   <ul>
                     <li>
-                      <i class="ion-ios-arrow-forward"></i> <a href="#" style="font-size: 2rem;">Home</a>
+                      <i class="ion-ios-arrow-forward"></i> 
+                      <a href="#" id="paragraph-moses-id">Home</a>
                     </li>
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#about" style="font-size: 2rem;">About us</a>
+                      <a href="#about" id="paragraph-moses-id">About us</a>
                     </li>
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#service" style="font-size: 2rem;">Services</a>
+                      <a href="#service" id="paragraph-moses-id">Services</a>
                     </li> 
                     <li>
                       <i class="ion-ios-arrow-forward"></i>
-                      <a href="#contact" style="font-size: 2rem;">Contact Us</a>
+                      <a href="#contact" id="paragraph-moses-id">Contact Us</a>
                     </li>
                   </ul>
                 </div>
 
                 <div
-                  class="col-lg-3 col-md-6 footer-contact"
-                  style="font-size: 1.5rem"
+                  class="col-sm-12 col-lg-3 col-md-12 col-md-user-6 footer-contact"
+                  style="font-size: 1.5rem;"
                 >
                   <h4 style="font-size: 2.1rem;">Contact Us</h4>
                   <!-- <p>
@@ -622,18 +627,16 @@ Our solution serves as a single source of truth for all employee-related informa
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 footer-newsletter">
+                <div class="col-sm-12 col-lg-3 col-md-12 col-md-user-6 footer-newsletter">
                   <h4 style="font-size: 2.1rem;">Subscription</h4>
-                  <p style="font-size: 2rem;">
+                  <p id="paragraph-moses-id">
                     With our skills put together, You get an ensemble capable of
                     doing anything and everything your brand needs. Subscribe
                     here to get our latest updates.
                   </p>
                   <form action="" method="post">
-                    <input type="email" name="email" /><input
-                      type="submit"
-                      value="Subscribe"
-                    />
+                    <input id="paragraph-moses-id" type="email" name="email" />
+                    <input id="paragraph-moses-id" type="submit" value="Subscribe" />
                   </form>
                 </div>
               </div>
@@ -644,13 +647,12 @@ Our solution serves as a single source of truth for all employee-related informa
             <div class="row align-items-center">
               <div
                 class="col-md-6 copyright"
-                style="color: #fff; font-size: 2rem"
+                
+                style="color: #fff;"
               >
                 <!-- Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
                 Reserved. -->
-
-                Copyright &copy; 2024 @FundGroom. All Rights
-                Reserved.
+                <p id="paragraph-moses-id">Copyright &copy; 2024 @FundGroom. All Rights Reserved.</p>
                 
               </div>
             </div>
