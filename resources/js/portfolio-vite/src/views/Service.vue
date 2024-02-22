@@ -99,7 +99,7 @@ export default {
                 <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
                 <div class="row" id="experiment">
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
                         <video v-if="card_1_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
                             <source :src="card_1_url" type="video/mp4" style="border-radius: 1rem"
                                 alt="e-Governance Revenue Management System (eRMS)" />
@@ -125,7 +125,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem;">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem;">
                         <video v-if="card_2_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
                             <source :src="card_2_url" type="video/mp4" style="border-radius: 1rem"
                                 alt="eConservancy Solution" />
@@ -153,7 +153,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
                         <video v-if="card_3_url" style="display:block;" oncontextmenu="return false;" width="320" height="240" controls>
                             <source :src="card_3_url" type="video/mp4" style="border-radius: 1rem"
                                 alt="eConservancy Solution" />

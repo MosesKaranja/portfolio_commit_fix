@@ -146,7 +146,7 @@ export default {
                 <!-- <h5 class="heading-edited-left mb-2 pl-3" style="font-size:2.5rem;color:#A0A4A8;">Card title</h5> -->
 
                 <div class="row" id="experiment">
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
 
                         <div v-if="card_1_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -175,7 +175,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem;">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem;">
 
                         <div v-if="card_2_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -208,7 +208,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
                         <div v-if="card_3_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
                                 <source :src="card_3_url" type="video/mp4" style="border-radius: 1rem"
@@ -238,7 +238,7 @@ export default {
                 </div>
 
                 <div class="row" id="experiment">
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
 
                         <div v-if="card_4_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -267,7 +267,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem;">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem;">
 
                         <div v-if="card_5_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
@@ -301,7 +301,7 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 card" style="border-radius: 1rem">
+                    <div class="col-sm-12 col-md-4 card" style="border-radius: 1rem">
 
                         <div v-if="card_6_url">
                             <video style="display:block;" oncontextmenu="return false;" width="100%" height="240" controls>
